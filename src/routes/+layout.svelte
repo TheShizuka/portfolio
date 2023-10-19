@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
 <script>
 	import '../Styles/styles.css'
   // Wait for the DOM to finish loading before running the script
@@ -33,6 +31,8 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 </script>
+<!DOCTYPE html>
+<html lang="en">
 <header>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
