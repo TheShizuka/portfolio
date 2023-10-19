@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <script>
-	import '../Styles/styles.css
+	import '../Styles/styles.css'
   // Wait for the DOM to finish loading before running the script
 document.addEventListener('DOMContentLoaded', function() {
     // Get the navigation menu
