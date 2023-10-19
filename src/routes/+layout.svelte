@@ -17,7 +17,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
-<header>
+<div class="header">
         <h1>Shizuka</h1>
         <nav>
             <ul>
@@ -29,7 +29,7 @@
                 <li><a href="/Videography">Videography</a></li>
             </ul>
         </nav>
-    </header>
+    </div>
 <main>
 <slot></slot>
 </main>
