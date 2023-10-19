@@ -44,6 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
     <link rel="stylesheet" href="styles.css">
 
 </head>
+<body>
 <div class="header">
         <h1>Your Name or Brand</h1>
         <nav>
@@ -60,4 +61,5 @@ document.addEventListener('DOMContentLoaded', function() {
 <main>
 <slot></slot>
 </main>
+</body>
 </html>
