@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 <!DOCTYPE html>
 <html lang="en">
-<header>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Name or Brand</title>
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	<link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 
-</header>
+</head>
 <div class="header">
         <h1>Your Name or Brand</h1>
         <nav>
