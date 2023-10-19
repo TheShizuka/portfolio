@@ -2,7 +2,7 @@
 	import '../Styles/styles.css'
 
 </script>
-<head>
+<header>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Name or Brand</title>
@@ -11,9 +11,6 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-
-</head>
-<main>
 <div class="header">
         <h1>Your Name or Brand</h1>
         <nav>
@@ -27,6 +24,9 @@
             </ul>
         </nav>
     </div>
+
+</header>
+<main>
 <slot></slot>
 </main>
 
