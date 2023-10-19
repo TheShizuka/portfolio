@@ -27,7 +27,6 @@
             </ul>
         </nav>
     </div>
-<main>
 <slot></slot>
 </main>
 
