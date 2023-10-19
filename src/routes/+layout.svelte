@@ -10,9 +10,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-</header>
-<div class="header">
-        <h1>Shizuka</h1>
+<h1>Shizuka</h1>
         <nav>
             <ul>
                 <li class="active"><a href="/">Home</a></li>
@@ -23,7 +21,7 @@
                 <li><a href="/Videography">Videography</a></li>
             </ul>
         </nav>
-    </div>
+</header>
 <main>
 <slot></slot>
 </main>
