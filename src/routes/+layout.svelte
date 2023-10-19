@@ -19,12 +19,12 @@
         <h1>Your Name or Brand</h1>
         <nav>
             <ul id="navigation-menu">
-                <li class="active"><a href="">Home</a></li>
-                <li><a href="#">Design</a></li>
-                <li><a href="#">Coding Projects</a></li>
-                <li><a href="#">3D Content</a></li>
-                <li><a href="#">Photography</a></li>
-                <li><a href="#">Videography</a></li>
+                <li class="active"><a href="/">Home</a></li>
+                <li><a href="/esign">Design</a></li>
+                <li><a href="/coding">Coding Projects</a></li>
+                <li><a href="/3d-art">3D Content</a></li>
+                <li><a href="/photography">Photography</a></li>
+                <li><a href="/video">Videography</a></li>
             </ul>
         </nav>
     </div>
