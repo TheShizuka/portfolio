@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <script>
+	import '../Styles/styles.css
   // Wait for the DOM to finish loading before running the script
 document.addEventListener('DOMContentLoaded', function() {
     // Get the navigation menu
@@ -47,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <h1>Your Name or Brand</h1>
         <nav>
             <ul id="navigation-menu">
-                <li class="active"><a href="#">Home</a></li>
+                <li class="active"><a href="">Home</a></li>
                 <li><a href="#">Design</a></li>
                 <li><a href="#">Coding Projects</a></li>
                 <li><a href="#">3D Content</a></li>
