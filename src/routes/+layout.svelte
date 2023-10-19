@@ -1,13 +1,7 @@
 <script>
   import '../Styles/styles.css'
 </script>
-
-
-
-<!DOCTYPE html>
-
-<html lang="en">
-<head>
+<header>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Name or Brand</title>
@@ -16,7 +10,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-</head>
+</header>
 <div class="header">
         <h1>Shizuka</h1>
         <nav>
