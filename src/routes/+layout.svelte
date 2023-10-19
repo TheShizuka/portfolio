@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="styles.css">
 
 </head>
-<header>
+<div class="header">
         <h1>Your Name or Brand</h1>
         <nav>
             <ul id="navigation-menu">
@@ -27,7 +27,7 @@
                 <li><a href="#">Videography</a></li>
             </ul>
         </nav>
-    </header>
+    </div>
 <main>
 <slot></slot>
 </main>
