@@ -2,7 +2,7 @@
 
 </script>
 
-
+<div class="index">
 
 <div class="banner">
         <img src="images/banner.png" alt="Banner Description" class="banner-image">
@@ -34,3 +34,4 @@
         <img src="path_to_image3.jpg" alt="Description of Image 3">
         <button>Learn More</button>
     </div>
+  </div>
