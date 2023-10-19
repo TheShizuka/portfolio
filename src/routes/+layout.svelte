@@ -44,8 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
     <link rel="stylesheet" href="styles.css">
 
 </head>
-<body>
-<div class="header">
+<header>
         <h1>Your Name or Brand</h1>
         <nav>
             <ul id="navigation-menu">
@@ -57,9 +56,134 @@ document.addEventListener('DOMContentLoaded', function() {
                 <li><a href="#">Videography</a></li>
             </ul>
         </nav>
-    </div>
+    </header>
 <main>
 <slot></slot>
 </main>
-</body>
 </html>
+
+<style>
+body {
+    font-family: 'Tilt Neon', sans-serif; /* Update this to 'Tilt Neon' if you're using a different font */
+    background-color: ##FEFFED; /* Creamy beige color */
+    color: black; /* Black text color */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f7f7; 
+    border-bottom: 2px solid #ddd;
+    padding: 10px 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+}
+
+nav li {
+    margin-left: 15px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav .active a, nav a:hover {
+    text-decoration: underline;
+}
+
+.banner {
+    margin: 20px 0;
+	text-align: center;
+}
+
+.banner-image {
+    length: 100%;
+	max-length: 1000px;
+
+}
+
+.image-row {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.image-row img {
+    width: 100%;
+    max-width: 1000px;
+    display: block;
+    margin: 10px auto;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #FEFFED;
+}
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 2rem; /* Add padding to prevent content from touching screen borders */
+}
+
+.about img {
+    max-width: 300px;
+    height: auto;
+    flex: 1;
+    margin: 0;
+    border-radius: 50%;  /* This line crops the image into a circle */
+}
+
+
+.text-about {
+    flex: 1;
+    max-width: 500px;
+    padding: 0 1rem; /* Add horizontal padding for better spacing */
+}
+
+.text-about h3 {
+    margin-top: 0;
+}
+
+@media (max-width: 1000px) {
+    .about {
+        flex-direction: column;
+        padding: 1rem; /* Adjust padding for mobile */
+    }
+
+    .text-about {
+        text-align: center;
+        padding: 1rem 0; /* Adjust vertical padding for better spacing on mobile */
+		    max-width: 90%;
+
+    }
+	.about img {
+		max-width: 40%;
+		height: auto;
+	}
+}
+
+
+</style>
+
