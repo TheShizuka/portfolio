@@ -42,7 +42,7 @@ body {
     padding: 0;
 }
 
-header {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,7 +51,7 @@ header {
     padding: 10px 20px;
 }
 
-header h1 {
+.header h1 {
     margin: 0;
 }
 
