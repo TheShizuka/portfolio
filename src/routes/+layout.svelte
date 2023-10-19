@@ -22,7 +22,7 @@
         <nav>
             <ul>
                 <li class="active"><a href="/">Home</a></li>
-                <li><a href="/Design">Design</a></li>
+                <li><a href="/design">Design</a></li>
                 <li><a href="/Developer">Coding Projects</a></li>
                 <li><a href="/3D ART">3D Content</a></li>
                 <li><a href="/Photography">Photography</a></li>
