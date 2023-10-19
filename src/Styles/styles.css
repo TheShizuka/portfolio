@@ -6,19 +6,6 @@ body {
     padding: 0;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #f7f7f7; 
-    border-bottom: 2px solid #ddd;
-    padding: 10px 20px;
-}
-
-header h1 {
-    margin: 0;
-}
-
 nav ul {
     display: flex;
     list-style: none;
@@ -41,6 +28,18 @@ nav .active a, nav a:hover {
 .banner {
     margin: 20px 0;
 	text-align: center;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f7f7; 
+    border-bottom: 2px solid #ddd;
+    padding: 10px 20px;
+}
+
+.header h1 {
+    margin: 0;
 }
 
 .banner-image {
