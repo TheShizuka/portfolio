@@ -30,7 +30,7 @@
             </ul>
         </nav>
     </header>
-<body>
+<main>
 <slot></slot>
-</body>
+</main>
 </html>
