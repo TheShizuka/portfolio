@@ -65,7 +65,7 @@
 <style>
 	body {
     font-family: 'Tilt Neon', sans-serif; /* Update this to 'Tilt Neon' if you're using a different font */
-    background-color: ##FEFFED; /* Creamy beige color */
+    background-color: #FEFFED; /* Creamy beige color */
     color: black; /* Black text color */
     margin: 0;
     padding: 0;
