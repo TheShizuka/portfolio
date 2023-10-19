@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <header>
-        <h1>Your Name or Brand</h1>
+        <h1>Shizuka</h1>
         <nav>
             <ul>
                 <li class="active"><a href="/">Home</a></li>
