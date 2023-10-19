@@ -1,34 +1,5 @@
 <script>
 	import '../Styles/styles.css'
-  // Wait for the DOM to finish loading before running the script
-document.addEventListener('DOMContentLoaded', function() {
-    // Get the navigation menu
-    var navigationMenu = document.getElementById('navigation-menu');
-
-    // Get all the menu items under the navigation menu
-    var menuItems = navigationMenu.getElementsByClassName('menu-item');
-
-    // Function to remove active class from all menu items
-    function removeActiveClass() {
-        for (var i = 0; i < menuItems.length; i++) {
-            menuItems[i].classList.remove('active');
-        }
-    }
-
-    // Attach event listener to each menu item
-    for (var i = 0; i < menuItems.length; i++) {
-        menuItems[i].addEventListener('click', function(event) {
-            // Prevent the default action of the link
-            event.preventDefault();
-
-            // Remove active class from all other menu items
-            removeActiveClass();
-
-            // Add active class to the clicked menu item
-            this.classList.add('active');
-        });
-    }
-});
 
 </script>
 <!DOCTYPE html>
