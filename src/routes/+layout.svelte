@@ -57,4 +57,3 @@ document.addEventListener('DOMContentLoaded', function() {
 <main>
 <slot></slot>
 </main>
-</html>
