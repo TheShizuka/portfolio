@@ -2,8 +2,6 @@
 	import '../Styles/styles.css'
 
 </script>
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,10 +13,11 @@
     <link rel="stylesheet" href="styles.css">
 
 </head>
+<main>
 <div class="header">
         <h1>Your Name or Brand</h1>
         <nav>
-            <ul id="navigation-menu">
+            <ul>
                 <li class="active"><a href="/">Home</a></li>
                 <li><a href="/design">Design</a></li>
                 <li><a href="/coding">Coding Projects</a></li>
@@ -31,7 +30,6 @@
 <main>
 <slot></slot>
 </main>
-</html>
 
 <style>
 body {
