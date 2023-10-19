@@ -5,11 +5,11 @@
 <div class="index">
 
 <div class="banner">
-        <img src="images/banner.png" alt="Banner Description" class="banner-image">
+        <img src="" alt="Banner Description" class="banner-image">
     </div>
     <!-- Image Rows with "Learn More" buttons -->
 	<div class="about">
-        <img src="images/profile-picture.png" alt="Learn more about my photography skills">
+        <img src="" alt="Learn more about my photography skills">
 		<div class="text-about">
 		<h3>Shizuka</h3>
         <p>Passionate and versatile digital creator with a diverse skill set spanning video/photo editing, 3D
@@ -23,15 +23,15 @@
 		</div>
     </div>
     <div class="image-row">
-        <img src="images/photography.png" alt="Learn more about my photography skills">
+        <img src="" alt="Learn more about my photography skills">
         <button>Learn More</button>
     </div>
     <div class="image-row">
-        <img src="path_to_image2.jpg" alt="Description of Image 2">
+        <img src="" alt="Description of Image 2">
         <button>Learn More</button>
     </div>
     <div class="image-row">
-        <img src="path_to_image3.jpg" alt="Description of Image 3">
+        <img src="" alt="Description of Image 3">
         <button>Learn More</button>
     </div>
   </div>
