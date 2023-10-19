@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="en">
 <script>
   // Wait for the DOM to finish loading before running the script
 document.addEventListener('DOMContentLoaded', function() {
@@ -57,3 +59,4 @@ document.addEventListener('DOMContentLoaded', function() {
 <main>
 <slot></slot>
 </main>
+</html>
