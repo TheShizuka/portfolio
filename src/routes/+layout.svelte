@@ -1,4 +1,11 @@
+<script>
+  import '../Styles/styles.css'
+</script>
+
+
+
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
