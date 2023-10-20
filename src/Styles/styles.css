@@ -135,6 +135,7 @@ button:hover {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 16px; /* Adjust as needed */
+    padding: 16px; /* Adjust as needed to provide spacing from the page border */
 }
 
 .image-card {
@@ -142,11 +143,12 @@ button:hover {
     flex: 1 1 calc(50% - 8px); /* Adjust as needed */
     max-width: calc(50% - 8px); /* Adjust as needed */
     aspect-ratio: 16 / 10;
+    box-sizing: border-box; /* Ensures padding and border are included in the element's dimensions */
 }
 
 .image-card img {
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     transition: transform 0.3s ease-in-out;
 }
@@ -173,8 +175,17 @@ button:hover {
 /* Responsive styles */
 @media (max-width: 768px) {
     .image-card {
-        flex: 1 1 80%;
-        max-width: 80%;
+        flex: 1 1 100%;
+        max-width: 100%;
     }
 }
 
+/* Max size for image cards */
+@media (min-width: 1920px) {
+    .image-card {
+        max-width: 540px; /* Adjust as needed */
+    }
+    .image-row {
+        justify-content: center; /* Center the cards on larger screens */
+    }
+}
