@@ -4,5 +4,5 @@
 </header>
 
 <main>
-	<slot></slot>
+	<slot />
 </main>
