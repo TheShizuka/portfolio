@@ -197,6 +197,7 @@ body {
     }
 }/* CSS for Title */
 .title-container {
+	overflow: hidden;
     text-align: center; /* Center the text */
     padding: 20px; /* Adjust as needed */
     width: 100%;
