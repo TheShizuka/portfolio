@@ -4,10 +4,9 @@
         menu.classList.toggle('open');
     }
 </script>
-
+<header>
     <div class="header">
         <button class="menu-toggle" onclick="toggleMenu()">☰</button>
-    <nav>
         <ul class="menu">
             <li class="active"><a href="/">Home</a></li>
             <li><a href="/design">Design</a></li>
@@ -17,6 +16,4 @@
             <li><a href="/video">Videography</a></li>
           </ul>
     </nav>
-</div>
-
 
