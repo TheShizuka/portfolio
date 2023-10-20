@@ -103,15 +103,16 @@ nav .active a, nav a:hover {
     gap: 16px; /* Adjust as needed */
     padding: 16px; /* Adjust as needed to provide spacing from the page border */
     justify-content: center; /* Center the cards */
+    margin: auto; /* Ensures centering */
 }
 
 .image-card {
     position: relative;
-    flex: 0 1 calc(50% - 8px); /* Set flex-grow to 0 to prevent growth beyond max-width */
-    max-width: calc(50% - 8px);
-    width: calc(50% - 8px);
+    flex: 0 1 45%; /* Set to 45% to account for the gap and ensure only two cards per row */
+    max-width: 45%; /* Set to 45% to account for the gap and ensure only two cards per row */
     aspect-ratio: 16 / 10;
-    box-sizing: border-box;
+    box-sizing: border-box; /* Ensures padding and border are included in the element's dimensions */
+    margin: auto; /* Ensures centering */
 }
 
 
@@ -144,9 +145,9 @@ nav .active a, nav a:hover {
 /* Responsive styles */
 @media (max-width: 768px) {
     .image-card {
-        flex: 1 1 100%;
+        flex: 0 1 100%;
         max-width: 100%;
-        width: 100%; /* New: Set the width explicitly */
+        margin: auto; /* Ensures centering */
     }
 }
 
