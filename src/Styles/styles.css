@@ -107,12 +107,13 @@ nav .active a, nav a:hover {
 
 .image-card {
     position: relative;
-    flex: 1 1 calc(50% - 8px); /* Adjust as needed */
-    max-width: calc(50% - 8px); /* Adjust as needed */
-    width: calc(50% - 8px); /* New: Set the width explicitly */
+    flex: 0 1 calc(50% - 8px); /* Set flex-grow to 0 to prevent growth beyond max-width */
+    max-width: calc(50% - 8px);
+    width: calc(50% - 8px);
     aspect-ratio: 16 / 10;
-    box-sizing: border-box; /* Ensures padding and border are included in the element's dimensions */
+    box-sizing: border-box;
 }
+
 
 .image-card img {
     width: 100%;
