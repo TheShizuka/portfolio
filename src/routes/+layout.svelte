@@ -10,7 +10,6 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
 	<div class="header">
-        	<h1>Shizuka's Portfolio</h1>
         	<nav>
             		<ul>
                 		<li class="active"><a href="/">Home</a></li>
