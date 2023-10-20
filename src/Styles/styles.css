@@ -34,10 +34,6 @@ nav .active a, nav a:hover {
     padding: 10px 20px;
 }
 
-.header h1 {
-    margin: 0;
-}
-
 .about {
     display: flex;
     align-items: center;
