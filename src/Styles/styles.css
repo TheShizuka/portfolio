@@ -6,23 +6,57 @@ body {
     padding: 0;
 }
 
-nav ul {
-    display: flex;
-    list-style: none;
-    margin: 0; /* Remove margin */
-    padding: 0; /* Remove padding */
+/* Navigation styles */
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #f7f7f7;
+  border-right: 2px solid #ddd;
+  padding-top: 20px;
 }
 
-nav li {
-    margin-left: 15px;
-}
-nav a {
-    text-decoration: none;
-    color: black;
+.menu-toggle {
+  font-size: 2em;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin: 0 auto;
+  display: none;
+  padding: 10px;
 }
 
-nav .active a, nav a:hover {
-    text-decoration: underline;
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 250px;
+}
+
+.menu li {
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .menu {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    transition: left 0.3s;
+    height: 100%;
+    overflow-y: auto;
+  }
+
+  .menu.open {
+    left: 0;
+  }
 }
 
 .header {
