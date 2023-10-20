@@ -4,35 +4,35 @@
     {
       title: 'Photography',
       description: 'Description for Image 1',
-      link: '#',
+      link: '/photography',
       imgSrc: '../images/photography.png',
       alt: 'Description of Image 1'
     },
     {
       title: 'Design',
       description: 'Description for Image 2',
-      link: '#',
+      link: '/design',
       imgSrc: '../images/design.png',
       alt: 'Description of Image 2'
     },
 {
       title: 'Videography',
       description: 'Description for Image 3',
-      link: '#',
+      link: '/video',
       imgSrc: '../images/video.png',
       alt: 'Description of Image 3'
     },
 {
       title: '3D Art',
       description: 'Description for Image 4',
-      link: '#',
+      link: '/3dart',
       imgSrc: '../images/3dart.png',
       alt: 'Description of Image 4'
     },
 {
       title: 'Coding',
       description: 'Description for Image 5',
-      link: '#',
+      link: '/coding',
       imgSrc: '../images/coding.png',
       alt: 'Description of Image 5'
     },
