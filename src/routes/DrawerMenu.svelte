@@ -7,6 +7,7 @@
 
     <div class="header">
         <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    <nav>
         <ul class="menu">
             <li class="active"><a href="/">Home</a></li>
             <li><a href="/design">Design</a></li>
@@ -15,6 +16,7 @@
             <li><a href="/photography">Photography</a></li>
             <li><a href="/video">Videography</a></li>
           </ul>
-    </div>
+    </nav>
+</div>
 
 
