@@ -15,6 +15,7 @@
             <li><a href="/3d-art">3D Content</a></li>
             <li><a href="/photography">Photography</a></li>
             <li><a href="/video">Videography</a></li>
-  </ul>
-</nav>
+          </ul>
+    </div>
 
+</header>
