@@ -154,4 +154,29 @@ nav .active a, nav a:hover {
     .image-card {
         max-width: 540px; /* Adjust as needed */
     }
+}/* CSS for Title */
+.title-container {
+    text-align: center; /* Center the text */
+    padding: 20px; /* Adjust as needed */
+    width: 100%;
+}
+
+.title-text {
+    font-size: 2em; /* Adjust as needed */
+    margin: 0 auto; /* Center the title */
+    max-width: 100%;
+    word-wrap: break-word; /* Wrap text to the next line */
+}
+
+/* Responsive title size */
+@media (max-width: 768px) {
+    .title-text {
+        font-size: 1.5em; /* Adjust as needed */
+    }
+}
+
+@media (max-width: 480px) {
+    .title-text {
+        font-size: 1em; /* Adjust as needed */
+    }
 }
