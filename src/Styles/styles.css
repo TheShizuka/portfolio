@@ -1,7 +1,7 @@
 body {
-    font-family: 'Tilt Neon', sans-serif; /* Update this to 'Tilt Neon' if you're using a different font */
-    background-color: #FFFFFF; /* Creamy beige color */
-    color: black; /* Black text color */
+    font-family: 'Tilt Neon', sans-serif;
+    background-color: #FFFFFF;
+    color: black;
     margin: 0;
     padding: 0;
 }
@@ -9,55 +9,66 @@ body {
 /* Navigation styles */
 
 .nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  background-color: #f7f7f7;
-  border-right: 2px solid #ddd;
-  padding-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #f7f7f7;
+    border-right: 2px solid #ddd;
+    padding-top: 20px;
+    width: 250px;  /* Ensures the nav is initially closed */
+    transition: width 0.3s;  /* Smooth transition */
 }
 
 .menu-toggle {
-  font-size: 2em;
-  background: none;
-  border: none;
-  cursor: pointer;
-  margin: 0 auto;
-  display: none;
-  padding: 10px;
+    font-size: 2em;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 0 auto;
+    display: none;
+    padding: 10px;
 }
 
 .menu {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  width: 250px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
 }
 
 .menu li {
-  padding: 10px;
-  font-size: 1.2em;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu li.active a,
+.menu li a:hover {
+    text-decoration: underline;
 }
 
 @media (max-width: 768px) {
-  .menu-toggle {
-    display: block;
-  }
+    .menu-toggle {
+        display: block;
+    }
 
-  .menu {
-    position: fixed;
-    top: 0;
-    left: -250px;
-    transition: left 0.3s;
-    height: 100%;
-    overflow-y: auto;
-  }
+    .nav {
+        width: 0;  /* Ensures the nav is initially closed */
+    }
 
-  .menu.open {
-    left: 0;
-  }
+    .nav.open {
+        width: 250px;  /* Nav expands when open */
+    }
 }
+
+/* ... rest of your CSS ... */
+
+
 
 .header {
     display: flex;
