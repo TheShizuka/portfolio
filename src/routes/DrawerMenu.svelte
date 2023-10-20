@@ -1,5 +1,15 @@
 <script>
   let menuOpen = false;
+  import { onMount } from 'svelte';
+
+  onMount(() => {
+    const links = document.querySelectorAll('.menu a');
+    links.forEach(link => {
+      if (window.location.pathname === link.getAttribute('href')) {
+        link.parentElement.classList.add('active');
+      }
+    });
+  });
 </script>
 
 <nav class="nav">
