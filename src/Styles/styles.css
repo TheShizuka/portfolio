@@ -25,10 +25,6 @@ nav .active a, nav a:hover {
     text-decoration: underline;
 }
 
-.banner {
-    margin: 20px 0;
-	text-align: center;
-}
 .header {
     display: flex;
     justify-content: space-between;
@@ -40,12 +36,6 @@ nav .active a, nav a:hover {
 
 .header h1 {
     margin: 0;
-}
-
-.banner-image {
-    length: 100%;
-	max-length: 1000px;
-
 }
 
 .image-row {
@@ -109,14 +99,14 @@ button:hover {
     .text-about {
         text-align: center;
         padding: 1rem 0; /* Adjust vertical padding for better spacing on mobile */
-		    max-width: 90%;
+	max-width: 90%;
 
     }
-	.about img {
-		max-width: 40%;
-		height: auto;
-	}
-}
+.about img {
+	max-width: 40%;
+	height: auto;
+}}
+
 /* CSS for Banner */
 .banner {
     width: 100%;
