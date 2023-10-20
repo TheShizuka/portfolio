@@ -5,7 +5,7 @@
 <div class="index">
 
 <div class="banner">
-        <img src="" alt="Banner Description" class="banner-image">
+        <img src="../images/banner.png" alt="Banner Description" class="banner-image">
     </div>
     <!-- Image Rows with "Learn More" buttons -->
 	<div class="about">
