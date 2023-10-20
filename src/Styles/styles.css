@@ -6,40 +6,25 @@ body {
     padding: 0;
 }
 
-/* Navigation styles */
+/* Navigation styles for larger screens */
 
-.nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
+.header {
     background-color: #f7f7f7;
-    border-right: 2px solid #ddd;
-    padding-top: 20px;
-    width: 250px;  /* Ensures the nav is initially closed */
-    transition: width 0.3s;  /* Smooth transition */
-}
-
-.menu-toggle {
-    font-size: 2em;
-    background: none;
-    border: none;
-    cursor: pointer;
-    margin: 0 auto;
-    display: none;
-    padding: 10px;
+    border-bottom: 2px solid #ddd;
+    padding: 10px 20px;
+    text-align: center; /* Center the nav */
 }
 
 .menu {
     list-style: none;
     padding: 0;
     margin: 0;
-    width: 100%;
+    display: inline-block; /* Align the menu items */
 }
 
 .menu li {
-    padding: 10px;
-    font-size: 1.2em;
+    display: inline; /* Display menu items inline */
+    margin: 0 15px; /* Space between menu items */
 }
 
 .menu li a {
@@ -52,17 +37,27 @@ body {
     text-decoration: underline;
 }
 
+/* Navigation styles for mobile */
+
+.menu-toggle {
+    font-size: 2em;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: none; /* Hide the toggle button on larger screens */
+}
+
 @media (max-width: 768px) {
     .menu-toggle {
-        display: block;
+        display: block; /* Show the toggle button on mobile */
     }
 
-    .nav {
-        width: 0;  /* Ensures the nav is initially closed */
+    .menu {
+        display: none; /* Hide the menu on mobile */
     }
 
-    .nav.open {
-        width: 250px;  /* Nav expands when open */
+    .menu.open {
+        display: block; /* Show the menu on mobile when open */
     }
 }
 
