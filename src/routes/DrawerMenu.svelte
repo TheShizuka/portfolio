@@ -5,7 +5,6 @@
     }
 </script>
 
-<header>
     <div class="header">
         <button class="menu-toggle" onclick="toggleMenu()">☰</button>
         <ul class="menu">
@@ -18,4 +17,4 @@
           </ul>
     </div>
 
-</header>
+
