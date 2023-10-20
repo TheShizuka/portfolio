@@ -117,3 +117,64 @@ button:hover {
 		height: auto;
 	}
 }
+/* CSS for Banner */
+.banner {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.banner-image {
+    width: 100%;
+    height: auto;
+}
+
+/* CSS for Image Rows */
+.image-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px; /* Adjust as needed */
+}
+
+.image-card {
+    position: relative;
+    flex: 1 1 calc(50% - 8px); /* Adjust as needed */
+    max-width: calc(50% - 8px); /* Adjust as needed */
+    aspect-ratio: 16 / 10;
+}
+
+.image-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-card:hover img {
+    transform: scale(1.05); /* Adjust as needed */
+}
+
+.image-card div {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Adjust as needed */
+    color: white;
+    width: 100%;
+    text-align: center;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+}
+
+.image-card:hover div {
+    opacity: 1;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .image-card {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
+
