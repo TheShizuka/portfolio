@@ -2,20 +2,40 @@
   // Svelte Component Script
   let imageCards = [
     {
-      title: 'Title 1',
+      title: 'Photography',
       description: 'Description for Image 1',
       link: '#',
-      imgSrc: '',
+      imgSrc: '../images/photography.png',
       alt: 'Description of Image 1'
     },
     {
-      title: 'Title 2',
+      title: 'Design',
       description: 'Description for Image 2',
       link: '#',
-      imgSrc: '',
+      imgSrc: '../images/design.png',
       alt: 'Description of Image 2'
     },
-    // ... Add more image card objects here
+{
+      title: 'Videography',
+      description: 'Description for Image 3',
+      link: '#',
+      imgSrc: '../images/video.png',
+      alt: 'Description of Image 3'
+    },
+{
+      title: '3D Art',
+      description: 'Description for Image 4',
+      link: '#',
+      imgSrc: '../images/3dart.png',
+      alt: 'Description of Image 4'
+    },
+{
+      title: 'Coding',
+      description: 'Description for Image 5',
+      link: '#',
+      imgSrc: '../images/coding.png',
+      alt: 'Description of Image 5'
+    },
   ];
 
   function navigateTo(link) {
@@ -30,7 +50,7 @@
   </div>
 
   <div class="about">
-        <img src="" alt="Learn more about my photography skills">
+        <img src="../images/profile-picture.png" alt="Learn more about my photography skills">
 		<div class="text-about">
 		<h3>Shizuka</h3>
         <p>Passionate and versatile digital creator with a diverse skill set spanning video/photo editing, 3D
