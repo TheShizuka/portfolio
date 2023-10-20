@@ -63,6 +63,9 @@
 			</p>
 		</div>
     </div>
+<div class="title-container">
+    <h1 class="title-text">Your Title Here</h1>
+</div>
 
   <div class="image-row">
     {#each imageCards as { title, description, link, imgSrc, alt } (title)}
