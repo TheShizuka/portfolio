@@ -16,5 +16,5 @@
     <li><a href="/photography">Photography</a></li>
     <li><a href="/video">Videography</a></li>
   </ul>
-</nav>
+</nav> 
 
