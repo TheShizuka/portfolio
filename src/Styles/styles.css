@@ -136,12 +136,14 @@ button:hover {
     flex-wrap: wrap;
     gap: 16px; /* Adjust as needed */
     padding: 16px; /* Adjust as needed to provide spacing from the page border */
+    justify-content: center; /* Center the cards */
 }
 
 .image-card {
     position: relative;
     flex: 1 1 calc(50% - 8px); /* Adjust as needed */
     max-width: calc(50% - 8px); /* Adjust as needed */
+    width: calc(50% - 8px); /* New: Set the width explicitly */
     aspect-ratio: 16 / 10;
     box-sizing: border-box; /* Ensures padding and border are included in the element's dimensions */
 }
@@ -177,6 +179,7 @@ button:hover {
     .image-card {
         flex: 1 1 100%;
         max-width: 100%;
+        width: 100%; /* New: Set the width explicitly */
     }
 }
 
@@ -184,8 +187,5 @@ button:hover {
 @media (min-width: 1920px) {
     .image-card {
         max-width: 540px; /* Adjust as needed */
-    }
-    .image-row {
-        justify-content: center; /* Center the cards on larger screens */
     }
 }
