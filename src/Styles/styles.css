@@ -27,7 +27,7 @@ nav .active a, nav a:hover {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: #f7f7f7; 
     border-bottom: 2px solid #ddd;
