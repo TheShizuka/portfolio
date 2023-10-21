@@ -128,7 +128,7 @@ body {
     max-width: 1440px;
     margin: auto;
     position: relative; /* or absolute */
-    top: -20px; /* Adjust this value to move the banner up underneath the header */
+    top: -110px; /* Adjust this value to move the banner up underneath the header */
 
 }
 
