@@ -216,17 +216,18 @@ body {
     margin: 0 auto; /* Center the title */
     text-align: center;
     max-width: 80%;
+    padding-bottom: 2%;
 }
 
 /* Responsive title size */
 @media (max-width: 768px) {
     .title-text {
-        font-size: 1.5em; /* Adjust as needed */
+        font-size: 1.17em; /* Adjust as needed */
     }
 }
 
 @media (max-width: 480px) {
     .title-text {
-        font-size: 1em; /* Adjust as needed */
+        font-size: 1.17em; /* Adjust as needed */
     }
 }
