@@ -1,21 +1,8 @@
 <script>
+  let menuOpen = false;
   import { onMount } from 'svelte';
 
-  let menuOpen = false;
-  
-  // reactive statement that runs whenever window.location changes
-  $: {
-    const links = document.querySelectorAll('.menu a');
-    links.forEach(link => {
-      if (window.location.pathname === link.getAttribute('href')) {
-        link.parentElement.classList.add('active');
-      } else {
-        link.parentElement.classList.remove('active');
-      }
-    });
-  }
-
- onMount(() => {
+  onMount(() => {
     const links = document.querySelectorAll('.menu a');
     links.forEach(link => {
         link.addEventListener('click', () => {
