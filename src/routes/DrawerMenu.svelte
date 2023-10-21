@@ -15,9 +15,15 @@
     });
   }
 
-  onMount(() => {
-    // your onMount code here
-  });
+ onMount(() => {
+    const links = document.querySelectorAll('.menu a');
+    links.forEach(link => {
+        link.addEventListener('click', () => {
+            links.forEach(link => link.parentElement.classList.remove('active'));  // Remove 'active' class from all menu items
+            link.parentElement.classList.add('active');  // Add 'active' class to the clicked menu item
+        });
+    });
+});
 </script>
 
 <nav class="nav">
