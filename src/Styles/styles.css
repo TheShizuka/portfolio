@@ -26,13 +26,14 @@ body {
 }
 
 .menu-container {
-  position: fixed;
-  top: 0;
-  left: -250px;  /* Adjust width as per your requirement */
-  width: 250px;
-  height: 100%;
-  background-color: #F6E9E4;
-  transition: left 0.3s ease-in-out;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #F6E9E4;
+    transition: left 0.3s ease-in-out;
+    z-index: 1000;  /* Ensure the menu container is below the toggle */
 }
 
 .menu-container.open {
@@ -47,17 +48,20 @@ body {
   position: fixed;
   top: 20px;  /* Adjust as per your requirement */
   left: 20px;  /* Adjust as per your requirement */
+  z-index: 1001;
 }
 
 @media (max-width: 768px) {
-  .menu-toggle {
-    background-color: transparent;
-  }
-  .header {
-    background-color: transparent;
-  }
+    .header {
+        background-color: transparent;
+    }
+    .menu {
+        display: none;  /* Hide the menu on mobile by default */
+    }
+    .menu-container {
+        display: block;  /* Show the menu container on mobile */
+    }
 }
-
 /* ... rest of your CSS ... */
 
 
