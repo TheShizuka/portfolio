@@ -181,10 +181,12 @@ body {
     text-align: center;
     transition: opacity 0.3s ease-in-out;
     opacity: 0;
+	transition: transform 0.3s ease-in-out;
 }
 
 .image-card:hover div {
     opacity: 1;
+	transform: scale(1.05);
 }
 
 /* Responsive styles */
