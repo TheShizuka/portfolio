@@ -26,6 +26,7 @@ body {
 .menu li {
     display: inline; /* Display menu items inline */
     margin: 0 15px; /* Space between menu items */
+    color: #fff;
 }
 
 .menu li a {
