@@ -11,7 +11,7 @@ body {
 .header {
     background-color: #f7f7f7;
     border-bottom: 2px solid #ddd;
-    padding: 10px 20px;
+    padding: 20px 20px;
     text-align: center; /* Center the nav */
 }
 
@@ -35,6 +35,7 @@ body {
 .menu li.active a,
 .menu li a:hover {
     text-decoration: underline;
+	font-size: 120%;
 }
 
 /* Navigation styles for mobile */
