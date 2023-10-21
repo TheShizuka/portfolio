@@ -4,17 +4,30 @@
   import DrawerMenu from './DrawerMenu.svelte'; /* Import the DrawerMenu component */
   let lastScrollTop = 0;
   let headerHide = false;
+  let headerElement;
 
   onMount(() => {
+    headerElement = document.querySelector('.header');
+
     window.addEventListener('scroll', () => {
       let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
       headerHide = scrollTop > lastScrollTop;
       lastScrollTop = scrollTop;
     });
   });
+
+  $: {
+    if (headerElement) {
+      if (headerHide) {
+        headerElement.classList.add('header-hide');
+      } else {
+        headerElement.classList.remove('header-hide');
+      }
+    }
+  }
 </script>
 
-<header class:header-hide>
+<header>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Shizuka's Portfolio</title>
