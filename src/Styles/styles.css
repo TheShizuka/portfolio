@@ -10,80 +10,55 @@ body {
 
 
 .header {
-    text-align: center; /* Center the nav */
-    z-index: 1000;
-
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #F6E9E4;
+  padding: 20px 10px 10px 10px;
+  transition: transform 0.3s ease-in-out;
 }
 
-.menu {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: inline-block; /* Align the menu items */
-    background-color: transparent;    z-index: 1000;
+.header.header-hide {
+  transform: translateY(-100%);
 }
 
-.menu li {
-    display: inline; /* Display menu items inline */
-    margin: 0 15px; /* Space between menu items */
+.menu-container {
+  position: fixed;
+  top: 0;
+  left: -250px;  /* Adjust width as per your requirement */
+  width: 250px;
+  height: 100%;
+  background-color: #F6E9E4;
+  transition: left 0.3s ease-in-out;
 }
 
-.menu li a {
-    text-decoration: none;
-    color: black;
-    color: #fff;
-    transition: font-size 0.3s ease-in-out;
+.menu-container.open {
+  left: 0;
 }
-
-.menu li.active a,
-.menu li a:hover {
-    text-decoration: underline;
-	font-size: 120%;
-}
-
-/* Navigation styles for mobile */
 
 .menu-toggle {
-    font-size: 2em;
-    background: none;
-    border: none;
-    cursor: pointer;
-    display: none; /* Hide the toggle button on larger screens */
+  font-size: 2em;
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;  /* Adjust as per your requirement */
+  left: 20px;  /* Adjust as per your requirement */
 }
 
 @media (max-width: 768px) {
-    .menu-toggle {
-        display: block; /* Show the toggle button on mobile */
-    }
-
-    .menu {
-        display: none; /* Hide the menu on mobile */
-    }
-
-    .menu.open {
-        display: block; /* Show the menu on mobile when open */
-    }
+  .menu-toggle {
+    background-color: transparent;
+  }
+  .header {
+    background-color: transparent;
+  }
 }
 
 /* ... rest of your CSS ... */
-
-
-
-.header {
-   position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-    padding: 20px 10px 10px 10px;
-    transition: transform 0.3s ease-in-out;
-}
-.header.header-hide {
-    transform: translateY(-100%);
-    
-}
 
 
 
