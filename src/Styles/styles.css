@@ -79,7 +79,7 @@ body {
     padding: 20px 10px 10px 10px;
 }
 .header-hide .header {
-    transform: translateY(-1000px);
+    transform: translateY(-100%);
     transition: transform 0.3s ease-in-out;
 }
 
