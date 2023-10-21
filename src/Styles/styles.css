@@ -132,7 +132,7 @@ body {
     max-width: 1440px;
     margin: auto;
     position: relative; /* or absolute */
-    margin-top: 150px; /* Adjust this value to move the banner up underneath the header */
+     /* Adjust this value to move the banner up underneath the header */
     z-index: -1;
 
 }
