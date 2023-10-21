@@ -84,7 +84,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     gap: 1rem;
-    padding: 2rem; /* Add padding to prevent content from touching screen borders */
+    padding: 1% 2rem 2rem 2rem; /* Add padding to prevent content from touching screen borders */
 }
 
 .about img {
