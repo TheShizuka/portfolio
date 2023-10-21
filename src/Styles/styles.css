@@ -198,7 +198,7 @@ body {
 /* Max size for image cards */
 @media (min-width: 1920px) {
     .image-card {
-        max-width: 540px; /* Adjust as needed */
+        max-width: 891.6px; /* Adjust as needed */
     }
 }/* CSS for Title */
 .title-container {
