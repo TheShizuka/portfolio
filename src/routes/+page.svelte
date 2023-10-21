@@ -1,6 +1,6 @@
 <script>
   // Svelte Component Script
-  let imageCards = [
+  let imageCards1 = [
     {
       title: 'Photography',
       description: 'Description for Image 1',
@@ -14,8 +14,9 @@
       link: '/design',
       imgSrc: '../images/design.png',
       alt: 'Description of Image 2'
-    },
-{
+    },];
+let imageCards2 = [
+    {
       title: 'Videography',
       description: 'Description for Image 3',
       link: '/video',
@@ -28,15 +29,16 @@
       link: '/3dart',
       imgSrc: '../images/3dart.png',
       alt: 'Description of Image 4'
-    },
-{
+    },];
+let imageCards3 = [
+    {
       title: 'Coding',
       description: 'Description for Image 5',
       link: '/coding',
       imgSrc: '../images/coding.png',
       alt: 'Description of Image 5'
-    },
-  ];
+    },];
+
 
   function navigateTo(link) {
     window.location.href = link;
@@ -70,7 +72,29 @@
 </div>
 
   <div class="image-row">
-    {#each imageCards as { title, description, link, imgSrc, alt } (title)}
+    {#each imageCards1 as { title, description, link, imgSrc, alt } (title)}
+      <div class="image-card" on:click={() => navigateTo(link)}>
+        <img src={imgSrc} alt={alt}>
+        <div>
+          <h4>{title}</h4>
+          <p>{description}</p>
+        </div>
+      </div>
+    {/each}
+  </div>
+<div class="image-row">
+    {#each imageCards2 as { title, description, link, imgSrc, alt } (title)}
+      <div class="image-card" on:click={() => navigateTo(link)}>
+        <img src={imgSrc} alt={alt}>
+        <div>
+          <h4>{title}</h4>
+          <p>{description}</p>
+        </div>
+      </div>
+    {/each}
+  </div>
+<div class="image-row">
+    {#each imageCards3 as { title, description, link, imgSrc, alt } (title)}
       <div class="image-card" on:click={() => navigateTo(link)}>
         <img src={imgSrc} alt={alt}>
         <div>
