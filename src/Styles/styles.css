@@ -141,6 +141,7 @@ body {
 
 /* CSS for Image Rows */
 .image-row {
+    max-width: 1700px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -193,6 +194,10 @@ body {
         max-width: 100%;
         margin: auto; /* Ensures centering */
     }
+	.image-row {
+		padding-right: 80px;
+		padding-left: 80px;
+	}
 }
 
 /* Max size for image cards */
