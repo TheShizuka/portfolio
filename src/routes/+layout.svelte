@@ -1,6 +1,20 @@
 <script>
 	import '../Styles/styles.css'
 	import DrawerMenu from './DrawerMenu.svelte'; /* Import the DrawerMenu component */
+	let lastScrollTop = 0;
+	const header = document.querySelector('.header');
+	
+	window.addEventListener('scroll', () => {
+	    let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+	    if (scrollTop > lastScrollTop){
+	        // Downward scroll.
+	        header.classList.add('header-hide');
+	    } else {
+	       // Upward scroll.
+	       header.classList.remove('header-hide');
+	    }
+	    lastScrollTop = scrollTop;
+	});
 </script>
 <header>
 	<meta charset="UTF-8">
