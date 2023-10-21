@@ -121,6 +121,9 @@ body {
 	max-width: 90%;
 
     }
+	.header{
+		padding: 20px 10px;
+	}
 .about img {
 	max-width: 40%;
 	height: auto;
@@ -132,8 +135,8 @@ body {
     max-width: 1440px;
     margin: auto;
     position: relative; /* or absolute */
-     /* Adjust this value to move the banner up underneath the header */
     z-index: -1;
+    padding-bottom: 1rem;
 
 }
 
