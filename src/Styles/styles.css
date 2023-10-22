@@ -1,87 +1,299 @@
-/* Reset some basic elements */
-body, ul, li, button {
-  margin: 0;
-  padding: 0;
-  border: none;
-  font-family: 'Tilt Neon', sans-serif;
-  text-decoration: none;
-  list-style-type: none;
+* {
+    outline: 1px solid red !important;
 }
-
 body {
-  background-color: #FFFFFF;
-  color: black;
+    font-family: 'Tilt Neon', sans-serif;
+    background-color: #FFFFFF;
+    color: black;
+    margin: 0;
+    padding: 0;
 }
 
-/* Common button styles, especially for menu buttons */
-button {
-  cursor: pointer;
-  background: none;
+/* Navigation styles for larger screens */
+
+
+.header {
+    text-align: center; /* Center the nav */
+    z-index: 1000;
+
 }
 
-/* Style your navigation menu */
-.nav-mobile {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: #333; /* Or your preferred color */
-  z-index: 1000;
-  text-align: center;
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block; /* Align the menu items */
+    background-color: transparent;    z-index: 1000;
+	transition: max-height 0.3s ease-in-out;
 }
+
+.menu li {
+    display: inline; /* Display menu items inline */
+    margin: 0 15px; /* Space between menu items */
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    color: #fff;
+    transition: font-size 0.3s ease-in-out;
+}
+
+.menu li.active a,
+.menu li a:hover {
+    text-decoration: underline;
+	font-size: 120%;
+}
+
+/* Navigation styles for mobile */
 
 .menu-toggle {
-  display: none; /* Hidden by default, will show on mobile */
-  font-size: 30px; /* Adjust as needed */
-  color: #fff;
-  padding: 10px 20px; /* Adjust as needed */
+    font-size: 2em;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: none; /* Hide the toggle button on larger screens */
 }
 
-/* Style for the actual drawer menu */
-.mobile-menu-open {
-  display: none; /* Hidden by default, shown by JavaScript when the menu is opened */
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 75%; /* Taking 75% of viewport width */
-  height: 100%;
-  background-color: #444; /* Dark background for the menu */
-  overflow-y: auto; /* Allowing scroll if content is more */
-  z-index: 1001; /* Making it on top of everything else */
-  transition: transform 0.3s ease-in-out;
-  transform: translateX(100%); /* Pushing it off-screen */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block; /* Show the toggle button on mobile */
+    }
+
+    .menu {
+    /* display: none; Remove this line */
+    max-height: 0; /* Change from display to max-height for transition effect */
+    overflow: hidden; /* Prevents content from being visible when max-height is 0 */
+    transition: max-height 0.3s ease-in-out; /* Transition effect */
+    /* ... your other styles ... */
 }
 
-.mobile-menu-open.open {
-  display: block; /* Now it's shown because the menu is open */
-  transform: translateX(0); /* Bring back to screen */
-}
-
-.mobile-menu-open ul {
-  padding: 20px 0; /* Space at the top and bottom of menu items */
-}
-
-.mobile-menu-open li {
-  padding: 15px 20px; /* Space around menu items */
-}
-
-.mobile-menu-open li a {
-  color: #fff; /* White text for visibility against dark background */
-  font-size: 24px; /* Larger font for better mobile touch */
-  text-transform: uppercase; /* Capitalize, for style */
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.mobile-menu-open li a:hover {
-  color: #f1f1f1; /* Slightly off-white for hover effect */
-}
-
-/* Adjustments for screen size */
-@media screen and (max-width: 768px) {
-  .menu-toggle {
-    display: block; /* Show only on small screens */
+    .menu.open {
+    /* display: block; Remove this line, not needed with the new transition */
+    max-height: 500px;
   }
+	.menu li a {
+    font-size: small;
+}
+	.menu li.active a, .menu li a:hover {
+    font-size: medium;
+}
 }
 
-/* Additional, global styles may follow */
+/* ... rest of your CSS ... */
+
+@media (max-width: 768px) {
+    .nav .menu {
+        display: none; /* Hide the original menu */
+    }
+
+    .nav .menu-toggle {
+        display: block; /* Show the toggle button on mobile */
+        position: absolute;
+        right: 20px; /* Positioning the button to the right */
+        top: 20px;
+    }
+
+    /* Styles for the drawer menu on mobile */
+    .drawer-menu {
+        position: fixed;
+        top: 0;
+        right: -100%; /* Start off screen */
+        width: 70%; /* Adjust as needed */
+        height: 100%;
+        background-color: #ffffff; /* Your choice of background color */
+        z-index: 2000;
+        transition: right 0.3s ease-in-out;
+        padding-top: 60px; /* Space for close button */
+        box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    }
+
+    .drawer-menu.open {
+        right: 0; /* Bring on screen when opened */
+    }
+
+    /* Close button style */
+    .close-button {
+        position: absolute;
+        right: 20px;
+        top: 10px;
+        font-size: 1.5em;
+        background: none;
+        border: none;
+    }
+}
+/* Add the rest of your styles below as they are */
+
+.header {
+   position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6E9E4;
+    padding: 20px 10px 10px 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1% 2rem 2rem 2rem; /* Add padding to prevent content from touching screen borders */
+}
+
+.about img {
+    max-width: 300px;
+    height: auto;
+    flex: 1;
+    margin: 0;
+    border-radius: 50%;  /* This line crops the image into a circle */
+}
+
+
+.text-about {
+    flex: 1;
+    max-width: 500px;
+    padding: 0 1rem; /* Add horizontal padding for better spacing */
+}
+
+.text-about h3 {
+    margin-top: 0;
+}
+
+@media (max-width: 1000px) {
+    .about {
+        flex-direction: column;
+        padding: 1rem; /* Adjust padding for mobile */
+    }
+
+    .text-about {
+        text-align: center;
+        padding: 1rem 0; /* Adjust vertical padding for better spacing on mobile */
+	max-width: 90%;
+
+    }
+	
+.about img {
+	max-width: 40%;
+	height: auto;
+}}
+
+/* CSS for Banner */
+.banner {
+    width: 100%;
+    max-width: 2575px;
+    margin: auto;
+    position: relative; /* or absolute */
+    z-index: -1;
+    padding-bottom: 1rem;
+
+}
+
+.banner-image {
+    width: 100%;
+    height: auto;
+}
+
+/* CSS for Image Rows */
+.image-row {
+    max-width: 1700px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px; /* Adjust as needed */
+    padding: 1%; /* Adjust as needed to provide spacing from the page border */
+    justify-content: center; /* Center the cards */
+    margin: auto; /* Ensures centering */
+}
+
+.image-card {
+    position: relative;
+    flex: 0 1 45%; /* Set to 45% to account for the gap and ensure only two cards per row */
+    max-width: 45%; /* Set to 45% to account for the gap and ensure only two cards per row */
+    aspect-ratio: 16 / 10;
+    box-sizing: border-box; /* Ensures padding and border are included in the element's dimensions */
+    margin: auto; /* Ensures centering */
+}
+
+
+.image-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-card:hover img {
+    transform: scale(1.05); /* Adjust as needed */
+}
+
+.image-card div {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Adjust as needed */
+    color: white;
+    width: 100%;
+    text-align: center;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+	transition: transform 0.3s ease-in-out;
+}
+
+.image-card:hover div {
+    opacity: 1;
+	transform: scale(1.05);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .image-card {
+        flex: 0 1 100%;
+        max-width: 100%;
+        margin: auto; /* Ensures centering */
+    }
+	.image-row {
+		padding-right: 8%;
+		padding-left: 8%;
+	}
+}
+
+/* Max size for image cards */
+@media (min-width: 1920px) {
+    .image-card {
+        max-width: 891.6px; /* Adjust as needed */
+    }
+}/* CSS for Title */
+.title-container {
+    text-align: center; /* Center the text */
+    width: 100%;
+}
+
+.title-text {
+    font-size: 2em; /* Adjust as needed */
+    margin: 0 auto; /* Center the title */
+    text-align: center;
+    max-width: 80%;
+    padding-bottom: 2%;
+}
+
+/* Responsive title size */
+@media (max-width: 768px) {
+    .title-text {
+        font-size: 1.17em; /* Adjust as needed */
+    }
+	.header {
+    	padding: 1px;
+    }
+}
+
+@media (max-width: 480px) {
+    .title-text {
+        font-size: 1.17em; /* Adjust as needed */
+    }
+}
