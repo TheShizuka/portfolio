@@ -63,6 +63,9 @@ body {
     .menu.open {
         display: block; /* Show the menu on mobile when open */
     }
+	.header {
+    padding: 0;
+}
 }
 
 /* ... rest of your CSS ... */
