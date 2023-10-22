@@ -29,6 +29,7 @@ onMount(() => {
   
 
 <nav class="nav">
+    <h1 class="title-header">Shizuka's Portfolio</h1>
     <button class="menu-toggle" on:click={() => menuOpen = !menuOpen}>
     ☰
   </button>
