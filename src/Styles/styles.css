@@ -81,6 +81,10 @@ body {
 }
 
 /* ... rest of your CSS ... */
+.drawer-menu ul {
+    list-style: none;
+    padding-left: 0;
+}
 .drawer-menu ul li.active a {
     text-decoration: underline;
 	font-size: 120%;
