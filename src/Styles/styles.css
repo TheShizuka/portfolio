@@ -53,14 +53,29 @@ body {
     cursor: pointer;
     display: none; /* Hide the toggle button on larger screens */
 }
+
+.nav-header {
+    display: flex;
+    justify-content: space-between; /* This pushes the title and menu button apart */
+    align-items: center; /* This ensures they are aligned vertically */
+    padding: 0 10px; /* Add some space on the sides */
+    width: 100%; /* Full width to stretch across the screen */
+}
 .title-header{
 	padding-right: 2rem;
 	margin: 1rem;
+}
+.menu-toggle {
+    /* Remove existing margin if it's causing issues with alignment */
+    margin: 0;
 }
 
 @media (max-width: 768px) {
     .menu-toggle {
         display: block; /* Show the toggle button on mobile */
+    }
+	.nav-header {
+        padding: 0 20px; /* Optional: Increased padding on mobile for better appearance */
     }
 
     .menu {
