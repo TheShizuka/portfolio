@@ -62,10 +62,7 @@ body {
 
     .menu.open {
         display: block; /* Show the menu on mobile when open */
-    }
-	.header {
-    padding: 0px;
-}
+  
 }
 
 /* ... rest of your CSS ... */
@@ -234,6 +231,9 @@ body {
 @media (max-width: 768px) {
     .title-text {
         font-size: 1.17em; /* Adjust as needed */
+    }
+	.header {
+    	padding: 1px;
     }
 }
 
