@@ -29,10 +29,12 @@ onMount(() => {
   
 
 <nav class="nav">
-    <h1 class="title-header">Shizuka's Portfolio</h1>
-    <button class="menu-toggle" on:click={() => menuOpen = !menuOpen}>
-    ☰
-  </button>
+   <div class="nav-header">
+        <h1 class="title-header">Shizuka's Portfolio</h1>
+        <button class="menu-toggle" on:click={() => menuOpen = !menuOpen}>
+            ☰
+        </button>
+    </div>
   <ul class={menuOpen ? 'menu open' : 'menu'}>
     <li class="active"><a href="/">Home</a></li>
     <li><a href="/design">Design</a></li>
