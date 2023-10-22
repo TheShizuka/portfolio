@@ -64,7 +64,7 @@ body {
         display: block; /* Show the menu on mobile when open */
     }
 	.header {
-    padding: 0;
+    padding: 0px;
 }
 }
 
