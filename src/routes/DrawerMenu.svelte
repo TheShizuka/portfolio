@@ -31,14 +31,17 @@
     <li><a href="/photography">Photography</a></li>
     <li><a href="/video">Videography</a></li>
   </ul>
-<!-- New drawer menu for mobile -->
-    <div class={menuOpen ? 'drawer-menu open' : 'drawer-menu'}>
-        <button class="close-button" on:click={closeMenu}>×</button> <!-- Close button -->
+</nav>
+<!-- Mobile menu -->
+<nav class="nav-mobile">
+    <button class="menu-toggle" on:click={() => menuOpen = !menuOpen}>
+        ☰ <!-- This is your menu icon -->
+    </button>
+    <div class={menuOpen ? 'mobile-menu-open open' : 'mobile-menu-open'}>
+        <button on:click={closeMenu}>X</button> <!-- This is your close button -->
         <ul>
-            <!-- The same menu items, but you can style them differently or add new ones -->
-            <li on:click={closeMenu}><a href="/">Home</a></li>
-            <li on:click={closeMenu}><a href="/design">Design</a></li>
-            <li on:click={closeMenu}><a href="/coding">Coding Projects</a></li>
+            <!-- Add your menu items here, similar to the desktop version but with the closeMenu function on click -->
+            <li on:click={closeMenu}><a href="/" class:active={$currentPage === '/'}>Home</a></li>
             <!-- ... other menu items ... -->
         </ul>
     </div>
