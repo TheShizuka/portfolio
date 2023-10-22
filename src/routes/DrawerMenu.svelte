@@ -12,9 +12,9 @@
     });
 });
 </script>
+  <button class="menu-toggle" on:click={() => menuOpen = !menuOpen}>
 
 <nav class="nav">
-  <button class="menu-toggle" on:click={() => menuOpen = !menuOpen}>
     ☰
   </button>
   <ul class={menuOpen ? 'menu open' : 'menu'}>
