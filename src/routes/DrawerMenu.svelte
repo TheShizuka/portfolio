@@ -13,10 +13,11 @@
 });
 </script>
   <button class="menu-toggle" on:click={() => menuOpen = !menuOpen}>
-
-<nav class="nav">
     ☰
   </button>
+
+<nav class="nav">
+    
   <ul class={menuOpen ? 'menu open' : 'menu'}>
     <li class="active"><a href="/">Home</a></li>
     <li><a href="/design">Design</a></li>
