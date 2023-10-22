@@ -62,7 +62,7 @@ body {
 
     .menu.open {
         display: block; /* Show the menu on mobile when open */
-  
+  }
 }
 
 /* ... rest of your CSS ... */
