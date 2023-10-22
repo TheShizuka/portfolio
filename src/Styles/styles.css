@@ -69,6 +69,12 @@ body {
     /* display: block; Remove this line, not needed with the new transition */
     max-height: 500px;
   }
+	.menu li a {
+    font-size: small;
+}
+	.menu li a:hover {
+    font-size: medium;
+}
 }
 
 /* ... rest of your CSS ... */
