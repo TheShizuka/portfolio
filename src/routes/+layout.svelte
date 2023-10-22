@@ -2,6 +2,7 @@
   import { onMount } from 'svelte';
   import '../Styles/styles.css';
   import DrawerMenu from './DrawerMenu.svelte'; /* Import the DrawerMenu component */
+let menuOpen = false;
 </script>
 
 <header>
