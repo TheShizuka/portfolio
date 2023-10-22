@@ -43,6 +43,7 @@ onMount(() => {
   </ul>
 <!-- New drawer menu for mobile -->
     <div class={menuOpen ? 'drawer-menu open' : 'drawer-menu'}>
+        <h1>Shizuka's Portfolio</h1>
         <button class="close-button" on:click={closeMenu}>×</button> <!-- Close button -->
         <ul>
             <!-- The same menu items, but you can style them differently or add new ones -->
