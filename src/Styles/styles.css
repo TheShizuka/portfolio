@@ -81,6 +81,9 @@ body {
 }
 
 /* ... rest of your CSS ... */
+.drawer-menu {
+        display:none;
+    }
 
 @media (max-width: 768px) {
     .nav .menu {
