@@ -35,7 +35,6 @@ body {
 .menu li a {
     text-decoration: none;
     color: black;
-    color: #fff;
     transition: font-size 0.3s ease-in-out;
 }
 
@@ -150,7 +149,7 @@ body {
     width: 100%;
     justify-content: center;
     align-items: center;
-    background-color: #F6E9E4;
+    background-color: #ffffff;;
     padding: 20px 10px 10px 10px;
     transition: transform 0.3s ease-in-out;
 }
