@@ -1,6 +1,9 @@
 * {
     outline: 1px solid red !important;
 }
+*, *:before, *:after {
+    box-sizing: border-box; /* Include padding and border in element's width and height */
+}
 body {
     font-family: 'Tilt Neon', sans-serif;
     background-color: #FFFFFF;
