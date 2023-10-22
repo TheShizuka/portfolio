@@ -53,6 +53,9 @@ body {
     cursor: pointer;
     display: none; /* Hide the toggle button on larger screens */
 }
+.title-header{
+	padding-right: 2rem;
+}
 
 @media (max-width: 768px) {
     .menu-toggle {
