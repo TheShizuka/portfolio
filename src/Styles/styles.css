@@ -55,7 +55,7 @@ body {
 }
 
 .nav-header {
-    display: block;
+    display: none;
     justify-content: space-between; /* This pushes the title and menu button apart */
     align-items: center; /* This ensures they are aligned vertically */
     padding: 0 10px; /* Add some space on the sides */
