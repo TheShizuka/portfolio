@@ -57,11 +57,16 @@ body {
     }
 
     .menu {
-        display: none; /* Hide the menu on mobile */
-    }
+    /* display: none; Remove this line */
+    max-height: 0; /* Change from display to max-height for transition effect */
+    overflow: hidden; /* Prevents content from being visible when max-height is 0 */
+    transition: max-height 0.3s ease-in-out; /* Transition effect */
+    /* ... your other styles ... */
+}
 
     .menu.open {
-        display: block; /* Show the menu on mobile when open */
+    /* display: block; Remove this line, not needed with the new transition */
+    max-height: 500px;
   }
 }
 
