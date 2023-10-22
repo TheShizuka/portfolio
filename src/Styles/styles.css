@@ -99,6 +99,7 @@ body {
 
     /* Styles for the drawer menu on mobile */
     .drawer-menu {
+	display: block;
         position: fixed;
         top: 0;
         right: -100%; /* Start off screen */
