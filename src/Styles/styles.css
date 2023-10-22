@@ -82,7 +82,47 @@ body {
 
 /* ... rest of your CSS ... */
 
+@media (max-width: 768px) {
+    .nav .menu {
+        display: none; /* Hide the original menu */
+    }
 
+    .nav .menu-toggle {
+        display: block; /* Show the toggle button on mobile */
+        position: absolute;
+        right: 20px; /* Positioning the button to the right */
+        top: 20px;
+    }
+
+    /* Styles for the drawer menu on mobile */
+    .drawer-menu {
+        position: fixed;
+        top: 0;
+        right: -100%; /* Start off screen */
+        width: 70%; /* Adjust as needed */
+        height: 100%;
+        background-color: #ffffff; /* Your choice of background color */
+        z-index: 2000;
+        transition: right 0.3s ease-in-out;
+        padding-top: 60px; /* Space for close button */
+        box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    }
+
+    .drawer-menu.open {
+        right: 0; /* Bring on screen when opened */
+    }
+
+    /* Close button style */
+    .close-button {
+        position: absolute;
+        right: 20px;
+        top: 10px;
+        font-size: 1.5em;
+        background: none;
+        border: none;
+    }
+}
+/* Add the rest of your styles below as they are */
 
 .header {
    position: relative;
