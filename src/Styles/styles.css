@@ -76,7 +76,7 @@ body {
     width: 100%;
     justify-content: center;
     align-items: center;
-    background-color: transparent;
+    background-color: #F6E9E4;
     padding: 20px 10px 10px 10px;
     transition: transform 0.3s ease-in-out;
 }
