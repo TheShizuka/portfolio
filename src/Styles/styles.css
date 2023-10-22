@@ -106,7 +106,9 @@ body {
     .nav .menu {
         display: none; /* Hide the original menu */
     }
-
+    .nav{
+	display: flex;
+    }
     .nav .menu-toggle {
         display: flex; /* Show the toggle button on mobile */
 	margin-right: 1rem;
