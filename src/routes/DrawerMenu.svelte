@@ -12,9 +12,7 @@
     });
 });
 </script>
-  <button class="menu-toggle" on:click={() => menuOpen = !menuOpen}>
-    ☰
-  </button>
+  
 
 <nav class="nav">
     
