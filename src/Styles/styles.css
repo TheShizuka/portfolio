@@ -70,7 +70,7 @@ body {
     margin: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 810x) {
 	.nav-header{
 		display: flex;
 	}
@@ -121,7 +121,7 @@ body {
 	padding-bottom: 1rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 810px) {
     .nav .menu {
         display: none; /* Hide the original menu */
     }
@@ -292,7 +292,7 @@ body {
 }
 
 /* Responsive styles */
-@media (max-width: 768px) {
+@media (max-width: 810px) {
     .image-card {
         flex: 0 1 100%;
         max-width: 100%;
@@ -324,7 +324,7 @@ body {
 }
 
 /* Responsive title size */
-@media (max-width: 768px) {
+@media (max-width: 810px) {
     .title-text {
         font-size: 1.17em; /* Adjust as needed */
     }
