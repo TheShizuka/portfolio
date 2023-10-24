@@ -30,7 +30,7 @@ onMount(() => {
 
 <nav class="nav">
    <div class="nav-header">
-        <h1 class="title-header">Shizuka's Portfolio</h1>
+        <img src="../images/logo.png" alt="Shizuka's Portfolio" class="title-header">
         <button class="menu-toggle" on:click={() => menuOpen = !menuOpen}>
             ☰
         </button>
