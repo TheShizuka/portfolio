@@ -35,6 +35,7 @@ onMount(() => {
             ☰
         </button>
     </div>
+    <img src="../images/logo.png" alt="Shizuka's Portfolio" class="title-header">
   <ul class={menuOpen ? 'menu open' : 'menu'}>
     <li class="active"><a href="/">Home</a></li>
     <li><a href="/design">Design</a></li>
