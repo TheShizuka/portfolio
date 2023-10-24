@@ -19,8 +19,13 @@
   .skills-section {
     margin-top: 20px;
   }
-
-  .skill-category {
+.skill-card {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    border: 1px solid #e0e0e0;
+    padding: 10px 20px;
+    border-radius: 10px;
     margin-bottom: 20px;
   }
 .skill-logos {
@@ -48,7 +53,7 @@ margin-bottom:5rem;
 
     <h3>Skills Snapshot:</h3>
     <div class="skills-section">
-      <div class="skill-category">
+      <div class="skill-card">
         <h3>3D Artistry</h3>
         <div class="skill-logos">
           <img src="path_to_MAYA_Autodesk_icon.png" alt="MAYA Autodesk Icon" />
@@ -57,7 +62,7 @@ margin-bottom:5rem;
         </div>
       </div>
 
-      <div class="skill-category">
+      <div class="skill-card">
         <h3>Web Development</h3>
         <div class="skill-logos">
           <img src="path_to_HTML_icon.png" alt="HTML Icon" />
@@ -66,7 +71,7 @@ margin-bottom:5rem;
         </div>
       </div>
 
-      <div class="skill-category">
+      <div class="skill-card">
         <h3>Digital Creation</h3>
         <div class="skill-logos">
           <img src="path_to_Photoshop_icon.png" alt="Photoshop Icon" />
