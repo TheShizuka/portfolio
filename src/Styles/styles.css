@@ -76,7 +76,7 @@ body {
 }
 
 @media (max-width: 810px) {
-	.title-header{
+	.pc-title{
 	display: none;
 	
 }
