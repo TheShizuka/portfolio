@@ -4,7 +4,6 @@
 
 <style>
   .about-section {
-    display: grid;
     grid-template-columns: 1fr 3fr;
     gap: 20px;
     max-width: 1200px;
@@ -17,22 +16,20 @@
     height: 96px;
   }
 
-  .skills {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+  .skills-section {
+    margin-top: 20px;
   }
 
-  .skill {
-    background: #f4f4f4;
-    padding: 5px 10px;
-    border-radius: 5px;
+  .skill-category {
+    margin-bottom: 20px;
+  }
+.skill-logos {
     display: flex;
+    gap: 10px;
     align-items: center;
-    gap: 5px;
   }
 .about-me-text{
-margin-bottom:2rem;
+margin-bottom:5rem;
 }
 
   @media (max-width: 768px) {
@@ -50,27 +47,36 @@ margin-bottom:2rem;
     </p>
 
     <h3>Skills Snapshot:</h3>
-    <div class="skills">
-      <div class="skill">
-        <img src="path_to_digital_creation_icon.png" alt="Digital Creation Icon" />
-        Digital Creation
+    <div class="skills-section">
+      <div class="skill-category">
+        <h3>3D Artistry</h3>
+        <div class="skill-logos">
+          <img src="path_to_MAYA_Autodesk_icon.png" alt="MAYA Autodesk Icon" />
+          <img src="path_to_ZBrush_icon.png" alt="ZBrush Icon" />
+          <!-- Add other 3D Artistry logos here -->
+        </div>
       </div>
-      <div class="skill">
-        <img src="path_to_3d_artistry_icon.png" alt="3D Artistry Icon" />
-        3D Artistry
+
+      <div class="skill-category">
+        <h3>Web Development</h3>
+        <div class="skill-logos">
+          <img src="path_to_HTML_icon.png" alt="HTML Icon" />
+          <img src="path_to_CSS_icon.png" alt="CSS Icon" />
+          <!-- Add other Web Development logos here -->
+        </div>
       </div>
-      <div class="skill">
-        <img src="path_to_web_development_icon.png" alt="Web Development Icon" />
-        Web Development
+
+      <div class="skill-category">
+        <h3>Digital Creation</h3>
+        <div class="skill-logos">
+          <img src="path_to_Photoshop_icon.png" alt="Photoshop Icon" />
+          <img src="path_to_PremierePro_icon.png" alt="Premiere Pro Icon" />
+          <!-- Add other Digital Creation logos here -->
+        </div>
       </div>
-      <div class="skill">
-        <img src="path_to_design_and_animation_icon.png" alt="Design & Animation Icon" />
-        Design & Animation
-      </div>
-      <div class="skill">
-        <img src="path_to_languages_icon.png" alt="Languages Icon" />
-        Languages
-      </div>
+
+      <!-- You can continue adding other skill categories in the same format -->
+
     </div>
     
     <!-- You can continue with the rest of the sections, following the structure outlined above. -->
