@@ -27,11 +27,25 @@
     padding: 10px 20px;
     border-radius: 10px;
     margin-bottom: 20px;
+    overflow: hidden; /* Hide overflow content */
   }
 .skill-logos {
     display: flex;
     gap: 10px;
     align-items: center;
+    overflow-x: auto; /* Allow horizontal scrolling */
+    white-space: nowrap; /* Prevent wrapping to the next line */
+  }
+.skill-logos::-webkit-scrollbar {
+    height: 8px;
+  }
+.skill-logos::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+  }
+
+  .skill-logos::-webkit-scrollbar-track {
+    background: #f4f4f4;
   }
 .about-me-text{
 margin-bottom:5rem;
