@@ -49,6 +49,17 @@
     }
 
     /* Styles for the form container */
+    .form-holder {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Full viewport height */
+        width: 100%;
+        padding: 15px; /* Prevents the form from touching the viewport edges */
+        box-sizing: border-box;
+    }
+
+    /* Styles for the form container */
     .form-container {
         background: #ffffff;
         border-radius: 10px; /* This gives the rounded corners */
@@ -56,8 +67,7 @@
         padding: 20px;
         max-width: 500px; /* Set a max-width for larger screens */
         width: 100%; /* Make it responsive */
-        box-sizing: border-box; /* Include padding and border in element's total width and height */
-        margin: 0 20px; /* Optional: for better spacing on very small screens */
+        box-sizing: border-box;
     }
 
     /* Styles for the form elements */
@@ -98,7 +108,7 @@
         }
     }
 </style>
-
+<div class="form-holder">
 <div class="form-container">
     <h2>Contact Us</h2>
     {#if formState === 'success'}
@@ -123,4 +133,5 @@
             <p>There was an error sending your message. Please try again.</p>
         {/if}
     {/if}
+</div>
 </div>
