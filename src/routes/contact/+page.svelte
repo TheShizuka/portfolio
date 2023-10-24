@@ -117,7 +117,7 @@
 </style>
 <div class="form-holder">
 <div class="form-container">
-    <h2>Contact Us</h2>
+    <h2>Contact Me</h2>
     {#if formState === 'success'}
         <p>Thank you! Your message has been sent.</p>
     {:else}
