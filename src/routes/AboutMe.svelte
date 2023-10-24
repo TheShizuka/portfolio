@@ -33,6 +33,9 @@
     margin-bottom: 20px;
     text-align: center;
   }
+.skills-title{
+  margin-bottom: 3rem;
+}
 .skill-logos {
     gap: 10px;
     align-items: center;
@@ -75,7 +78,7 @@ text-align: center;
       Hello! I'm Hicham Ayat, a versatile digital creator with a passion for blending the worlds of art and technology. From video and photo editing to 3D modeling and web development, my diverse skill set allows me to bring innovative visions to life. With a background spanning multiple countries and a keen interest in both pop and traditional aspects of Japanese culture, I bring a unique perspective to every project I undertake.
     </p>
 
-    <h3>My Skills</h3>
+    <h3 class="skills-title">My Skills</h3>
     <div class="skills-section">
       <div class="skill-card">
         <h4>3D Artistry</h4>
