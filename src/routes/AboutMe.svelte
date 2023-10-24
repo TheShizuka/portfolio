@@ -51,7 +51,7 @@
 margin-bottom:5rem;
 }
 
-  @media (max-width: 768px) {
+  @media (max-width: 700px) {
     .about-section {
       grid-template-columns: 1fr;
     }
