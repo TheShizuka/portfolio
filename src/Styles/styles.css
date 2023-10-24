@@ -62,9 +62,12 @@ body {
     width: 100%; /* Full width to stretch across the screen */
 }
 .title-header{
-	padding-right: 2rem;
-	margin: 1rem;
+	display: block;
 	height: 2em;
+	position: absolute;
+    	top: 50%; /* for example, center vertically */
+    	left: 10px; /* Adjust based on your design */
+    	transform: translateY(-50%); /* centers the logo vertically */
 	
 }
 .menu-toggle {
@@ -73,6 +76,10 @@ body {
 }
 
 @media (max-width: 810px) {
+	.title-header{
+	display: none;
+	
+}
 	.nav-header{
 		display: flex;
 	}
