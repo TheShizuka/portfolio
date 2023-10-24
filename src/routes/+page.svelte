@@ -53,6 +53,12 @@ let imageCards3 = [
 <div class="title-container">
     <h1 class="title-text">About Me</h1>
 </div>
+<div class="banner-phone">
+    <img src="../images/banner-phone.png" alt="Banner Description" class="banner-image">
+  </div>
+<div class="title-container">
+    <h1 class="title-text">About Me</h1>
+</div>
   <div class="about">
         <img src="../images/profile-picture.png" alt="Learn more about my photography skills">
 		<div class="text-about">
