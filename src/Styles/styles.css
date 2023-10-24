@@ -245,7 +245,7 @@ body {
     position: relative; /* or absolute */
     z-index: -1;
     padding-bottom: 1rem;
-	margin-top: -61px;
+	margin-top: -100px;
 
 }
 .banner-image {
@@ -314,6 +314,9 @@ body {
 		padding-right: 8%;
 		padding-left: 8%;
 	}
+}
+
+@media (max-width: 640px) {
 	.banner {
 		display: none;
 	}
