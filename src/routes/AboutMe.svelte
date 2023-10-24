@@ -74,13 +74,13 @@ margin-bottom:5rem;
       <div class="skill-card">
         <h3>3D Artistry</h3>
         <div class="skill-logos">
-          <img src="maya.png" alt="MAYA Autodesk Icon" />
-          <img src="zbrush.png" alt="ZBrush Icon" />
-          <img src="arnold.png" alt="Arnold 3D render" />
-          <img src="UE.png" alt="Unreal Engine" />
-          <img src="nuke.png" alt="Nuke" />
-          <img src="C4D.png" alt="Cinema 4D" />
-          <img src="subpaint.png" alt="Substance Painter" />
+          <img src="../images/maya.png" alt="MAYA Autodesk Icon" />
+          <img src="../images/zbrush.png" alt="ZBrush Icon" />
+          <img src="../images/arnold.png" alt="Arnold 3D render" />
+          <img src="../images/UE.png" alt="Unreal Engine" />
+          <img src="../images/nuke.png" alt="Nuke" />
+          <img src="../images/C4D.png" alt="Cinema 4D" />
+          <img src="../images/subpaint.png" alt="Substance Painter" />
           <!-- Add other 3D Artistry logos here -->
         </div>
       </div>
