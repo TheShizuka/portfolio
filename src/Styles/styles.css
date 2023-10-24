@@ -65,8 +65,8 @@ body {
 	display: block;
 	height: 2em;
 	position: absolute;
-    	top: 50%; /* for example, center vertically */
-    	left: 10px; /* Adjust based on your design */
+    	top: 60%; /* for example, center vertically */
+    	left: 1.5%; /* Adjust based on your design */
     	transform: translateY(-50%); /* centers the logo vertically */
 	
 }
@@ -81,7 +81,7 @@ body {
     margin: 0;
 }
 
-@media (max-width: 810px) {
+@media (max-width: 840px) {
 	.pc-title{
 	display: none;
 	
@@ -137,7 +137,7 @@ body {
 	padding-bottom: 1rem;
 }
 
-@media (max-width: 810px) {
+@media (max-width: 840px) {
     .nav .menu {
         display: none; /* Hide the original menu */
     }
@@ -319,7 +319,7 @@ body {
 }
 
 /* Responsive styles */
-@media (max-width: 810px) {
+@media (max-width: 840px) {
     .image-card {
         flex: 0 1 100%;
         max-width: 100%;
@@ -360,7 +360,7 @@ body {
 }
 
 /* Responsive title size */
-@media (max-width: 810px) {
+@media (max-width: 840px) {
     .title-text {
         font-size: 1.17em; /* Adjust as needed */
     }
