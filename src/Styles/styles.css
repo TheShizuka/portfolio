@@ -52,7 +52,6 @@ body {
     border: none;
     cursor: pointer;
     display: none; /* Hide the toggle button on larger screens */
-color: white;
 }
 
 .nav-header {
