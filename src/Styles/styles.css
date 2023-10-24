@@ -227,6 +227,7 @@ body {
 
 /* CSS for Banner */
 .banner {
+    display: block;
     width: 100%;
     max-width: 2575px;
     margin: auto;
@@ -236,7 +237,17 @@ body {
 	margin-top: -61px;
 
 }
+.banner-phone {
+    display: none;
+    width: 100%;
+    max-width: 2575px;
+    margin: auto;
+    position: relative; /* or absolute */
+    z-index: -1;
+    padding-bottom: 1rem;
+	margin-top: -61px;
 
+}
 .banner-image {
     width: 100%;
     height: auto;
@@ -302,6 +313,12 @@ body {
 	.image-row {
 		padding-right: 8%;
 		padding-left: 8%;
+	}
+	.banner {
+		display: none;
+	}
+	.banner-phone {
+		display: block;
 	}
 }
 
