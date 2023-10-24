@@ -56,7 +56,7 @@ let imageCards3 = [
   </div>
 <AboutMe />
 <div class="title-container">
-    <h1 class="title-text">My Projects</h1>
+    <h2 class="title-text">My Projects</h2>
 </div>
 
   <div class="image-row">
