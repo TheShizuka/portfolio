@@ -1,38 +1,41 @@
+<form id="my-form" action="https://formspree.io/f/mvojlqly" method="POST">
+  <label>Email:</label>
+  <input type="email" name="email" />
+  <label>Message:</label>
+  <input type="text" name="message" />
+  <button id="my-form-button">Submit</button>
+  <p id="my-form-status"></p>
+</form>
+<!-- Place this script at the end of the body tag -->
 <script>
-    // We'll manage the form's submitted state to give feedback to the user.
-    let wasSubmitted = false;
-
-    // Function to handle the form's submitted state
-    function handleSuccess() {
-        wasSubmitted = true;
+    var form = document.getElementById("my-form");
+    
+    async function handleSubmit(event) {
+      event.preventDefault();
+      var status = document.getElementById("my-form-status");
+      var data = new FormData(event.target);
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+      }).then(response => {
+        if (response.ok) {
+          status.innerHTML = "Thanks for your submission!";
+          form.reset()
+        } else {
+          response.json().then(data => {
+            if (Object.hasOwn(data, 'errors')) {
+              status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+            } else {
+              status.innerHTML = "Oops! There was a problem submitting your form"
+            }
+          })
+        }
+      }).catch(error => {
+        status.innerHTML = "Oops! There was a problem submitting your form"
+      });
     }
+    form.addEventListener("submit", handleSubmit)
 </script>
-
-<div>
-    {#if wasSubmitted}
-        <p>Thank you! Your message has been sent.</p>
-    {:else}
-        <h2>Contact Us</h2>
-        <!-- The form now points to Formspree's endpoint -->
-        <form action="https://formspree.io/f/mvojlqly" method="POST" on:submit|preventDefault={handleSuccess}>
-            <!-- Your form fields here -->
-            <div>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required />
-            </div>
-
-            <div>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="_replyto" required />
-            </div>
-
-            <div>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-            </div>
-
-            <!-- The submit button for the form -->
-            <button type="submit">Send</button>
-        </form>
-    {/if}
-</div>
