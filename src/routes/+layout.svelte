@@ -1,7 +1,8 @@
 <script>
   import { onMount } from 'svelte';
   import '../Styles/styles.css';
-  import DrawerMenu from './DrawerMenu.svelte'; /* Import the DrawerMenu component */
+  import DrawerMenu from './DrawerMenu.svelte';
+  import Footer from './Footer.svelte';
 </script>
 
 <header>
@@ -20,3 +21,4 @@
 <main>
   <slot />
 </main>
+<Footer />
