@@ -93,8 +93,15 @@ margin-bottom:5rem;
       <div class="skill-card">
         <h4>Web Development</h4>
         <div class="skill-logos">
-          <img src="path_to_HTML_icon.png" alt="HTML Icon" />
-          <img src="path_to_CSS_icon.png" alt="CSS Icon" />
+          <img src="../images/html.png" alt="HTML" />
+          <img src="../images/css.png" alt="CSS" />
+          <img src="../images/js.png" alt="Javascript" />
+          <img src="../images/nodejs.png" alt="NodeJs" />
+          <img src="../images/vuejs.png" alt="VueJs" />
+          <img src="../images/svelte.png" alt="Svelte" />
+          <img src="../images/python.png" alt="Python" />
+          <img src="../images/sql.png" alt="SQL" />
+          <img src="../images/visualstudio.png" alt="Visual studio code" />
           <!-- Add other Web Development logos here -->
         </div>
       </div>
