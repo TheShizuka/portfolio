@@ -93,15 +93,14 @@ text-align: center;
       <div class="skill-card">
         <h4>Web Development</h4>
         <div class="skill-logos">
-          <img src="../images/html.png" alt="HTML" />
-          <img src="../images/css.png" alt="CSS" />
-          <img src="../images/js.png" alt="Javascript" />
-          <img src="../images/nodejs.png" alt="NodeJs" />
-          <img src="../images/vuejs.png" alt="VueJs" />
-          <img src="../images/svelte.png" alt="Svelte" />
-          <img src="../images/python.png" alt="Python" />
-          <img src="../images/sql.png" alt="SQL" />
-          <img src="../images/visualstudio.png" alt="Visual studio code" />
+          <img src="../images/AE.png" alt="After Effects" />
+          <img src="../images/Illustrator.png" alt="Illustrator" />
+          <img src="../images/lightroom.png" alt="lightroom" />
+          <img src="../images/Photoshop.png" alt="Photoshop" />
+          <img src="../images/premiere.png" alt="premiere pro" />
+          <img src="../images/indesign.png" alt="indesign" />
+          <img src="../images/OBS.png" alt="OBS" />
+          <img src="../images/xd.png" alt="adobe xd" />
           <!-- Add other Web Development logos here -->
         </div>
       </div>
