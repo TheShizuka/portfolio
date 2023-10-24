@@ -1,6 +1,4 @@
 <script>
-    // You can import and use image assets, links for social media, etc.
-    import logo from '../images/logo.png'; // Update with your logo's path
 </script>
 
 <style>
@@ -62,7 +60,7 @@
 <footer class="footer">
     <!-- Logo on the left -->
     <div class="footer-logo">
-        <img src={logo} alt="logo" />
+        <img src="../images/logo.png" alt="logo" />
     </div>
 
     <!-- Menu in the center with text underneath -->
