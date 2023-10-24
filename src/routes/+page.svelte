@@ -57,9 +57,7 @@ let imageCards3 = [
     <h1 class="title-text">About Me</h1>
 </div>
   <div class="about">
-        <img src="../images/profile-picture.png" alt="Learn more about my photography skills">
 		<div class="text-about">
-		<h3>Hicham Ayat</h3>
         <p>Passionate and versatile digital creator with a diverse skill set spanning video/photo editing, 3D
 			modeling, 2D art, and web development. Proficient in Adobe Suite, including Photoshop,
 			Illustrator, Premiere Pro, and After Effects. Eager to contribute to innovative projects with a keen
