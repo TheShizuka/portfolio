@@ -55,6 +55,10 @@ margin-bottom:5rem;
     .about-section {
       grid-template-columns: 1fr;
     }
+.about-section img {
+    width: 70px;
+    height: 70px;
+}
 .skill-card {
       flex-direction: row; /* On larger screens, make them side by side */
       align-items: center;
@@ -69,10 +73,10 @@ margin-bottom:5rem;
       Hello! I'm Hicham Ayat, a versatile digital creator with a passion for blending the worlds of art and technology. From video and photo editing to 3D modeling and web development, my diverse skill set allows me to bring innovative visions to life. With a background spanning multiple countries and a keen interest in both pop and traditional aspects of Japanese culture, I bring a unique perspective to every project I undertake.
     </p>
 
-    <h3>Skills Snapshot:</h3>
+    <h3>My Skills</h3>
     <div class="skills-section">
       <div class="skill-card">
-        <h3>3D Artistry</h3>
+        <h4>3D Artistry</h4>
         <div class="skill-logos">
           <img src="../images/maya.png" alt="MAYA Autodesk Icon" />
           <img src="../images/zbrush.png" alt="ZBrush Icon" />
@@ -86,7 +90,7 @@ margin-bottom:5rem;
       </div>
 
       <div class="skill-card">
-        <h3>Web Development</h3>
+        <h4>Web Development</h4>
         <div class="skill-logos">
           <img src="path_to_HTML_icon.png" alt="HTML Icon" />
           <img src="path_to_CSS_icon.png" alt="CSS Icon" />
@@ -95,7 +99,7 @@ margin-bottom:5rem;
       </div>
 
       <div class="skill-card">
-        <h3>Digital Creation</h3>
+        <h4>Digital Creation</h4>
         <div class="skill-logos">
           <img src="path_to_Photoshop_icon.png" alt="Photoshop Icon" />
           <img src="path_to_PremierePro_icon.png" alt="Premiere Pro Icon" />
@@ -103,7 +107,7 @@ margin-bottom:5rem;
         </div>
       </div>
        <div class="skill-card">
-          <h3>Languages</h3>
+          <h4>Languages</h4>
           <div class="skill-logos">
             <img src="path_to_Photoshop_icon.png" alt="Photoshop Icon" />
             <img src="path_to_PremierePro_icon.png" alt="Premiere Pro Icon" />
