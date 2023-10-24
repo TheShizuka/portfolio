@@ -1,6 +1,6 @@
 <script>
     import Contact from './Contact.svelte';
-    import DrawerMenu from './DrawerMenu.svelte';
+    import DrawerMenu from '././DrawerMenu.svelte';
 </script>
 
 <main>
