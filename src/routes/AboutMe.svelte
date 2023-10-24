@@ -108,8 +108,9 @@ text-align: center;
       <div class="skill-card">
         <h4>Digital Creation</h4>
         <div class="skill-logos">
-          <img src="path_to_Photoshop_icon.png" alt="Photoshop Icon" />
-          <img src="path_to_PremierePro_icon.png" alt="Premiere Pro Icon" />
+          <img src="../images/english.png" alt="English" />
+          <img src="../images/french.png" alt="French" />
+          <img src="../images/spanish.png" alt="Spanish" />
           <!-- Add other Digital Creation logos here -->
         </div>
       </div>
