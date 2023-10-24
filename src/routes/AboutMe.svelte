@@ -21,20 +21,20 @@
   }
 .skill-card {
     display: flex;
-    gap: 20px;
-    align-items: center;
+    flex-direction: column; /* Ensure title and logos stack vertically */
+    gap: 10px;
+    align-items: start;
     border: 1px solid #e0e0e0;
     padding: 10px 20px;
     border-radius: 10px;
     margin-bottom: 20px;
-    overflow: hidden; /* Hide overflow content */
   }
 .skill-logos {
     display: flex;
     gap: 10px;
     align-items: center;
-    overflow-x: auto; /* Allow horizontal scrolling */
-    white-space: nowrap; /* Prevent wrapping to the next line */
+    overflow-x: auto; /* Make it scrollable */
+    white-space: nowrap; /* Prevent logos from wrapping */
   }
 .skill-logos::-webkit-scrollbar {
     height: 8px;
@@ -54,6 +54,10 @@ margin-bottom:5rem;
   @media (max-width: 768px) {
     .about-section {
       grid-template-columns: 1fr;
+    }
+.skill-card {
+      flex-direction: row; /* On larger screens, make them side by side */
+      align-items: center;
     }
   }
 </style>
