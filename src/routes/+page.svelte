@@ -4,40 +4,40 @@ import AboutMe from './AboutMe.svelte'; /* Import the AboutMe component */
   let imageCards1 = [
     {
       title: 'Photography',
-      description: 'Description for Image 1',
+      description: '',
       link: '/photography',
       imgSrc: '../images/photography.png',
-      alt: 'Description of Image 1'
+      alt: 'Photography'
     },
     {
       title: 'Design',
-      description: 'Description for Image 2',
+      description: '',
       link: '/design',
       imgSrc: '../images/design.png',
-      alt: 'Description of Image 2'
+      alt: 'Design'
     },];
 let imageCards2 = [
     {
       title: 'Videography',
-      description: 'Description for Image 3',
+      description: '',
       link: '/video',
       imgSrc: '../images/video.png',
-      alt: 'Description of Image 3'
+      alt: 'Videography'
     },
 {
       title: '3D Art',
-      description: 'Description for Image 4',
+      description: '',
       link: '/3dart',
       imgSrc: '../images/3dart.png',
-      alt: 'Description of Image 4'
+      alt: '3D Art'
     },];
 let imageCards3 = [
     {
-      title: 'Coding',
-      description: 'Description for Image 5',
+      title: 'Web Devlopement',
+      description: '',
       link: '/coding',
       imgSrc: '../images/coding.png',
-      alt: 'Description of Image 5'
+      alt: 'Web Devlopement'
     },];
 
 
