@@ -1,5 +1,5 @@
 <script>
-import DrawerMenu from './AboutMe.svelte'; /* Import the AboutMe component */
+import AboutMe from './AboutMe.svelte'; /* Import the AboutMe component */
   // Svelte Component Script
   let imageCards1 = [
     {
