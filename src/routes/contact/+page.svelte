@@ -59,7 +59,7 @@
         box-sizing: border-box;
     }
     .msg{
-    height: 10rem;
+    height: 35rem;
     }
 
     /* Styles for the form container */
@@ -107,6 +107,9 @@
 
     /* Media query for small screens (e.g., phones) */
     @media (max-width: 600px) {
+        .msg{
+            height: 10em;
+        }
         .form-container {
             box-shadow: none;
             margin: 0;
