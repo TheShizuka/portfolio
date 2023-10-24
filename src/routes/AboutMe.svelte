@@ -29,6 +29,7 @@
     padding: 10px 20px;
     border-radius: 10px;
     margin-bottom: 20px;
+    text-align: center;
   }
 .skill-logos {
     gap: 10px;
