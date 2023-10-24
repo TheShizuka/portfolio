@@ -36,8 +36,70 @@
         }
     }
 </script>
+<style>
+    /* General styles, consider setting these in your global stylesheet */
+    body, html {
+        height: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #f7f7f7; /* or any other background you prefer */
+        font-family: Arial, sans-serif; /* or any other font you prefer */
+    }
 
-<div>
+    /* Styles for the form container */
+    .form-container {
+        background: #ffffff;
+        border-radius: 10px; /* This gives the rounded corners */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        max-width: 500px; /* Set a max-width for larger screens */
+        width: 100%; /* Make it responsive */
+        box-sizing: border-box; /* Include padding and border in element's total width and height */
+        margin: 0 20px; /* Optional: for better spacing on very small screens */
+    }
+
+    /* Styles for the form elements */
+    input, textarea, button {
+        width: calc(100% - 20px);
+        padding: 10px;
+        margin-bottom: 20px; /* Spacing between form fields */
+        border: 1px solid #ccc;
+        border-radius: 5px; /* Slightly rounded corners on inputs */
+    }
+
+    textarea {
+        resize: vertical; /* Allow vertical resizing */
+    }
+
+    button {
+        background: #007bff; /* Arbitrary color, change to match your design */
+        color: white;
+        border: none;
+        cursor: pointer;
+        transition: background 0.3s ease;
+    }
+
+    button:hover {
+        background: #0056b3; /* Darken the button color on hover */
+    }
+
+    button:disabled {
+        background: #ccc;
+        cursor: not-allowed;
+    }
+
+    /* Media query for small screens (e.g., phones) */
+    @media (max-width: 600px) {
+        .form-container {
+            box-shadow: none;
+            margin: 0;
+        }
+    }
+</style>
+
+<div class="form-container">
     <h2>Contact Us</h2>
     {#if formState === 'success'}
         <p>Thank you! Your message has been sent.</p>
