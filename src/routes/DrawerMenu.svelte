@@ -38,7 +38,7 @@ onMount(() => {
   <ul class={menuOpen ? 'menu open' : 'menu'}>
     <li>
         <a href="/">
-            <img src="../images/logo.png" alt="Shizuka's Portfolio" class="title-header">
+            <img src="../images/logo.png" alt="Shizuka's Portfolio" class="title-header pc-title">
         </a>
     </li>
     <li class="active"><a href="/">Home</a></li>
