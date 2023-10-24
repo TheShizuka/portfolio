@@ -288,6 +288,8 @@ body {
     aspect-ratio: 16 / 10;
     box-sizing: border-box; /* Ensures padding and border are included in the element's dimensions */
     margin: auto; /* Ensures centering */
+	justify-content: center;
+    display: flex;
 }
 
 
@@ -307,9 +309,9 @@ body {
 .image-card div {
     position: absolute;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5); /* Adjust as needed */
+    background: rgba(0, 0, 0, 0.7); /* Adjust as needed */
     color: white;
-    width: 100%;
+    width: 80%;
     text-align: center;
     transition: opacity 0.3s ease-in-out;
     opacity: 0;
