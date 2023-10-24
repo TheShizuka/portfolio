@@ -74,8 +74,13 @@ margin-bottom:5rem;
       <div class="skill-card">
         <h3>3D Artistry</h3>
         <div class="skill-logos">
-          <img src="path_to_MAYA_Autodesk_icon.png" alt="MAYA Autodesk Icon" />
-          <img src="path_to_ZBrush_icon.png" alt="ZBrush Icon" />
+          <img src="maya.png" alt="MAYA Autodesk Icon" />
+          <img src="zbrush.png" alt="ZBrush Icon" />
+          <img src="arnold.png" alt="Arnold 3D render" />
+          <img src="UE.png" alt="Unreal Engine" />
+          <img src="nuke.png" alt="Nuke" />
+          <img src="C4D.png" alt="Cinema 4D" />
+          <img src="subpaint.png" alt="Substance Painter" />
           <!-- Add other 3D Artistry logos here -->
         </div>
       </div>
@@ -95,6 +100,14 @@ margin-bottom:5rem;
           <img src="path_to_Photoshop_icon.png" alt="Photoshop Icon" />
           <img src="path_to_PremierePro_icon.png" alt="Premiere Pro Icon" />
           <!-- Add other Digital Creation logos here -->
+        </div>
+      </div>
+       <div class="skill-card">
+          <h3>Languages</h3>
+          <div class="skill-logos">
+            <img src="path_to_Photoshop_icon.png" alt="Photoshop Icon" />
+            <img src="path_to_PremierePro_icon.png" alt="Premiere Pro Icon" />
+            <!-- Add other Digital Creation logos here -->
         </div>
       </div>
 
