@@ -1,6 +1,6 @@
 <script>
     // You can import and use image assets, links for social media, etc.
-    import logo from './logo.png'; // Update with your logo's path
+    import logo from '../images/logo.png'; // Update with your logo's path
 </script>
 
 <style>
