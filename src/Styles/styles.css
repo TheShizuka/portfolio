@@ -359,7 +359,6 @@ body {
 }
 
 .title-text {
-    font-size: 2em; /* Adjust as needed */
     margin: 0 auto; /* Center the title */
     text-align: center;
     max-width: 80%;
@@ -368,9 +367,6 @@ body {
 
 /* Responsive title size */
 @media (max-width: 840px) {
-    .title-text {
-        font-size: 1.17em; /* Adjust as needed */
-    }
 	.header {
     	padding: 1px;
     }
