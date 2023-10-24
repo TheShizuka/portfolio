@@ -58,6 +58,9 @@
         padding: 15px; /* Prevents the form from touching the viewport edges */
         box-sizing: border-box;
     }
+    .msg{
+    height: 10rem;
+    }
 
     /* Styles for the form container */
     .form-container {
@@ -117,11 +120,11 @@
         <form on:submit|preventDefault={handleSubmit}>
             <label>
                 Your email:
-                <input type="email" bind:value={email} name="email" required>
+                <input class="email" type="email" bind:value={email} name="email" required>
             </label>
             <label>
                 Your message:
-                <textarea bind:value={message} name="message" required></textarea>
+                <textarea class="msg" bind:value={message} name="message" required></textarea>
             </label>
             {#if formState === 'loading'}
                 <button type="submit" disabled>Sending...</button>
