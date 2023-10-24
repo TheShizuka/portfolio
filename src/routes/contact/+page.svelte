@@ -88,7 +88,7 @@
     }
 
     button {
-        background: #007bff; /* Arbitrary color, change to match your design */
+        background: #0D0E11; /* Arbitrary color, change to match your design */
         color: white;
         border: none;
         cursor: pointer;
