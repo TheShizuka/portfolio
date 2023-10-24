@@ -16,7 +16,8 @@
     height: 70px;
     padding-right: 1rem;
     padding-bottom: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
   }
 
   .skills-section {
