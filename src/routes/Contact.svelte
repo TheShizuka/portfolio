@@ -1,44 +1,38 @@
 <script>
-    let name = '';
-    let email = '';
-    let message = '';
+    // We'll manage the form's submitted state to give feedback to the user.
+    let wasSubmitted = false;
 
-    function handleSubmit() {
-        // Here, you'd typically make a POST request to your server with the form data.
-        // For this example, we'll just log the input to the console.
-        console.log({name, email, message});
-
-        // Clear the form fields after submission
-        name = '';
-        email = '';
-        message = '';
+    // Function to handle the form's submitted state
+    function handleSuccess() {
+        wasSubmitted = true;
     }
 </script>
 
-<style>
-    /* Add styles for your form elements here */
-</style>
-
 <div>
-    <h2>Contact Us</h2>
-    <form on:submit|preventDefault={handleSubmit}>
-        <div>
-            <label for="name">Name:</label>
-            <input type="text" id="name" bind:value={name} required />
-        </div>
+    {#if wasSubmitted}
+        <p>Thank you! Your message has been sent.</p>
+    {:else}
+        <h2>Contact Us</h2>
+        <!-- The form now points to Formspree's endpoint -->
+        <form action="https://formspree.io/f/mvojlqly" method="POST" on:submit|preventDefault={handleSuccess}>
+            <!-- Your form fields here -->
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required />
+            </div>
 
-        <div>
-            <label for="email">Email:</label>
-            <input type="email" id="email" bind:value={email} required />
-        </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="_replyto" required />
+            </div>
 
-        <div>
-            <label for="message">Message:</label>
-            <textarea id="message" bind:value={message} required></textarea>
-        </div>
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
 
-        <div>
+            <!-- The submit button for the form -->
             <button type="submit">Send</button>
-        </div>
-    </form>
+        </form>
+    {/if}
 </div>
