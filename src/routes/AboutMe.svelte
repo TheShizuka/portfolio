@@ -41,11 +41,7 @@
 
 <div class="about-section">
   <div>
-    <img src="path_to_your_image.jpg" alt="Hicham's Image" />
-  </div>
-
-  <div>
-    <h2>About Hicham</h2>
+    <h2>Learn more about me...</h2>
     <p>
       Hello! I'm Hicham Ayat, a versatile digital creator with a passion for blending the worlds of art and technology. From video and photo editing to 3D modeling and web development, my diverse skill set allows me to bring innovative visions to life. With a background spanning multiple countries and a keen interest in both pop and traditional aspects of Japanese culture, I bring a unique perspective to every project I undertake.
     </p>
