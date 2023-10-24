@@ -72,8 +72,7 @@
         max-height: 1000px;
         width: 100%;
         box-sizing: border-box;
-        height: 50%;
-    }
+}
 
     /* Styles for the form elements */
     input, textarea, button {
