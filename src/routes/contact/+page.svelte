@@ -59,7 +59,7 @@
         box-sizing: border-box;
     }
     .msg{
-    height: 35rem;
+    height: 15rem;
     }
 
     /* Styles for the form container */
@@ -72,7 +72,7 @@
         max-height: 1000px;
         width: 100%;
         box-sizing: border-box;
-        height: 100%;
+        height: 50%;
     }
 
     /* Styles for the form elements */
@@ -106,9 +106,9 @@
     }
 
     /* Media query for small screens (e.g., phones) */
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
         .msg{
-            height: 10em;
+            height: 10rem;
         }
         .form-container {
             box-shadow: none;
