@@ -20,7 +20,6 @@
     margin-top: 20px;
   }
 .skill-card {
-    display: flex;
     flex-direction: column; /* Ensure title and logos stack vertically */
     gap: 10px;
     align-items: start;
@@ -30,7 +29,6 @@
     margin-bottom: 20px;
   }
 .skill-logos {
-    display: flex;
     gap: 10px;
     align-items: center;
     overflow-x: auto; /* Make it scrollable */
