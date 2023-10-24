@@ -4,16 +4,16 @@
 <style>
     .footer {
         display: flex;
-        justify-content: space-between; /* Distributes the space between items */
+        justify-content: space-between;
         align-items: center;
         padding: 20px 10px;
-        background-color: #333; /* Dark background */
-        color: white; /* Light text */
-        font-size: 14px; /* Adjust as needed */
+        background-color: #333;
+        color: white;
     }
 
-    .footer-logo {
-        width: 100px; /* Adjust as needed */
+    .footer-logo img {
+        width: 50px; /* Adjust based on your preference */
+        height: auto;
     }
 
     .footer-menu {
@@ -26,8 +26,8 @@
     }
 
     .footer-menu li {
-        display: inline; /* Or 'inline-block' for a bit of spacing */
-        margin: 0 10px; /* Space out the menu items */
+        display: inline;
+        margin: 0 10px;
     }
 
     .social-media {
@@ -40,11 +40,16 @@
     }
 
     .social-media li {
-        display: inline; /* Or 'inline-block' for a bit of spacing */
-        margin: 0 10px; /* Space between icons */
+        display: inline;
+        margin: 0 10px;
     }
 
-    /* Adjustments for smaller screens */
+    .social-icon {
+        width: 20px; /* Adjust based on your preference */
+        height: 20px;
+        vertical-align: middle;
+    }
+
     @media (max-width: 768px) {
         .footer {
             flex-direction: column;
@@ -58,12 +63,10 @@
 </style>
 
 <footer class="footer">
-    <!-- Logo on the left -->
     <div class="footer-logo">
         <img src="../images/logo.png" alt="logo" />
     </div>
 
-    <!-- Menu in the center with text underneath -->
     <div class="footer-menu">
         <ul>
             <li>Home</li>
@@ -74,12 +77,11 @@
         <p>Some text underneath the menu</p>
     </div>
 
-    <!-- Social media links on the right with text underneath -->
     <div class="social-media">
         <ul>
-            <li><a href="https://www.facebook.com/yourpage" target="_blank">Facebook</a></li>
-            <li><a href="https://www.twitter.com/yourprofile" target="_blank">Twitter</a></li>
-            <li><a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></li>
+            <li><a href="https://www.facebook.com/yourpage" target="_blank"><img src="path-to-facebook-icon.svg" alt="Facebook" class="social-icon"></a></li>
+            <li><a href="https://www.twitter.com/yourprofile" target="_blank"><img src="path-to-twitter-icon.svg" alt="Twitter" class="social-icon"></a></li>
+            <li><a href="https://www.linkedin.com/in/yourprofile" target="_blank"><img src="path-to-linkedin-icon.svg" alt="LinkedIn" class="social-icon"></a></li>
         </ul>
         <p>Connect with us on social media</p>
     </div>
