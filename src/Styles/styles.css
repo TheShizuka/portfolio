@@ -70,12 +70,13 @@ body {
     margin: 0;
 }
 
-@media (max-width: 810x) {
+@media (max-width: 810px) {
 	.nav-header{
 		display: flex;
 	}
     .menu-toggle {
         display: block; /* Show the toggle button on mobile */
+	    color: white;
     }
 	.nav-header {
         padding: 0 20px; /* Optional: Increased padding on mobile for better appearance */
