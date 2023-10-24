@@ -68,9 +68,11 @@
         border-radius: 10px; /* This gives the rounded corners */
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         padding: 20px;
-        max-width: 500px; /* Set a max-width for larger screens */
-        width: 100%; /* Make it responsive */
+        max-width: 1000px;
+        max-height: 1000px;
+        width: 100%;
         box-sizing: border-box;
+        height: 100%;
     }
 
     /* Styles for the form elements */
