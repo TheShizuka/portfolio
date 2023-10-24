@@ -108,17 +108,23 @@ text-align: center;
       <div class="skill-card">
         <h4>Digital Creation</h4>
         <div class="skill-logos">
-          <img src="../images/english.png" alt="English" />
-          <img src="../images/french.png" alt="French" />
-          <img src="../images/spanish.png" alt="Spanish" />
+          <img src="../images/AE.png" alt="After Effects" />
+          <img src="../images/Illustrator.png" alt="Illustrator" />
+          <img src="../images/lightroom.png" alt="lightroom" />
+          <img src="../images/Photoshop.png" alt="Photoshop" />
+          <img src="../images/premiere.png" alt="premiere pro" />
+          <img src="../images/indesign.png" alt="indesign" />
+          <img src="../images/OBS.png" alt="OBS" />
+          <img src="../images/xd.png" alt="adobe xd" />
           <!-- Add other Digital Creation logos here -->
         </div>
       </div>
        <div class="skill-card">
           <h4>Languages</h4>
           <div class="skill-logos">
-            <img src="path_to_Photoshop_icon.png" alt="Photoshop Icon" />
-            <img src="path_to_PremierePro_icon.png" alt="Premiere Pro Icon" />
+            <img src="../images/english.png" alt="English" />
+            <img src="../images/french.png" alt="French" />
+            <img src="../images/spanish.png" alt="Spanish" />
             <!-- Add other Digital Creation logos here -->
         </div>
       </div>
