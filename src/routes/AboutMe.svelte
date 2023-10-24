@@ -12,8 +12,8 @@
   }
 
   .about-section img {
-    width: 96px;
-    height: 96px;
+    width: 70px;
+    height: 70px;
     padding-right: 1rem;
     padding-bottom: 1rem;
   }
@@ -56,10 +56,6 @@ margin-bottom:5rem;
     .about-section {
       grid-template-columns: 1fr;
     }
-.about-section img {
-    width: 70px;
-    height: 70px;
-}
 .skill-card {
       flex-direction: row; /* On larger screens, make them side by side */
       align-items: center;
