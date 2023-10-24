@@ -14,6 +14,8 @@
   .about-section img {
     width: 96px;
     height: 96px;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
   }
 
   .skills-section {
