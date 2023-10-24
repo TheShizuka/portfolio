@@ -51,6 +51,9 @@
 .about-me-text{
 margin-bottom:5rem;
 }
+.about-sec{
+text-align: center;
+}
 
   @media (max-width: 700px) {
     .about-section {
@@ -64,7 +67,7 @@ margin-bottom:5rem;
 </style>
 
 <div class="about-section">
-  <div>
+  <div class="about-sec">
     <h2>Learn more about me...</h2>
     <p class="about-me-text">
       Hello! I'm Hicham Ayat, a versatile digital creator with a passion for blending the worlds of art and technology. From video and photo editing to 3D modeling and web development, my diverse skill set allows me to bring innovative visions to life. With a background spanning multiple countries and a keen interest in both pop and traditional aspects of Japanese culture, I bring a unique perspective to every project I undertake.
