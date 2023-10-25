@@ -7,8 +7,12 @@
         justify-content: space-between;
         align-items: center;
         padding: 20px 10px;
-        background-color: #333;
+        background-color: #0d0e11;
         color: white;
+        margin-top: 3rem;
+    }
+    .text-footer{
+    martgin-top: 3rem;
     }
 
     .footer-logo img {
@@ -45,8 +49,8 @@
     }
 
     .social-icon {
-        width: 20px; /* Adjust based on your preference */
-        height: 20px;
+        width: 50px;
+        height: 50px;
         vertical-align: middle;
     }
 
@@ -68,21 +72,24 @@
     </div>
 
     <div class="footer-menu">
-        <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Services</li>
-            <li>Contact</li>
+        <ul class="text-footer">
+            <li class="active"><a href="/">Home</a></li>
+            <li><a href="/design">Design</a></li>
+            <li><a href="/coding">Coding Projects</a></li>
+            <li><a href="/3d-art">3D Content</a></li>
+            <li><a href="/photography">Photography</a></li>
+            <li><a href="/video">Videography</a></li>
+            <li><a href="/contact">Contact</a></li>
         </ul>
-        <p>Some text underneath the menu</p>
+        <p class="text-footer">© {new Date().getFullYear()} shizuka. All rights reserved.</p>
     </div>
 
     <div class="social-media">
-        <ul>
-            <li><a href="https://www.facebook.com/yourpage" target="_blank"><img src="path-to-facebook-icon.svg" alt="Facebook" class="social-icon"></a></li>
-            <li><a href="https://www.twitter.com/yourprofile" target="_blank"><img src="path-to-twitter-icon.svg" alt="Twitter" class="social-icon"></a></li>
-            <li><a href="https://www.linkedin.com/in/yourprofile" target="_blank"><img src="path-to-linkedin-icon.svg" alt="LinkedIn" class="social-icon"></a></li>
+        <ul class="text-footer">
+            <li><a href="https://www.linkedin.com/in/hicham-ayat-gimenez-329a90248" target="_blank"><img src="linkedin.png" alt="LinkedIn" class="social-icon"></a></li>
+            <li><a href="https://www.instagram.com/shizuka.desu/" target="_blank"><img src="instagram.png" alt="instagram" class="social-icon"></a></li>
+            <li><a href="https://github.com/TheShizuka" target="_blank"><img src="github.png" alt="github" class="social-icon"></a></li>
         </ul>
-        <p>Connect with us on social media</p>
+        <p class="text-footer">Email - ayatgimenez@hotmail.com</p>
     </div>
 </footer>
