@@ -46,7 +46,12 @@
      .footer-menu a {
         text-decoration: none;   /* Remove underline */
         color: white;            /* Set color to white */
-        transition: 0.3s;       /* Smooth transition for hover effect */
+        transition: 0.3s;  
+
+        font-size: 3.33333333vw;
+        padding: 2.22222222vw 3.33333333vw;
+        padding-left: 3.33333333vw;
+        
     }
 
     .footer-menu a:hover {
@@ -57,11 +62,14 @@
     .footer-menu ul {
         list-style: none;
         padding: 0;
+        display: table-cell;
     }
 
     .footer-menu li {
         display: inline;
         margin: 0 20px;
+        list-style: outside none none;
+        display: inline-block;
     }
 
     .social-media {
@@ -87,6 +95,7 @@
     }
 
     @media (max-width: 768px) {
+
     }
 </style>
 
