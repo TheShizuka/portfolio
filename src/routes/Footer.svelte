@@ -10,6 +10,8 @@
         background-color: #0d0e11;
         color: white;
         margin-top: 3rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
     }
     .text-footer{
     margin-top: 3rem;
@@ -31,7 +33,7 @@
 
     .footer-menu li {
         display: inline;
-        margin: 0 10px;
+        margin: 0 20px;
     }
 
     .social-media {
@@ -49,8 +51,8 @@
     }
 
     .social-icon {
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
         vertical-align: middle;
     }
 
