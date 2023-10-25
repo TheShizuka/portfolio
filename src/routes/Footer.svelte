@@ -20,8 +20,10 @@
     .footer-logo img {
         width: 50px; /* Adjust based on your preference */
         height: auto;
-        margin-top: -3rem;
-    }
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+
+}
     .footer-logo {
         text-align: center;
         display: flex;
