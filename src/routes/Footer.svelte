@@ -12,7 +12,7 @@
         margin-top: 3rem;
     }
     .text-footer{
-    martgin-top: 3rem;
+    margin-top: 3rem;
     }
 
     .footer-logo img {
