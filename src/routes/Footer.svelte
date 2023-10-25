@@ -86,9 +86,9 @@
 
     <div class="social-media">
         <ul class="text-footer">
-            <li><a href="https://www.linkedin.com/in/hicham-ayat-gimenez-329a90248" target="_blank"><img src="linkedin.png" alt="LinkedIn" class="social-icon"></a></li>
-            <li><a href="https://www.instagram.com/shizuka.desu/" target="_blank"><img src="instagram.png" alt="instagram" class="social-icon"></a></li>
-            <li><a href="https://github.com/TheShizuka" target="_blank"><img src="github.png" alt="github" class="social-icon"></a></li>
+            <li><a href="https://www.linkedin.com/in/hicham-ayat-gimenez-329a90248" target="_blank"><img src="../images/linkedin.png" alt="LinkedIn" class="social-icon"></a></li>
+            <li><a href="https://www.instagram.com/shizuka.desu/" target="_blank"><img src="../images/instagram.png" alt="instagram" class="social-icon"></a></li>
+            <li><a href="https://github.com/TheShizuka" target="_blank"><img src="../images/github.png" alt="github" class="social-icon"></a></li>
         </ul>
         <p class="text-footer">Email - ayatgimenez@hotmail.com</p>
     </div>
