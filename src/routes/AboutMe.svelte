@@ -43,10 +43,10 @@
     white-space: nowrap; /* Prevent logos from wrapping */
   }
 .skill-logos::-webkit-scrollbar {
-    height: 8px;
+    height: 4px;
   }
 .skill-logos::-webkit-scrollbar-thumb {
-    background: #ccc;
+    background: #e0e0e0;
     border-radius: 4px;
   }
 
