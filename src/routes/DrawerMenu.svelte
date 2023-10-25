@@ -60,7 +60,7 @@ onMount(() => {
             <li on:click={closeMenu}><a href="/3d-art">3D Content</a></li>
             <li on:click={closeMenu}><a href="/photography">Photography</a></li>
             <li on:click={closeMenu}><a href="/video">Videography</a></li>
-            <li on:click={closeMenu}><a href="/Contact">Contact</a></li>
+            <li on:click={closeMenu}><a href="/contact">Contact</a></li>
         </ul>
     </div>
 </nav>
