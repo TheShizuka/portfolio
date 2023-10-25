@@ -12,6 +12,7 @@
         margin-top: 3rem;
         padding-left: 3rem;
         padding-right: 3rem;
+        flex-direction: column;
     }
     .text-footer{
     margin-top: 3rem;
@@ -46,11 +47,7 @@
      .footer-menu a {
         text-decoration: none;   /* Remove underline */
         color: white;            /* Set color to white */
-        transition: 0.3s;  
-
-        font-size: 3.33333333vw;
-        padding: 2.22222222vw 3.33333333vw;
-        padding-left: 3.33333333vw;
+        transition: 0.3s; 
         
     }
 
