@@ -20,10 +20,22 @@
     .footer-logo img {
         width: 50px; /* Adjust based on your preference */
         height: auto;
+        margin-top: -3rem;
+    }
+    .footer-logo {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .footer-menu {
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 5rem;
+        margin-right: 5rem;
     }
 
     .footer-menu ul {
@@ -37,7 +49,9 @@
     }
 
     .social-media {
-        text-align: right;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .social-media ul {
@@ -57,20 +71,13 @@
     }
 
     @media (max-width: 768px) {
-        .footer {
-            flex-direction: column;
-            align-items: start;
-        }
-
-        .footer-menu, .social-media {
-            text-align: left;
-        }
     }
 </style>
 
 <footer class="footer">
     <div class="footer-logo">
         <img src="../images/logo.png" alt="logo" />
+        <p class="text-footer">Hicham Ayat</p>
     </div>
 
     <div class="footer-menu">
