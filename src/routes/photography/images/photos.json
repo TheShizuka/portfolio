@@ -17,7 +17,7 @@
       {"id": "portrait13", "url": "./portrait/13.png", "description": "Description for image 3"},
       {"id": "portrait14", "url": "./portrait/14.png", "description": "Description for image 3"},
       {"id": "portrait15", "url": "./portrait/15.png", "description": "Description for image 3"},
-      {"id": "portrait16", "url": "./portrait/16.png", "description": "Description for image 3"},
+      {"id": "portrait16", "url": "./portrait/16.png", "description": "Description for image 3"}
       //... continue the pattern up to 16
     ]
   },
@@ -26,43 +26,43 @@
     "images": [
       {"id": "nature1", "url": "./nature/1.png", "description": "Description for image 1"},
       {"id": "nature2", "url": "./nature/2.png", "description": "Description for image 2"},
-      {"id": "nature3", "url": "./nature/3.png", "description": "Description for image 3"},
+      {"id": "nature3", "url": "./nature/3.png", "description": "Description for image 3"}
       //... continue the pattern up to 14
     ]
   },
   {
     "category": "animal",
     "images": [
-      {"id": "animal1", "url": "./animal/1.png", "description": "Description for image 1"},
+      {"id": "animal1", "url": "./animal/1.png", "description": "Description for image 1"}
       //... continue the pattern up to 25
     ]
   },
   {
     "category": "street",
     "images": [
-      {"id": "street1", "url": "./street/1.png", "description": "Description for image 1"},
+      {"id": "street1", "url": "./street/1.png", "description": "Description for image 1"}
       //... continue the pattern up to 21
     ]
   },
   {
     "category": "japan",
     "images": [
-      {"id": "japan1", "url": "./japan/1.png", "description": "Description for image 1"},
+      {"id": "japan1", "url": "./japan/1.png", "description": "Description for image 1"}
       //... continue the pattern up to 53
     ]
   },
   {
     "category": "singapore",
     "images": [
-      {"id": "singapore1", "url": "./singapore/1.png", "description": "Description for image 1"},
+      {"id": "singapore1", "url": "./singapore/1.png", "description": "Description for image 1"}
       //... continue the pattern up to 32
     ]
   },
   {
     "category": "macro",
     "images": [
-      {"id": "macro1", "url": "./macro/1.png", "description": "Description for image 1"},
-      //... this category contains only one image
+      {"id": "macro1", "url": "./macro/1.png", "description": "Description for image 1"}
+      //... this category contains only one imag
     ]
   }
 ]
