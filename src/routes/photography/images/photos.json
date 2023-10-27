@@ -1,1 +1,40 @@
+[
+  {
+    "id": "1",
+    "category": "portrait",
+    "url": "path/to/your/image1.jpg",
+    "description": "This is a description of the first portrait."
+  },
+  {
+    "id": "2",
+    "category": "landscape",
+    "url": "path/to/your/image2.jpg",
+    "description": "This is a description of the first landscape."
+  },
+  {
+    "id": "3",
+    "category": "animal",
+    "url": "path/to/your/image3.jpg",
+    "description": "This is a description of the first animal photograph."
+  },
+  {
+    "id": "4",
+    "category": "japan",
+    "url": "path/to/your/image4.jpg",
+    "description": "This is a description of the first photo from Japan."
+  },
+  {
+    "id": "5",
+    "category": "singapore",
+    "url": "path/to/your/image5.jpg",
+    "description": "This is a description of the first photo from Singapore."
+  },
+  {
+    "id": "6",
+    "category": "japan",
+    "url": "path/to/your/image6.jpg",
+    "description": "This is a description of the second photo from Japan."
+  }
+  /* Add as many photos as you have, following this structure */
+]
 
