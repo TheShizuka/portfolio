@@ -22,7 +22,7 @@
             <!-- Now, loop through each photo in the current category -->
             {#each category.images as photo}
                 <div class="image-container">
-                    <img src={photo.url} alt={photo.description} style="height: 100%; width: auto;" />
+                    <img src={photo.url} alt={photo.description} style="height: 200px; width: auto;" />
                 </div>
             {/each}
         </div>
