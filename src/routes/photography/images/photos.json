@@ -1,40 +1,68 @@
 [
   {
-    "id": "1",
     "category": "portrait",
-    "url": "path/to/your/image1.jpg",
-    "description": "This is a description of the first portrait."
+    "images": [
+      {"id": "portrait1", "url": "./portrait/1.png", "description": "Description for image 1"},
+      {"id": "portrait2", "url": "./portrait/2.png", "description": "Description for image 2"},
+      {"id": "portrait3", "url": "./portrait/3.png", "description": "Description for image 3"},
+      {"id": "portrait4", "url": "./portrait/4.png", "description": "Description for image 3"},
+      {"id": "portrait5", "url": "./portrait/5.png", "description": "Description for image 3"},
+      {"id": "portrait6", "url": "./portrait/6.png", "description": "Description for image 3"},
+      {"id": "portrait7", "url": "./portrait/7.png", "description": "Description for image 3"},
+      {"id": "portrait8", "url": "./portrait/8.png", "description": "Description for image 3"},
+      {"id": "portrait9", "url": "./portrait/9.png", "description": "Description for image 3"},
+      {"id": "portrait10", "url": "./portrait/10.png", "description": "Description for image 3"},
+      {"id": "portrait11", "url": "./portrait/11.png", "description": "Description for image 3"},
+      {"id": "portrait12", "url": "./portrait/12.png", "description": "Description for image 3"},
+      {"id": "portrait13", "url": "./portrait/13.png", "description": "Description for image 3"},
+      {"id": "portrait14", "url": "./portrait/14.png", "description": "Description for image 3"},
+      {"id": "portrait15", "url": "./portrait/15.png", "description": "Description for image 3"},
+      {"id": "portrait16", "url": "./portrait/16.png", "description": "Description for image 3"},
+      //... continue the pattern up to 16
+    ]
   },
   {
-    "id": "2",
-    "category": "landscape",
-    "url": "path/to/your/image2.jpg",
-    "description": "This is a description of the first landscape."
+    "category": "nature",
+    "images": [
+      {"id": "nature1", "url": "./nature/1.png", "description": "Description for image 1"},
+      {"id": "nature2", "url": "./nature/2.png", "description": "Description for image 2"},
+      {"id": "nature3", "url": "./nature/3.png", "description": "Description for image 3"},
+      //... continue the pattern up to 14
+    ]
   },
   {
-    "id": "3",
     "category": "animal",
-    "url": "path/to/your/image3.jpg",
-    "description": "This is a description of the first animal photograph."
+    "images": [
+      {"id": "animal1", "url": "./animal/1.png", "description": "Description for image 1"},
+      //... continue the pattern up to 25
+    ]
   },
   {
-    "id": "4",
+    "category": "street",
+    "images": [
+      {"id": "street1", "url": "./street/1.png", "description": "Description for image 1"},
+      //... continue the pattern up to 21
+    ]
+  },
+  {
     "category": "japan",
-    "url": "path/to/your/image4.jpg",
-    "description": "This is a description of the first photo from Japan."
+    "images": [
+      {"id": "japan1", "url": "./japan/1.png", "description": "Description for image 1"},
+      //... continue the pattern up to 53
+    ]
   },
   {
-    "id": "5",
     "category": "singapore",
-    "url": "path/to/your/image5.jpg",
-    "description": "This is a description of the first photo from Singapore."
+    "images": [
+      {"id": "singapore1", "url": "./singapore/1.png", "description": "Description for image 1"},
+      //... continue the pattern up to 32
+    ]
   },
   {
-    "id": "6",
-    "category": "japan",
-    "url": "path/to/your/image6.jpg",
-    "description": "This is a description of the second photo from Japan."
+    "category": "macro",
+    "images": [
+      {"id": "macro1", "url": "./macro/1.png", "description": "Description for image 1"}
+      //... this category contains only one image
+    ]
   }
-  /* Add as many photos as you have, following this structure */
 ]
-
