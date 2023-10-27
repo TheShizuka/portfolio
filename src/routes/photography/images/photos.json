@@ -61,7 +61,7 @@
   {
     "category": "macro",
     "images": [
-      {"id": "macro1", "url": "./macro/1.png", "description": "Description for image 1"}
+      {"id": "macro1", "url": "./macro/1.png", "description": "Description for image 1"},
       //... this category contains only one image
     ]
   }
