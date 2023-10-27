@@ -1,7 +1,7 @@
 <script>
     export let setFilter;
 
-    const categories = ['all', 'portrait', 'landscape', 'animal', 'japan', 'singapore'];
+    const categories = ['all', 'portrait', 'nature', 'animal', 'japan', 'singapore', 'macro', 'street'];
 
     let selectedCategory = 'all';
     
