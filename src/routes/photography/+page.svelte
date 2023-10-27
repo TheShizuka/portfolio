@@ -1,7 +1,7 @@
 <script>
     import NavBar from './NavBar.svelte';  // assuming you have a NavBar component
     import ImageGrid from './ImageGrid.svelte';  // assuming you have an ImageGrid component
-    import photos from './photos.json'; // directly import the local JSON file
+    import photos from './images/photos.json'; // directly import the local JSON file
 
     let filter = 'all';
 
