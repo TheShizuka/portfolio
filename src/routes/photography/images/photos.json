@@ -2,22 +2,22 @@
   {
     "category": "portrait",
     "images": [
-      {"id": "portrait1", "url": "src/routes/photography/images/portrait/1.png", "description": "Description for image 1"},
-      {"id": "portrait2", "url": "src/routes/photography/images/portrait/2.png", "description": "Description for image 2"},
-      {"id": "portrait3", "url": "src/routes/photography/images/portrait/3.png", "description": "Description for image 3"},
-      {"id": "portrait4", "url": "src/routes/photography/images/portrait/4.png", "description": "Description for image 3"},
-      {"id": "portrait5", "url": "src/routes/photography/images/portrait/5.png", "description": "Description for image 3"},
-      {"id": "portrait6", "url": "src/routes/photography/images/portrait/6.png", "description": "Description for image 3"},
-      {"id": "portrait7", "url": "src/routes/photography/images/portrait/7.png", "description": "Description for image 3"},
-      {"id": "portrait8", "url": "src/routes/photography/images/portrait/8.png", "description": "Description for image 3"},
-      {"id": "portrait9", "url": "src/routes/photography/images/portrait/9.png", "description": "Description for image 3"},
-      {"id": "portrait10", "url": "src/routes/photography/images/portrait/10.png", "description": "Description for image 3"},
-      {"id": "portrait11", "url": "src/routes/photography/images/portrait/11.png", "description": "Description for image 3"},
-      {"id": "portrait12", "url": "src/routes/photography/images/portrait/12.png", "description": "Description for image 3"},
-      {"id": "portrait13", "url": "src/routes/photography/images/portrait/13.png", "description": "Description for image 3"},
-      {"id": "portrait14", "url": "src/routes/photography/images/portrait/14.png", "description": "Description for image 3"},
-      {"id": "portrait15", "url": "src/routes/photography/images/portrait/15.png", "description": "Description for image 3"},
-      {"id": "portrait16", "url": "src/routes/photography/images/portrait/16.png", "description": "Description for image 3"}
+      {"id": "portrait1", "url": "/images/portrait/1.png", "description": "Description for image 1"},
+      {"id": "portrait2", "url": "/images/portrait/2.png", "description": "Description for image 2"},
+      {"id": "portrait3", "url": "/images/portrait/3.png", "description": "Description for image 3"},
+      {"id": "portrait4", "url": "/images/portrait/4.png", "description": "Description for image 3"},
+      {"id": "portrait5", "url": "/images/portrait/5.png", "description": "Description for image 3"},
+      {"id": "portrait6", "url": "/images/portrait/6.png", "description": "Description for image 3"},
+      {"id": "portrait7", "url": "/images/portrait/7.png", "description": "Description for image 3"},
+      {"id": "portrait8", "url": "/images/portrait/8.png", "description": "Description for image 3"},
+      {"id": "portrait9", "url": "/images/portrait/9.png", "description": "Description for image 3"},
+      {"id": "portrait10", "url": "/images/portrait/10.png", "description": "Description for image 3"},
+      {"id": "portrait11", "url": "/images/portrait/11.png", "description": "Description for image 3"},
+      {"id": "portrait12", "url": "/images/portrait/12.png", "description": "Description for image 3"},
+      {"id": "portrait13", "url": "/images/portrait/13.png", "description": "Description for image 3"},
+      {"id": "portrait14", "url": "/images/portrait/14.png", "description": "Description for image 3"},
+      {"id": "portrait15", "url": "/images/portrait/15.png", "description": "Description for image 3"},
+      {"id": "portrait16", "url": "/images/portrait/16.png", "description": "Description for image 3"}
     ]
   },
   {
