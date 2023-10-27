@@ -1,39 +1,42 @@
+
+
 <div id="portfolio">
-  <div class="gallery-item">
-    <img src="../../images/all/1.png" alt="">
-    <p class="description">Description of photo 1</p>
+  <div class="image-group">
+    <img src="../../images/all/1.png" alt="" class="small">
+    <img src="../../images/all/3.png"  alt="" class="large">
+    <img src="../../images/all/4.png"  alt="" class="small">
+    <img src="../../images/all/50.png"  alt="" class="large">
   </div>
-  <div class="gallery-item">
-    <img src="../../images/all/2.png"alt="">
-    <p class="description">Description of photo 2</p>
-  </div>
-  <!-- Repeat for additional photos -->
 </div>
 
 
 
 <style>
+body {
+    background-color: #0D0E11;
+}
+
 #portfolio {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 16px;
     padding: 16px;
 }
 
-.gallery-item {
-    background-color: #f0f0f0;
-    border: 2px solid #ddd;
-    border-radius: 4px;
+.image-group {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 4px;
+    width: 1280px;
+    height: 720px;
     overflow: hidden;
 }
 
-.gallery-item img {
-    width: 100%;
-    display: block;
+.large {
+    grid-row: span 2;
+    object-fit: cover;
 }
 
-.description {
-    padding: 8px;
-    text-align: center;
+.small {
+    object-fit: cover;
 }
+
 </style>
