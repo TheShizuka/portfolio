@@ -1,10 +1,11 @@
 <script>
-    import NavBar from './NavBar.svelte';  // assuming you have a NavBar component
-    import ImageGrid from './ImageGrid.svelte';  // assuming you have an ImageGrid component
-    import photos from './images/photos.json'; // directly import the local JSON file
+    import NavBar from './NavBar.svelte';
+    import ImageGrid from './ImageGrid.svelte';
+    import photos from './images/photos.json';
 
-    let filter = 'all';
+    let filter = 'all'; // Default state
 
+    // This function updates the filter state
     function setFilter(category) {
         filter = category;
     }
@@ -16,7 +17,6 @@
 </div>
 
 <NavBar {setFilter} />
-
 <ImageGrid {photos} {filter} />
 
 
