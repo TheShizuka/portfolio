@@ -8,7 +8,7 @@
 <div class="image-grid">
     {#each filteredPhotos as photo}
         <div class="image-container">
-            <img src={photo.url} alt={photo.description} style="height: 100%; width: auto;" />
+            <img src={photo.url} alt={photo.description} style="height: 200px; width: auto;" />
             <!-- assuming your photo object has a url and description field -->
         </div>
     {/each}
