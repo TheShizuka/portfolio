@@ -2,7 +2,7 @@
   {
     "category": "portrait",
     "images": [
-      {"id": "portrait1", "url": "../../images/portrait/1.png", "description": "Description for image 1"},
+      {"id": "portrait1", "url": "../images/portrait/1.png", "description": "Description for image 1"},
       {"id": "portrait2", "url": "../../images/portrait/2.png", "description": "Description for image 2"},
       {"id": "portrait3", "url": "../../images/portrait/3.png", "description": "Description for image 3"},
       {"id": "portrait4", "url": "../../images/portrait/4.png", "description": "Description for image 3"},
