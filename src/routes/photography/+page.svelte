@@ -1,6 +1,6 @@
 
 
-<div id="portfolio">
+<div id="portfolio" style="background-image: url('../../images/background.png'); background-repeat: repeat;">
   <div class="image-group">
     <img src="../../images/all/1.png" alt="" class="small">
     <img src="../../images/all/3.png"  alt="" class="large">
@@ -12,10 +12,6 @@
 
 
 <style>
-#portfolio {
-    background-image: url('../../images/background.png');
-    background-repeat: repeat;
-}
 
 #portfolio {
     padding: 16px;
