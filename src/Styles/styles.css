@@ -1,10 +1,9 @@
-*, *:before, *:after {
-    box-sizing: border-box; /* Include padding and border in element's width and height */
-	/*outline: 1px solid red;*/
-}
+
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #FFFFFF;
+    background-color: #0D0E11;
+    background-image: radial-gradient(circle, #0D0E11 1px, transparent 1px);
+    background-size: 2px 2px;
     color: black;
     margin: 0;
     padding: 0;
