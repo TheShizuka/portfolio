@@ -12,8 +12,9 @@
 
 
 <style>
-body {
-    background-color: #0D0E11;
+#portfolio {
+    background-image: url('../../images/background.png');
+    background-repeat: repeat;
 }
 
 #portfolio {
