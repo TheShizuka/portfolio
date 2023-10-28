@@ -81,7 +81,7 @@ let imageCards3 = [
       </div>
     {/each}
   </div>
-<div class="image-row">
+<div class="image-row" style="margin-bottom: 3rem;">
     {#each imageCards3 as { title, description, link, imgSrc, alt } (title)}
       <div class="image-card" on:click={() => navigateTo(link)}>
         <img src={imgSrc} alt={alt}>
