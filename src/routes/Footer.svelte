@@ -7,7 +7,6 @@
         justify-content: space-between;
         align-items: center;
         padding: 20px 10px;
-        background-color: #0d0e11;
         color: white;
         margin-top: 3rem;
         padding-left: 3rem;
@@ -96,7 +95,7 @@
     }
 </style>
 
-<footer class="footer">
+<footer class="footer" style="background-image: url('../../images/background.png'); background-repeat: repeat;">
     <div class="footer-logo">
         <img src="../images/logo.png" alt="logo" />
         <p class="text-footer">Hicham Ayat</p>
