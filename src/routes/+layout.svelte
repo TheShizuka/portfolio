@@ -13,7 +13,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
-  <div class="header">
+  <div class="header" style="background-image: url('../../images/background.png'); background-repeat: repeat;">
     <DrawerMenu /> <!-- Use the DrawerMenu component -->
   </div>
 </header>
