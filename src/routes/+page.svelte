@@ -49,10 +49,10 @@ let imageCards3 = [
 <div class="index">
 
   <div class="banner">
-    <img src="../images/banner.png" alt="Banner Description" class="banner-image">
+    <img src="../images/banner-noise.png" alt="Banner Description" class="banner-image">
   </div>
 <div class="banner-phone">
-    <img src="../images/banner-phone.png" alt="Banner Description" class="banner-image">
+    <img src="../images/banner-phone-noise.png" alt="Banner Description" class="banner-image">
   </div>
 <AboutMe />
 <div class="title-container">
