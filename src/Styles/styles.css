@@ -344,6 +344,10 @@ body {
 	.banner-phone {
 		display: block;
 	}
+	.header {
+        background-image: url("../../images/background.png");
+        background-repeat: repeat;
+    }
 }
 
 /* Max size for image cards */
