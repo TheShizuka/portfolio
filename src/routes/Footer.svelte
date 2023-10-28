@@ -8,7 +8,6 @@
         align-items: center;
         padding: 20px 10px;
         color: white;
-        margin-top: 3rem;
         padding-left: 3rem;
         padding-right: 3rem;
         flex-direction: column;
