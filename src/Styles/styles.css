@@ -18,6 +18,8 @@ body {
 #portfolio {
     background-image: url("../../images/background.png");
     background-repeat: repeat;
+    background-size: cover;  /* or use other values to suit your design */
+    background-position: center;
 }
 .menu {
     list-style: none;
@@ -189,6 +191,8 @@ body {
     justify-content: center;
     align-items: center;
     background-image: url("../../images/background.png");
+    background-size: cover;  /* or use other values to suit your design */
+    background-position: center;
     background-repeat: repeat;
     padding: 20px 10px 10px 20px;
     transition: transform 0.3s ease-in-out;
@@ -347,6 +351,8 @@ body {
 	.header {
         background-image: url("../../images/background.png");
         background-repeat: repeat;
+	background-size: cover;  /* or use other values to suit your design */
+    	background-position: center;
     }
 }
 
