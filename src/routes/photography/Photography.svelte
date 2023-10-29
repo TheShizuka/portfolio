@@ -71,7 +71,7 @@
 <div class="grid">
   {#each images as image (image)}
     <div class="grid-item" on:click={() => openLightbox(image)}>
-      <img data-src="../../images/all/{image}.png" class="lazy" alt="Image {image}">
+      <img data-src="../../images/all/{image}.webp" class="lazy" alt="Image {image}">
     </div>
   {/each}
 </div>
@@ -79,6 +79,6 @@
 {#if selectedImage}
   <div class="lightbox" on:click={closeLightbox}>
     <button class="close-button">X</button>
-    <img src="../../images/all/{selectedImage}.png" alt="Image {selectedImage}">
+    <img src="../../images/all/{selectedImage}.webp" alt="Image {selectedImage}">
   </div>
 {/if}
