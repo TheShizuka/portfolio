@@ -34,14 +34,20 @@
 
 
 <style>
+  .grid-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 3rem 0; /* or adjust the padding to your liking */
+  }
   .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 16px;
     place-items: start;
     max-width: 1000px;
-    padding-bottom: 3rem;
-    padding-top: 3rem;
+    width: 100%; /* ensures the grid grows to fill its container */
+    /* ...rest of your grid styles... */
   }
   .grid-item {
     width: 100%;
@@ -108,14 +114,6 @@
   padding: 10px;
   cursor: pointer;
   transform: translateY(-50%);
-}
-
-.grid-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh; /* Ensures the container takes up the full height of the viewport */
-  padding: 3rem 0; /* Adds some padding at the top and bottom */
 }
 
 .nav-button.left {
