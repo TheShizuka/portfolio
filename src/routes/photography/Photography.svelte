@@ -40,15 +40,17 @@
   margin-bottom: 2rem; /* Adds some space between the description and the grid */
 }
 
-.description-container h1 {
+.description-container h2 {
   font-size: 2rem; /* Adjust font size as needed */
   margin-bottom: 1rem; /* Adds some space between the title and the description */
+  color: #ffffff;
 }
 
 .description-container p {
   max-width: 800px;
   margin: 0 auto; /* Centers the paragraph if it's narrower than its container */
   font-size: 1rem; /* Adjust font size as needed */
+  color: #ffffff;
 }
   .grid-container {
     display: flex;
@@ -95,7 +97,12 @@
 .grid-item:hover img {
     transform: scale(1.1);
 }
+@media (max-width: 768px) {
+  .grid{
+    grid-template-columns: repeat(auto-fill,minmax(120px,1fr));
 
+}
+}
   .lightbox {
     position: fixed;
     top: 0;
@@ -141,7 +148,7 @@
 }
 </style>
 <div class="description-container">
-  <h1>My Photography Journey</h1>
+  <h2>My Photography Journey</h2>
   <p>
 Back in 2017, I kicked off my photography journey with a Sony WX500 compact camera. It was all about fun, curiosity, and capturing whatever caught my eye. Over the years, my adventures led me to snap memories in Japan, Singapore, and Spain. Along the way, I upgraded my gear to a Sony A7iii, which has been my trusty companion for the last two years. Seeing my skills sharpen with each new experience has been thrilling. Even though there’s a noticeable evolution in my shots, the joy of capturing moments remains the same. There’s still a vast world out there to capture through my lens, and I'm excited about the journey ahead. Check out the gallery below to see how my love for photography has grown and morphed over time!  </p>
 </div>
