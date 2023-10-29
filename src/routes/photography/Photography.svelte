@@ -143,9 +143,7 @@
 <div class="description-container">
   <h1>My Photography Journey</h1>
   <p>
-    This page showcases my evolution in photography, from my early shots taken with my first camera, to my recent work with my new equipment. 
-    Explore the grid below to see how my skills have refined over time.
-  </p>
+Back in 2017, I kicked off my photography journey with a Sony WX500 compact camera. It was all about fun, curiosity, and capturing whatever caught my eye. Over the years, my adventures led me to snap memories in Japan, Singapore, and Spain. Along the way, I upgraded my gear to a Sony A7iii, which has been my trusty companion for the last two years. Seeing my skills sharpen with each new experience has been thrilling. Even though there’s a noticeable evolution in my shots, the joy of capturing moments remains the same. There’s still a vast world out there to capture through my lens, and I'm excited about the journey ahead. Check out the gallery below to see how my love for photography has grown and morphed over time!  </p>
 </div>
 <div class="grid-container">
 <div class="grid">
