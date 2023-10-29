@@ -42,10 +42,10 @@ onMount(() => {
         </a>
     </li>
     <li class="active"><a href="/">Home</a></li>
+    <li><a href="/photography">Photography</a></li>
     <li><a href="/design">Design</a></li>
     <li><a href="/coding">Coding Projects</a></li>
     <li><a href="/3d-art">3D Content</a></li>
-    <li><a href="/photography">Photography</a></li>
     <li><a href="/video">Videography</a></li>
     <li><a href="/contact">Contact</a></li>
   </ul>
@@ -55,10 +55,10 @@ onMount(() => {
         <ul>
             <!-- The same menu items, but you can style them differently or add new ones -->
             <li on:click={closeMenu} class="active"><a href="/">Home</a></li>
+            <li on:click={closeMenu}><a href="/photography">Photography</a></li>
             <li on:click={closeMenu}><a href="/design">Design</a></li>
             <li on:click={closeMenu}><a href="/coding">Coding Projects</a></li>
             <li on:click={closeMenu}><a href="/3d-art">3D Content</a></li>
-            <li on:click={closeMenu}><a href="/photography">Photography</a></li>
             <li on:click={closeMenu}><a href="/video">Videography</a></li>
             <li on:click={closeMenu}><a href="/contact">Contact</a></li>
         </ul>
