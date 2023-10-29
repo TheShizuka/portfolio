@@ -39,6 +39,9 @@
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 16px;
     place-items: start;
+    max-width: 1000px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
   }
   .grid-item {
     width: 100%;
