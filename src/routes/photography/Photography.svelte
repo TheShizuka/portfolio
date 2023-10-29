@@ -120,7 +120,7 @@
   {#each images as image (image)}
     <div class="grid-item" on:click={() => openLightbox(image)}>
       <div class="image-container">
-        <img data-src="../../images/all/{image}.webp" class="lazy" alt="Image {image}">
+        <img data-src="../../images/all200/{image}.webp" class="lazy" alt="Image {image}">
       </div>
     </div>
   {/each}
