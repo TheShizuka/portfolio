@@ -16,7 +16,22 @@
   function closeLightbox() {
     selectedImage = null;
   }
+
+  function nextImage() {
+    let index = images.indexOf(selectedImage);
+    if (index < images.length - 1) {
+      selectedImage = images[index + 1];
+    }
+  }
+
+  function prevImage() {
+    let index = images.indexOf(selectedImage);
+    if (index > 0) {
+      selectedImage = images[index - 1];
+    }
+  }
 </script>
+
 
 <style>
   .grid {
@@ -82,6 +97,23 @@
     font-size: 24px;
     cursor: pointer;
   }
+.nav-button {
+  position: absolute;
+  top: 50%;
+  background-color: #ffffff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+
+.nav-button.left {
+  left: 20px;
+}
+
+.nav-button.right {
+  right: 20px;
+}
 </style>
 
 <div class="grid">
@@ -97,7 +129,10 @@
 {#if selectedImage}
   <div class="lightbox" on:click={closeLightbox}>
     <button class="close-button">X</button>
+    <button class="nav-button left" on:click|stopPropagation={prevImage}>&lt;</button>
+    <button class="nav-button right" on:click|stopPropagation={nextImage}>&gt;</button>
     <img src="../../images/all/{selectedImage}.webp" alt="Image {selectedImage}">
   </div>
 {/if}
+
 
