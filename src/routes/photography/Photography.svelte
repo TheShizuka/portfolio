@@ -34,11 +34,27 @@
 
 
 <style>
+.description-container {
+  text-align: center;
+  padding: 3rem 1rem; /* Adjust padding as needed */
+  margin-bottom: 2rem; /* Adds some space between the description and the grid */
+}
+
+.description-container h1 {
+  font-size: 2rem; /* Adjust font size as needed */
+  margin-bottom: 1rem; /* Adds some space between the title and the description */
+}
+
+.description-container p {
+  max-width: 800px;
+  margin: 0 auto; /* Centers the paragraph if it's narrower than its container */
+  font-size: 1rem; /* Adjust font size as needed */
+}
   .grid-container {
     display: flex;
     justify-content: center;
     width: 100%;
-    padding: 3rem 0; /* or adjust the padding to your liking */
+    padding-bottom: 3rem; /* or adjust the padding to your liking */
   }
   .grid {
     display: grid;
@@ -124,6 +140,13 @@
   right: 20px;
 }
 </style>
+<div class="description-container">
+  <h1>My Photography Journey</h1>
+  <p>
+    This page showcases my evolution in photography, from my early shots taken with my first camera, to my recent work with my new equipment. 
+    Explore the grid below to see how my skills have refined over time.
+  </p>
+</div>
 <div class="grid-container">
 <div class="grid">
   {#each images as image (image)}
