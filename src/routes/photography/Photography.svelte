@@ -40,8 +40,8 @@
     gap: 16px;
     place-items: start;
     max-width: 1000px;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
   }
   .grid-item {
     width: 100%;
