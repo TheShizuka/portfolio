@@ -130,7 +130,7 @@
     position: absolute;
     top: 20px;
     right: 20px;
-    background-color: #ffffff;
+    color: #ffffff;
     border: none;
     font-size: 24px;
     cursor: pointer;
@@ -147,10 +147,12 @@
 
 .nav-button.left {
   left: 20px;
+  color: #ffffff;
 }
 
 .nav-button.right {
   right: 20px;
+  color: #ffffff;
 }
 </style>
 <div class="description-container">
@@ -170,9 +172,9 @@ Over time, my passion for photography has not only remained a delightful pursuit
 
 {#if selectedImage}
   <div class="lightbox" on:click={closeLightbox}>
-    <button class="close-button">X</button>
-    <button class="nav-button left" on:click|stopPropagation={prevImage}>&lt;</button>
-    <button class="nav-button right" on:click|stopPropagation={nextImage}>&gt;</button>
+    <button style="background-image: url('../../images/background.png'); background-repeat: repeat;" class="close-button">X</button>
+    <button style="background-image: url('../../images/background.png'); background-repeat: repeat;" class="nav-button left" on:click|stopPropagation={prevImage}>&lt;</button>
+    <button style="background-image: url('../../images/background.png'); background-repeat: repeat;" class="nav-button right" on:click|stopPropagation={nextImage}>&gt;</button>
     <img src="../../images/all/{selectedImage}.webp" alt="Image {selectedImage}">
   </div>
 {/if}
