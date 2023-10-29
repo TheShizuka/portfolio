@@ -110,6 +110,14 @@
   transform: translateY(-50%);
 }
 
+.grid-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensures the container takes up the full height of the viewport */
+  padding: 3rem 0; /* Adds some padding at the top and bottom */
+}
+
 .nav-button.left {
   left: 20px;
 }
@@ -118,7 +126,7 @@
   right: 20px;
 }
 </style>
-
+<div class="grid-container">
 <div class="grid">
   {#each images as image (image)}
     <div class="grid-item" on:click={() => openLightbox(image)}>
@@ -137,5 +145,5 @@
     <img src="../../images/all/{selectedImage}.webp" alt="Image {selectedImage}">
   </div>
 {/if}
-
+</div>
 
