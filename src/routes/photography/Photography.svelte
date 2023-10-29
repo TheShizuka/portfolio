@@ -41,7 +41,7 @@
 }
 
 .description-container h2 {
-  font-size: 2rem; /* Adjust font size as needed */
+  font-size: 1.8rem; /* Adjust font size as needed */
   margin-bottom: 1rem; /* Adds some space between the title and the description */
   color: #ffffff;
 }
@@ -100,8 +100,14 @@
 @media (max-width: 768px) {
   .grid{
     grid-template-columns: repeat(auto-fill,minmax(120px,1fr));
+  }
+  .description-container h2 {
+    font-size: 1.2rem; /* Adjust font size as needed */
+  }
 
-}
+  .description-container p {
+    font-size: 0.7rem; /* Adjust font size as needed */
+  }
 }
   .lightbox {
     position: fixed;
