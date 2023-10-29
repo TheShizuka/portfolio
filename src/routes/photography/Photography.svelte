@@ -26,20 +26,36 @@
     place-items: start;
   }
   .grid-item {
+    width: 100%;
+    padding-top: 100%; /* 1:1 Aspect Ratio */
     position: relative;
-    overflow: hidden;
-    background-color: #f0f0f0;
     cursor: pointer;
-  }
-  .grid-item img {
-    display: block;
-    max-width: 100%;
-    border: 0;
+    background-color: #f0f0f0;
+    overflow: hidden; /* Hide anything outside the box */
+}
+
+.grid-item .image-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
     transition: transform 0.3s;
-  }
-  .grid-item:hover img {
+}
+
+.grid-item:hover img {
     transform: scale(1.1);
-  }
+}
+
   .lightbox {
     position: fixed;
     top: 0;
@@ -71,7 +87,9 @@
 <div class="grid">
   {#each images as image (image)}
     <div class="grid-item" on:click={() => openLightbox(image)}>
-      <img data-src="../../images/all/{image}.webp" class="lazy" alt="Image {image}">
+      <div class="image-container">
+        <img data-src="../../images/all/{image}.webp" class="lazy" alt="Image {image}">
+      </div>
     </div>
   {/each}
 </div>
@@ -82,3 +100,4 @@
     <img src="../../images/all/{selectedImage}.webp" alt="Image {selectedImage}">
   </div>
 {/if}
+
