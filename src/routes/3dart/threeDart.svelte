@@ -14,6 +14,16 @@
 </script>
 
 <style>
+.close-button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    line-height: 1;
+    cursor: pointer;
+  }
 .description-container {
   text-align: center;
   padding: 3rem 1rem; /* Adjust padding as needed */
@@ -179,6 +189,7 @@
 {#if showModal}
   <div class="modal" on:click={closeModal}>
     <div class="modal-content" style="background-image: url('../../images/background.png'); background-repeat: repeat;" on:click|stopPropagation>
+    <button class="close-button" style="background-image: url('../../images/background.png'); background-repeat: repeat;" on:click={closeModal}>&times;</button>
       <!-- Project 1 Details -->
       {#if selectedProject === 'project1'}
       <div class="titre-desc">
