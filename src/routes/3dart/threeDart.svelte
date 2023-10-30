@@ -98,6 +98,9 @@
   max-height: 80%;
   overflow: auto;
 }
+.page{
+display: flex;
+}
 </style>
 
 
@@ -108,7 +111,7 @@
   <p>
 Over time, my passion for photography has not only remained a delightful pursuit of curiosity and joy, but has also seen a substantial honing of skills. Each captured moment reflects a blend of enthusiasm and a step forward in my photographic journey. As I reminisce through these frames, the eagerness to further refine my craft only intensifies. I am excited for the continuous journey of discovery and improvement that lies ahead, and I invite you to stroll through my evolving gallery of memories below.</div>
 
-
+<div class="page">
 <div class="project-container">
   <!-- Project 1 -->
   <div class="project" on:click={() => openModal('project1')}>
@@ -152,3 +155,4 @@ Over time, my passion for photography has not only remained a delightful pursuit
     </div>
   </div>
 {/if}
+</div>
