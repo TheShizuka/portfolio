@@ -69,7 +69,7 @@
     cursor: pointer; /* Change cursor to indicate clickability */
   }
 .project:hover {
-        transform: scale(1.05); /* Scale up the div slightly when hovered over */
+        transform: scale(1.10); /* Scale up the div slightly when hovered over */
     }
 
   .project.reverse {
@@ -179,7 +179,7 @@
 
 <div class="description-container">
   <h2>My 3D Artistry Adventure</h2>
-  <p>Embarking on a journey through the Infographie 3D Bachelor program at Institut Artline was like stepping into a new realm of creativity. From hard surface modeling to animation and compositing, I dabbled in various 3D specialities before finding my footing. Each project, whether big or small, has been a blend of challenges and discoveries, continually fueling my passion and honing my skills in this digital art domain. With a handful of projects under my belt, each one has been a stepping stone, and I look forward to the continuous learning and improvement that lies ahead in this visually captivating field.</p>
+  <p>Embarking on my journey through the Infographie 3D Bachelor program at Institut Artline, I delved into various 3D specialties using industry-standard software. My hard surface modeling and rendering skills were honed in Autodesk Maya with Arnold Render, while Cinema 4D paired with Octane Render elevated my visualization projects. Unreal Engine broadened my horizon in real-time rendering, whereas Substance Painter and Designer became my go-to for texturing and material creation. Nuke the Foundry enhanced my compositing prowess, and ZBrush was instrumental in my sculpting projects. Each software added a unique flavor to my projects, fueling my passion for digital artistry and preparing me for a continuous journey of learning and improvement in this captivating field.</p>
 </div>
 <div class="page">
 <div class="project-container">
