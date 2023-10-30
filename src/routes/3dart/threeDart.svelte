@@ -146,6 +146,26 @@
   text-align: center;
   color: white;
 }
+.video-container {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+        height: 0;
+    }
+
+    .video-container video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    @media (max-width: 768px) {
+        .video-container {
+            padding-bottom: 75%; /* Adjust aspect ratio for smaller screens if necessary */
+        }
+    }
 </style>
 
 
@@ -204,10 +224,12 @@ Below, you'll see our final version of "Brisée," along with some examples of th
       
         <!-- Embed the final short movie and additional videos/gifs -->
         <h4>Final Result</h4>
-        <video width="1120" height="630" controls>
-        <source src="../../images/brisée.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
+        <div class="video-container">
+                    <video controls>
+                        <source src="../../images/brisée.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
         </div>
         <div class="wagon-img">
           <h4>Characters</h4>
@@ -223,17 +245,21 @@ Below, you'll see our final version of "Brisée," along with some examples of th
           <div class="wagon">
             <div class="wagon-img">
             <h4>Elisabeth Rig</h4>
+        <div class="video-container">
             <video width="560" height="315" controls>
             <source src="../../images/elis.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
+</div>
             </div>
             <div class="wagon-img">
             <h4>Charger Rig</h4>
+        <div class="video-container">
             <video width="560" height="315" controls>
             <source src="../../images/charger.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
+</div>
             </div>
           </div>
         <!-- ... -->
@@ -270,10 +296,12 @@ Below, you'll see our final version of "Brisée," along with some examples of th
         <p>Inspired by the peaceful nights at the Fushimi Inari Taisha shrine in Kyoto, I ventured into recreating the mystic ambiance of its iconic Torii gates using Unreal Engine and After Effects. The resulting video portrays a tranquil night scene, enveloped in gentle rain and a soft haze of fog amidst the vermilion gates. This project was a passage into the realms of environmental design and visual storytelling, where each frame is a blend of 3D artistry and the spiritual essence of the ancient shrine, transporting the viewer through a visually soothing journey amidst the quiet rain in a sacred, timeless space.</p>
         
         <!-- Embed the final short movie and additional videos/gifs -->
+<div class="video-container">
         <video width="1120" height="630" controls>
         <source src="../../images/ue-tori.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
+</div>
 </div>
         <!-- ... -->
       {/if}
