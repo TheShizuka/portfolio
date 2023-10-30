@@ -54,6 +54,7 @@
     gap: 2rem;
     align-items: center;
     padding: 2rem;
+    padding-bottom: 9rem;
   }
 
   .project.reverse {
@@ -105,12 +106,6 @@
   justify-content: center;
   width: 100%;
   padding-bottom: 3rem;
-}
-.project1{
-  padding-right: 2rem;
-}
-.project2{
-  padding-left: 2rem;
 }
 </style>
 
