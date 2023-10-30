@@ -108,13 +108,20 @@
   padding-bottom: 3rem;
 }
 .wagon{
-  display: flex;
-  justify-content: center;
+      display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
   
 }
 .wagon-img {
   display: flex;
-  justify-content: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 1.2rem;
 }
 .wagon-img img{
   max-width: 500px;
