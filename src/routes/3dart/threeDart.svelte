@@ -178,14 +178,18 @@
         <h2>Tokyo Wagon</h2>
         <p>As part of my venture into the realms of 3D modeling, I embarked on a project to bring a train wagon from a drawing reference to life. The journey commenced with intricately modeling the wagon, ensuring every curve and edge resonated with the essence of the reference. Following the sculpting phase, I delved into the realms of shading, texturing, and lighting which truly breathed life into the model. The transition from a monochrome model to a textured masterpiece showcased the remarkable difference texturing makes. Below, you'll find the before and after texturing images along with the initial drawing reference that was the genesis of this creation. Through this project, not only did I refine my skills, but also appreciated the magic that lies in the details, making the inanimate, animate.</p>
         <!-- Embed the final short movie and additional videos/gifs -->
+        <div class="wagon-img">
+          <h4>Reference</h4>
+          <img src="../../images/ref.png" alt="ref">
+          </div>
         <div class="wagon">
           <div class="wagon-img">
           <h4>After</h4>
-          <img src="../../images/before-wagon.png" alt="brisée">
+          <img src="../../images/before-wagon.png" alt="before-wagon">
           </div>
           <div class="wagon-img">
           <h4>After</h4>
-          <img src="../../images/after-wagon.png" alt="brisée">
+          <img src="../../images/after-wagon.png" alt="after-wagon">
           </div>
         
         </div>
