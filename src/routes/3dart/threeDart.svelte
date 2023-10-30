@@ -61,7 +61,7 @@
   }
 
   .project img {
-    max-width: 300px;
+    max-width: 450px;
     width: 100%;
   }
 
