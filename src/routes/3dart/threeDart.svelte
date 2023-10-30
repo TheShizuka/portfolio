@@ -183,7 +183,13 @@
       {#if selectedProject === 'project1'}
       <div class="titre-desc">
         <h2>Brisée : An Animated Short</h2>
-        <p><!-- Full description... --></p>
+        <p>During my time learning 3D graphics, I worked with three others on a short film called "Brisée" wich means shattered in French.  Our story happens in a trashcan, where a forgotten shattered porcelain doll named Elisabeth finds a friend among the garbage.
+
+In our group, we all had different jobs. I was in charge of rigging, making sure the main characters could move properly in our scenes. I also worked on rendering, which is important for putting everything together later on. Besides, I helped with some parts of compositing and video editing to keep the story flowing well on screen.
+
+I was the "go-to person" for solving problems in our group. I fixed issues in texturing and animation, how characters looked and moved, helping keep our project on track.
+
+Below, you'll see our final version of "Brisée," along with some examples of the work I did. Through "Brisée," we didn’t just tell a sad story, we also learned a lot about working together and dealing with common challenges in 3D animation.</p>
       
         <!-- Embed the final short movie and additional videos/gifs -->
         <video width="560" height="315" controls>
