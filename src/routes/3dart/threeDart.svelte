@@ -139,7 +139,7 @@
     <img src="../../images/brisee.png" alt="brisée">
     <div class="text">
       <h3>Brisée : An Animated Short</h3>
-      <p>During my time as a 3D infographist student, I joined forces with three other classmates to create a short film titled "Brisée". The story unfolds inside a trashcan where our main character, Elisabeth, a discarded porcelain doll, stumbles upon an intriguing new friend among the trash. Learn More...</p>
+      <p>During my time as a 3D infographist student, I joined forces with three other classmates to create a short film titled "Brisée". The story unfolds inside a trashcan where our main character, Elisabeth, a discarded porcelain doll, stumbles upon an intriguing new friend among the trash. <b>Learn More...</b></p>
     </div>
   </div>
 
@@ -148,7 +148,7 @@
     <img src="../../images/wagon+ref.png" alt="wagon Image">
     <div class="text">
       <h3>Tokyo Wagon</h3>
-      <p>In this project, I took on the challenge of creating a 3D model of a train wagon based on a drawing reference. Learn More...<p>
+      <p>In this project, I took on the challenge of creating a 3D model of a train wagon based on a drawing reference. <b>Learn More...</b><p>
     </div>
   </div>
 
@@ -158,7 +158,7 @@
     <img src="../../images/wagon+ref.png" alt="brisée">
     <div class="text">
       <h3>Fushimi Inari Taisha shrine - Unreal Engine</h3>
-      <p>Inspired by the peaceful nights at the Fushimi Inari Taisha shrine in Kyoto, I ventured into recreating the mystic ambiance of its iconic Torii gates using Unreal Engine and After Effects. Learn More...<p>    
+      <p>Inspired by the peaceful nights at the Fushimi Inari Taisha shrine in Kyoto, I ventured into recreating the mystic ambiance of its iconic Torii gates using Unreal Engine and After Effects. <b>Learn More...</b><p>    
 </div>
   </div>
 </div>
