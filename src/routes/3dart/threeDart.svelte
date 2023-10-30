@@ -1,6 +1,3 @@
-</script>
-
-
 <style>
 .description-container {
   text-align: center;
