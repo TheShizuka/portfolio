@@ -184,12 +184,38 @@
       <div class="titre-desc">
         <h2>Brisée : An Animated Short</h2>
         <p><!-- Full description... --></p>
-      </div>
+      
         <!-- Embed the final short movie and additional videos/gifs -->
         <video width="560" height="315" controls>
         <source src="../../images/brisée.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
+</div>
+        <div class="wagon-img">
+          <h4>Characters</h4>
+          </div>
+        <div class="wagon">
+          <div class="wagon-img">
+          <img src="../../images/elis.png" alt="before-wagon">
+          </div>
+          <div class="wagon-img">
+          <img src="../../images/charger.png" alt="after-wagon">
+          </div>
+          <div class="wagon">
+            <div class="wagon-img">
+            <h4>Elisabeth Rig</h4>
+            <video width="560" height="315" controls>
+            <source src="../../images/elis.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            </div>
+            <div class="wagon-img">
+            <h4>Charger Rig</h4>
+            <video width="560" height="315" controls>
+            <source src="../../images/charger.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            </div>
         <!-- ... -->
       {/if}
 
@@ -222,12 +248,13 @@
       <div class="titre-desc">
         <h2>Fushimi Inari Taisha shrine - Unreal Engine</h2>
         <p>Inspired by the peaceful nights at the Fushimi Inari Taisha shrine in Kyoto, I ventured into recreating the mystic ambiance of its iconic Torii gates using Unreal Engine and After Effects. The resulting video portrays a tranquil night scene, enveloped in gentle rain and a soft haze of fog amidst the vermilion gates. This project was a passage into the realms of environmental design and visual storytelling, where each frame is a blend of 3D artistry and the spiritual essence of the ancient shrine, transporting the viewer through a visually soothing journey amidst the quiet rain in a sacred, timeless space.</p>
-        </div>
+        
         <!-- Embed the final short movie and additional videos/gifs -->
         <video width="560" height="315" controls>
         <source src="../../images/ue-tori.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
+</div>
         <!-- ... -->
       {/if}
     </div>
