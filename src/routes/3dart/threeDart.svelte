@@ -201,6 +201,7 @@
           <div class="wagon-img">
           <img src="../../images/charger.png" alt="after-wagon">
           </div>
+        </div>
           <div class="wagon">
             <div class="wagon-img">
             <h4>Elisabeth Rig</h4>
@@ -216,6 +217,7 @@
               Your browser does not support the video tag.
             </video>
             </div>
+          </div>
         <!-- ... -->
       {/if}
 
