@@ -1,10 +1,10 @@
 <script>
   import { onMount } from 'svelte';
-  import 3dart from './3dart.svelte';
+  import threeDart from './threeDart.svelte';
 </script>
 
 <div id="portfolio" style="background-image: url('../../images/background.png'); background-repeat: repeat;">
-<3dart />
+<threeDart />
 </div>
 
 
