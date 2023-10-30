@@ -104,7 +104,7 @@
         <ul class="text-footer">
             <li class="active"><a href="/">Home</a></li>
             <li><a href="/photography">Photography</a></li>
-            <li><a href="/3d-art">3D Art</a></li>
+            <li><a href="/3dart">3D Art</a></li>
             <li><a href="/design">Design</a></li>
             <li><a href="/coding">Coding Projects</a></li>
             <li><a href="/video">Videography</a></li>
