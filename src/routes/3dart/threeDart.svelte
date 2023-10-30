@@ -66,6 +66,7 @@
 
   .project .text {
     max-width: 400px;
+    color: white;
   }
 
   @media (max-width: 768px) {
