@@ -99,7 +99,10 @@
   overflow: auto;
 }
 .page{
-display: flex;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 3rem;
 }
 </style>
 
