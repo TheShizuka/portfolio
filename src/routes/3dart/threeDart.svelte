@@ -107,6 +107,22 @@
   width: 100%;
   padding-bottom: 3rem;
 }
+.wagon{
+  display: flex;
+  justify-content: center;
+  
+}
+.wagon-img {
+  display: flex;
+  justify-content: center;
+}
+.wagon-img img{
+  max-width: 500px;
+  width: 100%;
+}
+.wagon-img h4{
+  color: white;
+}
 </style>
 
 
@@ -136,6 +152,15 @@
   </div>
 </div>
 
+<!-- Project 3 -->
+  <div class="project project3" on:click={() => openModal('project3')}>
+    <img src="../../images/brisee.png" alt="brisée">
+    <div class="text">
+      <h3>Fushimi Inari Taisha shrine - Unreal Engine</h3>
+      <p>Inspired by the peaceful nights at the Fushimi Inari Taisha shrine in Kyoto, I ventured into recreating the mystic ambiance of its iconic Torii gates using Unreal Engine and After Effects. Learn More...<p>    
+</div>
+  </div>
+
 {#if showModal}
   <div class="modal" on:click={closeModal}>
     <div class="modal-content" on:click|stopPropagation>
@@ -144,16 +169,34 @@
         <h2>Brisée : An Animated Short</h2>
         <p><!-- Full description... --></p>
         <!-- Embed the final short movie and additional videos/gifs -->
-        <iframe src="https://your-video-url.com" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/watch?v=fqjZhB7UwCM" frameborder="0" allowfullscreen></iframe>
         <!-- ... -->
       {/if}
 
       <!-- Project 2 Details -->
       {#if selectedProject === 'project2'}
-        <h2>Project Title 2</h2>
-        <p><!-- Full description... --></p>
+        <h2>Tokyo Wagon</h2>
+        <p>As part of my venture into the realms of 3D modeling, I embarked on a project to bring a train wagon from a drawing reference to life. The journey commenced with intricately modeling the wagon, ensuring every curve and edge resonated with the essence of the reference. Following the sculpting phase, I delved into the realms of shading, texturing, and lighting which truly breathed life into the model. The transition from a monochrome model to a textured masterpiece showcased the remarkable difference texturing makes. Below, you'll find the before and after texturing images along with the initial drawing reference that was the genesis of this creation. Through this project, not only did I refine my skills, but also appreciated the magic that lies in the details, making the inanimate, animate.</p>
         <!-- Embed the final short movie and additional videos/gifs -->
-        <iframe src="https://your-video-url.com" frameborder="0" allowfullscreen></iframe>
+        <div class="wagon">
+          <div class="wagon-img">
+          <h4>After</h4>
+          <img src="../../images/before-wagon.png" alt="brisée">
+          </div>
+          <div class="wagon-img">
+          <h4>After</h4>
+          <img src="../../images/after-wagon.png" alt="brisée">
+          </div>
+        
+        </div>
+        <!-- ... -->
+      {/if}
+      <!-- Project 3 Details -->
+      {#if selectedProject === 'project3'}
+        <h2>Fushimi Inari Taisha shrine - Unreal Engine</h2>
+        <p>Inspired by the peaceful nights at the Fushimi Inari Taisha shrine in Kyoto, I ventured into recreating the mystic ambiance of its iconic Torii gates using Unreal Engine and After Effects. The resulting video portrays a tranquil night scene, enveloped in gentle rain and a soft haze of fog amidst the vermilion gates. This project was a passage into the realms of environmental design and visual storytelling, where each frame is a blend of 3D artistry and the spiritual essence of the ancient shrine, transporting the viewer through a visually soothing journey amidst the quiet rain in a sacred, timeless space.</p>
+        <!-- Embed the final short movie and additional videos/gifs -->
+        <iframe src="https://www.youtube.com/watch?v=lSCNqNmLr9M" frameborder="0" allowfullscreen></iframe>
         <!-- ... -->
       {/if}
     </div>
