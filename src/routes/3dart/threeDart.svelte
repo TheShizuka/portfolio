@@ -120,10 +120,10 @@ Over time, my passion for photography has not only remained a delightful pursuit
 <div class="page">
 <div class="project-container">
   <!-- Project 1 -->
+<h3>Brisée : An Animated Short</h3>
   <div class="project project1" on:click={() => openModal('project1')}>
     <img src="../../images/brisee.png" alt="brisée">
     <div class="text">
-      <h3>Brisée : An Animated Short</h3>
       <p>During my time as a 3D infographist student, I joined forces with three other classmates to create a short film titled "Brisée". The story unfolds inside a trashcan where our main character, Elisabeth, a discarded porcelain doll, stumbles upon an intriguing new friend among the trash. Learn More...</p>
     </div>
   </div>
