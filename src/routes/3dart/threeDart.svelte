@@ -113,10 +113,8 @@
 
 
 <div class="description-container">
-  <h2>My Photography Journey</h2>
-  <p>
-Over time, my passion for photography has not only remained a delightful pursuit of curiosity and joy, but has also seen a substantial honing of skills. Each captured moment reflects a blend of enthusiasm and a step forward in my photographic journey. As I reminisce through these frames, the eagerness to further refine my craft only intensifies. I am excited for the continuous journey of discovery and improvement that lies ahead, and I invite you to stroll through my evolving gallery of memories below.</div>
-
+  <h2>My 3D Artistry Adventure</h2>
+  <p>Embarking on a journey through the Infographie 3D Bachelor program at Institut Artline was like stepping into a new realm of creativity. From hard surface modeling to animation and compositing, I dabbled in various 3D specialities before finding my footing. Each project, whether big or small, has been a blend of challenges and discoveries, continually fueling my passion and honing my skills in this digital art domain. With a handful of projects under my belt, each one has been a stepping stone, and I look forward to the continuous learning and improvement that lies ahead in this visually captivating field.<p>
 <div class="page">
 <div class="project-container">
   <!-- Project 1 -->
