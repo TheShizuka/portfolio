@@ -234,7 +234,7 @@ Below, you'll see our final version of "Brisée," along with some examples of th
         <!-- Embed the final short movie and additional videos/gifs -->
         <h4>Final Result</h4>
         <div class="video-container">
-                    <video controls>
+                    <video controls poster="../../images/brisee.webp">
                         <source src="../../images/brisée.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
