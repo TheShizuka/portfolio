@@ -130,10 +130,10 @@ Over time, my passion for photography has not only remained a delightful pursuit
 
   <!-- Project 2 -->
   <div class="project reverse project2" on:click={() => openModal('project2')}>
-    <img src="/path/to/image2.jpg" alt="Project 2 Image">
+    <img src="../../images/wagon+ref.png" alt="wagon Image">
     <div class="text">
-      <h3>Project Title 2</h3>
-      <p>During my time as a 3D infographist student, I joined forces with three other classmates to create a short film titled "Brisée". The story unfolds inside a trashcan where our main character, Elisabeth, a discarded porcelain doll, stumbles upon an intriguing new friend among the trash. Learn More...</p>
+      <h3>Tokyo Wagon</h3>
+      <p>In this project, I took on the challenge of creating a 3D model of a train wagon based on a drawing reference. Learn More...<p>
     </div>
   </div>
 </div>
