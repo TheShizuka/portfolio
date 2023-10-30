@@ -183,7 +183,7 @@
     <img src="../../images/brisee.png" alt="brisée">
     <div class="text">
       <h3>Brisée - An Animated Short</h3>
-      <p>During my time as a 3D infographist student, I joined forces with three other classmates to create a short film titled "Brisée". The story unfolds inside a trashcan where our main character, Elisabeth, a discarded porcelain doll, stumbles upon an intriguing new friend among the trash. <b>Learn More...</b></p>
+      <p>During my time learning 3D graphics, I worked with three others on a short film called "Brisée" wich means shattered in French. Our story happens in a trashcan, where a forgotten shattered porcelain doll named Elisabeth finds a friend among the garbage.  <b>Learn More...</b></p>
     </div>
   </div>
 
