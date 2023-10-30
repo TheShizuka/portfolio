@@ -143,7 +143,7 @@
 
 <div class="description-container">
   <h2>My 3D Artistry Adventure</h2>
-  <p>Embarking on a journey through the Infographie 3D Bachelor program at Institut Artline was like stepping into a new realm of creativity. From hard surface modeling to animation and compositing, I dabbled in various 3D specialities before finding my footing. Each project, whether big or small, has been a blend of challenges and discoveries, continually fueling my passion and honing my skills in this digital art domain. With a handful of projects under my belt, each one has been a stepping stone, and I look forward to the continuous learning and improvement that lies ahead in this visually captivating field.<p>
+  <p>Embarking on a journey through the Infographie 3D Bachelor program at Institut Artline was like stepping into a new realm of creativity. From hard surface modeling to animation and compositing, I dabbled in various 3D specialities before finding my footing. Each project, whether big or small, has been a blend of challenges and discoveries, continually fueling my passion and honing my skills in this digital art domain. With a handful of projects under my belt, each one has been a stepping stone, and I look forward to the continuous learning and improvement that lies ahead in this visually captivating field.</p>
 </div>
 <div class="page">
 <div class="project-container">
@@ -161,7 +161,7 @@
     <img src="../../images/wagon+ref.png" alt="wagon">
     <div class="text">
       <h3>Tokyo Wagon</h3>
-      <p>In this project, I took on the challenge of creating a 3D model of a train wagon based on a drawing reference. <b>Learn More...</b><p>
+      <p>In this project, I took on the challenge of creating a 3D model of a train wagon based on a drawing reference. <b>Learn More...</b></p>
     </div>
   </div>
 
@@ -171,7 +171,7 @@
     <img src="../../images/inari.png" alt="inari">
     <div class="text">
       <h3>Fushimi Inari Taisha shrine - Unreal Engine</h3>
-      <p>Inspired by the peaceful nights at the Fushimi Inari Taisha shrine in Kyoto, I ventured into recreating the mystic ambiance of its iconic Torii gates using Unreal Engine and After Effects. <b>Learn More...</b><p>    
+      <p>Inspired by the peaceful nights at the Fushimi Inari Taisha shrine in Kyoto, I ventured into recreating the mystic ambiance of its iconic Torii gates using Unreal Engine and After Effects. <b>Learn More...</b></p>  
 </div>
   </div>
 </div>
@@ -190,7 +190,7 @@
         <source src="../../images/brisée.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
-</div>
+        </div>
         <div class="wagon-img">
           <h4>Characters</h4>
           </div>
