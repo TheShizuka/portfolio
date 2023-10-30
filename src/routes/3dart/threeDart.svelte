@@ -51,8 +51,9 @@
   .project {
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    gap: 2rem;
     align-items: center;
+    padding: 2rem;
   }
 
   .project.reverse {
