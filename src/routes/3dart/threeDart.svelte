@@ -155,7 +155,7 @@
 
 <!-- Project 3 -->
   <div class="project project3" on:click={() => openModal('project3')}>
-    <img src="../../images/brisee.png" alt="brisée">
+    <img src="../../images/wagon+ref.png" alt="brisée">
     <div class="text">
       <h3>Fushimi Inari Taisha shrine - Unreal Engine</h3>
       <p>Inspired by the peaceful nights at the Fushimi Inari Taisha shrine in Kyoto, I ventured into recreating the mystic ambiance of its iconic Torii gates using Unreal Engine and After Effects. Learn More...<p>    
