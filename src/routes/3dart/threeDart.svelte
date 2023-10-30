@@ -151,7 +151,7 @@
   <div class="project project1" on:click={() => openModal('project1')}>
     <img src="../../images/brisee.png" alt="brisée">
     <div class="text">
-      <h3>Brisée : An Animated Short</h3>
+      <h3>Brisée - An Animated Short</h3>
       <p>During my time as a 3D infographist student, I joined forces with three other classmates to create a short film titled "Brisée". The story unfolds inside a trashcan where our main character, Elisabeth, a discarded porcelain doll, stumbles upon an intriguing new friend among the trash. <b>Learn More...</b></p>
     </div>
   </div>
@@ -182,7 +182,7 @@
       <!-- Project 1 Details -->
       {#if selectedProject === 'project1'}
       <div class="titre-desc">
-        <h2>Brisée : An Animated Short</h2>
+        <h2>Brisée - An Animated Short</h2>
         <p>During my time learning 3D graphics, I worked with three others on a short film called "Brisée" wich means shattered in French.  Our story happens in a trashcan, where a forgotten shattered porcelain doll named Elisabeth finds a friend among the garbage.
 
 In our group, we all had different jobs. I was in charge of rigging, making sure the main characters could move properly in our scenes. I also worked on rendering, which is important for putting everything together later on. Besides, I helped with some parts of compositing and video editing to keep the story flowing well on screen.
@@ -192,7 +192,8 @@ I was the "go-to person" for solving problems in our group. I fixed issues in te
 Below, you'll see our final version of "Brisée," along with some examples of the work I did. Through "Brisée," we didn’t just tell a sad story, we also learned a lot about working together and dealing with common challenges in 3D animation.</p>
       
         <!-- Embed the final short movie and additional videos/gifs -->
-        <video width="560" height="315" controls>
+        <h4>Final Result</h4>
+        <video width="1120" height="630" controls>
         <source src="../../images/brisée.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -240,11 +241,11 @@ Below, you'll see our final version of "Brisée," along with some examples of th
           </div>
         <div class="wagon">
           <div class="wagon-img">
-          <h4>After</h4>
+          <h4>Shading & Lighting</h4>
           <img src="../../images/before-wagon.png" alt="before-wagon">
           </div>
           <div class="wagon-img">
-          <h4>After</h4>
+          <h4>Texturing</h4>
           <img src="../../images/after-wagon.png" alt="after-wagon">
           </div>
         
@@ -258,7 +259,7 @@ Below, you'll see our final version of "Brisée," along with some examples of th
         <p>Inspired by the peaceful nights at the Fushimi Inari Taisha shrine in Kyoto, I ventured into recreating the mystic ambiance of its iconic Torii gates using Unreal Engine and After Effects. The resulting video portrays a tranquil night scene, enveloped in gentle rain and a soft haze of fog amidst the vermilion gates. This project was a passage into the realms of environmental design and visual storytelling, where each frame is a blend of 3D artistry and the spiritual essence of the ancient shrine, transporting the viewer through a visually soothing journey amidst the quiet rain in a sacred, timeless space.</p>
         
         <!-- Embed the final short movie and additional videos/gifs -->
-        <video width="560" height="315" controls>
+        <video width="1120" height="630" controls>
         <source src="../../images/ue-tori.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
