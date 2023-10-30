@@ -106,6 +106,12 @@
   width: 100%;
   padding-bottom: 3rem;
 }
+.project1{
+  padding-right: 2rem;
+}
+.project2{
+  padding-left: 2rem;
+}
 </style>
 
 
@@ -119,7 +125,7 @@ Over time, my passion for photography has not only remained a delightful pursuit
 <div class="page">
 <div class="project-container">
   <!-- Project 1 -->
-  <div class="project" on:click={() => openModal('project1')}>
+  <div class="project project1" on:click={() => openModal('project1')}>
     <img src="../../images/brisee.png" alt="brisée">
     <div class="text">
       <h3>Brisée : An Animated Short</h3>
@@ -128,7 +134,7 @@ Over time, my passion for photography has not only remained a delightful pursuit
   </div>
 
   <!-- Project 2 -->
-  <div class="project reverse" on:click={() => openModal('project2')}>
+  <div class="project reverse project2" on:click={() => openModal('project2')}>
     <img src="/path/to/image2.jpg" alt="Project 2 Image">
     <div class="text">
       <h3>Project Title 2</h3>
