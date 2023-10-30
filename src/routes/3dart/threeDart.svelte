@@ -151,7 +151,7 @@
       <p>In this project, I took on the challenge of creating a 3D model of a train wagon based on a drawing reference. Learn More...<p>
     </div>
   </div>
-</div>
+
 
 <!-- Project 3 -->
   <div class="project project3" on:click={() => openModal('project3')}>
@@ -161,6 +161,7 @@
       <p>Inspired by the peaceful nights at the Fushimi Inari Taisha shrine in Kyoto, I ventured into recreating the mystic ambiance of its iconic Torii gates using Unreal Engine and After Effects. Learn More...<p>    
 </div>
   </div>
+</div>
 
 {#if showModal}
   <div class="modal" on:click={closeModal}>
