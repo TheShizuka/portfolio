@@ -2,7 +2,7 @@
   import { onMount } from 'svelte';
   import LazyLoad from "vanilla-lazyload";
 
-  let images = Array.from({ length: 95 }, (_, i) => i + 1);
+  let images = Array.from({ length: 73 }, (_, i) => i + 1);
   let selectedImage = null;
 
   onMount(() => {
