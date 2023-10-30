@@ -134,6 +134,7 @@
     flex-wrap: wrap;
     text-align: center;
     font-size: 1.2rem;
+    flex: 1;
 }
 .wagon-img img{
   max-width: 500px;
