@@ -186,7 +186,10 @@
         <p><!-- Full description... --></p>
       </div>
         <!-- Embed the final short movie and additional videos/gifs -->
-        <iframe src="../../images/brisée.mp4" frameborder="0" allowfullscreen></iframe>
+        <video width="560" height="315" controls>
+        <source src="../../images/brisée.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
         <!-- ... -->
       {/if}
 
@@ -221,7 +224,10 @@
         <p>Inspired by the peaceful nights at the Fushimi Inari Taisha shrine in Kyoto, I ventured into recreating the mystic ambiance of its iconic Torii gates using Unreal Engine and After Effects. The resulting video portrays a tranquil night scene, enveloped in gentle rain and a soft haze of fog amidst the vermilion gates. This project was a passage into the realms of environmental design and visual storytelling, where each frame is a blend of 3D artistry and the spiritual essence of the ancient shrine, transporting the viewer through a visually soothing journey amidst the quiet rain in a sacred, timeless space.</p>
         </div>
         <!-- Embed the final short movie and additional videos/gifs -->
-        <iframe src="../../images/ue-tori.mp4" frameborder="0" allowfullscreen></iframe>
+        <video width="560" height="315" controls>
+        <source src="../../images/ue-tori.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
         <!-- ... -->
       {/if}
     </div>
