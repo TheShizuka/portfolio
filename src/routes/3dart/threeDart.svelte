@@ -17,7 +17,7 @@
 .description-container {
   text-align: center;
   padding: 3rem 1rem; /* Adjust padding as needed */
-  margin-bottom: 2rem; /* Adds some space between the description and the grid */
+  margin-bottom: 5rem; /* Adds some space between the description and the grid */
 }
 
 .description-container h2 {
