@@ -65,7 +65,12 @@
     align-items: center;
     padding: 2rem;
     padding-bottom: 9rem;
+    transition: transform 0.3s ease-in-out; /* Add transition effect */
+    cursor: pointer; /* Change cursor to indicate clickability */
   }
+.project:hover {
+        transform: scale(1.05); /* Scale up the div slightly when hovered over */
+    }
 
   .project.reverse {
     flex-direction: row-reverse;
@@ -183,7 +188,8 @@
     <img src="../../images/brisee.png" alt="brisée">
     <div class="text">
       <h3>Brisée - An Animated Short</h3>
-      <p>During my time learning 3D graphics, I worked with three others on a short film called "Brisée" wich means shattered in French. Our story happens in a trashcan, where a forgotten shattered porcelain doll named Elisabeth finds a friend among the garbage.  <b>Learn More...</b></p>
+      <p>During my time learning 3D graphics, I worked with three others on a short film called "Brisée" wich means shattered in French. Our story happens in a trashcan, where a forgotten shattered porcelain doll named Elisabeth finds a friend among the garbage. </p>
+      <p style="padding-top: 2rem;"><b>Learn More...</b></p> 
     </div>
   </div>
 
@@ -192,7 +198,8 @@
     <img src="../../images/wagon+ref.png" alt="wagon">
     <div class="text">
       <h3>Tokyo Wagon</h3>
-      <p>In this project, I took on the challenge of creating a 3D model of a train wagon based on a drawing reference. <b>Learn More...</b></p>
+      <p>In this project, I took on the challenge of creating a 3D model of a train wagon based on a drawing reference.</p>
+      <p style="padding-top: 2rem;"><b>Learn More...</b></p> 
     </div>
   </div>
 
@@ -202,7 +209,8 @@
     <img src="../../images/inari.png" alt="inari">
     <div class="text">
       <h3>Fushimi Inari Taisha shrine - Unreal Engine</h3>
-      <p>Inspired by the peaceful nights at the Fushimi Inari Taisha shrine in Kyoto, I ventured into recreating the mystic ambiance of its iconic Torii gates using Unreal Engine and After Effects. <b>Learn More...</b></p>  
+      <p>Inspired by the peaceful nights at the Fushimi Inari Taisha shrine in Kyoto, I ventured into recreating the mystic ambiance of its iconic Torii gates using Unreal Engine and After Effects.  <b>Learn More...</b></p>  
+        <p style="padding-top: 2rem;"><b>Learn More...</b></p> 
 </div>
   </div>
 </div>
