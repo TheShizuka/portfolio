@@ -145,7 +145,7 @@
 
   <!-- Project 2 -->
   <div class="project reverse project2" on:click={() => openModal('project2')}>
-    <img src="../../images/wagon+ref.png" alt="wagon Image">
+    <img src="../../images/wagon+ref.png" alt="wagon">
     <div class="text">
       <h3>Tokyo Wagon</h3>
       <p>In this project, I took on the challenge of creating a 3D model of a train wagon based on a drawing reference. <b>Learn More...</b><p>
@@ -155,7 +155,7 @@
 
 <!-- Project 3 -->
   <div class="project project3" on:click={() => openModal('project3')}>
-    <img src="../../images/wagon+ref.png" alt="brisée">
+    <img src="../../images/inari.png" alt="inari">
     <div class="text">
       <h3>Fushimi Inari Taisha shrine - Unreal Engine</h3>
       <p>Inspired by the peaceful nights at the Fushimi Inari Taisha shrine in Kyoto, I ventured into recreating the mystic ambiance of its iconic Torii gates using Unreal Engine and After Effects. <b>Learn More...</b><p>    
