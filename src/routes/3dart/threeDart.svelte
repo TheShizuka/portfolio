@@ -62,7 +62,7 @@
   }
 
   .project img {
-    max-width: 450px;
+    max-width: 300px;
     width: 100%;
   }
 
