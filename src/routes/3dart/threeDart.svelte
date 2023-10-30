@@ -77,10 +77,10 @@ Over time, my passion for photography has not only remained a delightful pursuit
 <div class="project-container">
   <!-- Project 1 -->
   <div class="project">
-    <img src="/path/to/image1.jpg" alt="Project 1 Image">
+    <img src="../../images/brisee.png" alt="brisée">
     <div class="text">
-      <h3>Project Title 1</h3>
-      <p>Description of project 1...</p>
+      <h3>Brisée : An Animated Short</h3>
+      <p>During my time as a 3D infographist student, I joined forces with three other classmates to create a short film titled "Inside the Bin." The story unfolds inside a trashcan where our main character, Elisabeth, a discarded porcelain doll, stumbles upon an intriguing new friend among the trash. Learn More...</p>
     </div>
   </div>
 
