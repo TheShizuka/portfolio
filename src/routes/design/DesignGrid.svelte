@@ -20,6 +20,9 @@
             selectedIndex--;
         }
     };
+const deselectDesign = () => {
+        selectedIndex = -1;
+    };
 </script>
 
 <div class="design-grid">
@@ -30,6 +33,7 @@
             selectDesign={() => selectDesign(index)}
             nextDesign={nextDesign}
             prevDesign={prevDesign}
+            deselectDesign={deselectDesign}
         />
     {/each}
 </div>
