@@ -22,12 +22,30 @@
     };
 </script>
 
-{#each designs as design, index}
-<DesignItem 
-    design={design} 
-    isSelected={selectedIndex === index}
-    selectDesign={() => selectDesign(index)}
-    nextDesign={nextDesign}
-    prevDesign={prevDesign}
-/>
-{/each}
+<div class="design-grid">
+    {#each designs as design, index}
+        <DesignItem 
+            design={design} 
+            isSelected={selectedIndex === index}
+            selectDesign={() => selectDesign(index)}
+            nextDesign={nextDesign}
+            prevDesign={prevDesign}
+        />
+    {/each}
+</div>
+
+<style>
+    .design-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 2rem;
+        padding: 2rem;
+        justify-content: center;
+    }
+
+    @media screen and (max-width: 600px) {
+        .design-grid {
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        }
+    }
+</style>
