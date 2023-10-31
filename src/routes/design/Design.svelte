@@ -42,8 +42,8 @@ As I embarked on my journey into the world of design, I quickly realized its com
     import DesignGrid from './DesignGrid.svelte';
 
     let designs = [
-        {title: "Logo 1", description: "Description 1", imgSrc: "../../images/logos/1.png"},
-        {title: "Logo 2", description: "Description 2", imgSrc: "../../images/logos/2.png"},
+        {title: "Logo 1", description: "Description 1", imgSrc: "../../images/logos/11.png"},
+        {title: "Logo 2", description: "Description 2", imgSrc: "../../images/logos/7.png"},
         // ... other designs
     ];
 </script>
