@@ -211,8 +211,25 @@
       <h3>Fushimi Inari Taisha shrine - Unreal Engine</h3>
       <p>Inspired by the peaceful nights at the Fushimi Inari Taisha shrine in Kyoto, I ventured into recreating the mystic ambiance of its iconic Torii gates using Unreal Engine and After Effects. </p>  
         <p style="padding-top: 2rem;"><b>Learn More...</b></p> 
-</div>
+      </div>
+      </div>
+
+   <!-- Project 4 -->
+  <div class="project reverse project4" on:click={() => openModal('project4')}>
+    <img src="../../images/sub.png" alt="substance">
+    <div class="text">
+      <h3>Substance Painter and Designer</h3>
+      <p>In a quest to broaden my material creation skills, I undertook a project focusing on two distinct materials.</p>
+      <p style="padding-top: 2rem;"><b>Learn More...</b></p> 
+    </div>
   </div>
+
+
+
+
+
+
+
 </div>
 
 {#if showModal}
@@ -259,7 +276,7 @@ Below, you'll see our final version of "Brisée," along with some examples of th
             <source src="../../images/elis.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
-</div>
+            </div>
             </div>
             <div class="wagon-img">
             <h4>Charger Rig</h4>
@@ -268,7 +285,7 @@ Below, you'll see our final version of "Brisée," along with some examples of th
             <source src="../../images/charger.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
-</div>
+            </div>
             </div>
           </div>
         <!-- ... -->
@@ -310,8 +327,29 @@ Below, you'll see our final version of "Brisée," along with some examples of th
         <source src="../../images/ue-tori.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
-</div>
-</div>
+        </div>
+        </div>
+        <!-- ... -->
+      {/if}
+
+<!-- Project 4 Details -->
+      {#if selectedProject === 'project4'}
+      <div class="titre-desc">
+        <h2>Viking Shielf & Floor Material</h2>
+        <p>In a quest to broaden my material creation skills, I undertook a project focusing on two distinct materials. The first, a meticulous depiction of a Viking shield for a video game, was crafted using Substance Painter, encapsulating a blend of historical authenticity and artistic aesthetic. The second venture involved devising a procedural material for floor tiles using Substance Designer, showcasing a blend of technical prowess and artistic vision. These endeavors not only honed my expertise in material design but also reflected the versatility and depth of knowledge I've acquired through various software tools.</p>
+        </div>
+        <!-- Embed the final short movie and additional videos/gifs -->
+        <div class="wagon">
+          <div class="wagon-img">
+          <h4>Viking Shield</h4>
+          <img src="../../images/shield.png" alt="before-wagon">
+          </div>
+          <div class="wagon-img">
+          <h4>Floor Tiles</h4>
+          <img src="../../images/tiles.png" alt="after-wagon">
+          </div>
+        
+        </div>
         <!-- ... -->
       {/if}
     </div>
