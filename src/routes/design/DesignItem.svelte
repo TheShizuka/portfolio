@@ -14,11 +14,16 @@
 
 <style>
 .logos {
-    width: 100%; /* Ensures it takes full width of the container */
+    width: 100%; 
     max-width: 250px;
     cursor: pointer;
     display: block;
-    margin: 0 auto; /* Ensure no other margins are pushing it out */
+    margin: 0 auto;
+    transition: transform 0.3s ease; /* This will smooth out the scaling effect */
+}
+
+.logos:hover {
+    transform: scale(1.05); /* This scales the logo up by 5% on hover */
 }
 
 .overlay {
