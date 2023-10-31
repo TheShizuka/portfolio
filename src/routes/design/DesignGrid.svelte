@@ -50,7 +50,7 @@ const deselectDesign = () => {
 
     @media screen and (max-width: 776px) {
         .design-grid {
-            grid-template-columns: repeat(auto-fill, minmax(125px, 1fr)); /* Modified value */
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); /* Slightly reduced */
         }
     }
 </style>
