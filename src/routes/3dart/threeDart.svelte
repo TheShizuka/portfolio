@@ -371,12 +371,12 @@ Below, you'll see our final version of "Brisée," along with some examples of th
         <!-- Embed the final short movie and additional videos/gifs -->
         <div class="wagon">
           <div class="wagon-img">
-          <h4>Viking Shield</h4>
-          <img src="../../images/shield.webp" alt="before-wagon">
+          <h4>Reference</h4>
+          <img src="../../images/bg-ref.webp" alt="before-wagon">
           </div>
           <div class="wagon-img">
-          <h4>Floor Tiles</h4>
-          <img src="../../images/tiles.webp" alt="after-wagon">
+          <h4>Modelisation</h4>
+          <img src="../../images/bg.webp" alt="after-wagon">
           </div>
         
         </div>
