@@ -56,7 +56,7 @@ button {
 }
 
 /* Media Queries for Responsiveness */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 776px) {
     .overlay img {
         max-width: 80%;
         max-height: 80%;
