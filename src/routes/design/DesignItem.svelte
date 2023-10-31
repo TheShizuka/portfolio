@@ -14,10 +14,11 @@
 
 <style>
 .logos {
-    max-width: 250px; /* Modified value */
+    width: 100%; /* Ensures it takes full width of the container */
+    max-width: 250px;
     cursor: pointer;
     display: block;
-    margin: 0 auto;
+    margin: 0 auto; /* Ensure no other margins are pushing it out */
 }
 
 .overlay {
