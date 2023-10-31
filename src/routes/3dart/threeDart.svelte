@@ -243,7 +243,15 @@
       <p style="padding-top: 2rem;"><b>Learn More...</b></p> 
     </div>
   </div>
-
+<!-- Project 7 -->
+  <div class="project project7" on:click={() => openModal('project7')}>
+    <img src="../../images/portal.png" alt="bg">
+    <div class="text">
+      <h3>Concept Art - Portal</h3>
+      <p>In this project, I created a 3D concept art of a semi-futuristic teleportation portal set in a museum exhibit.</p>  
+        <p style="padding-top: 2rem;"><b>Learn More...</b></p> 
+      </div>
+      </div>
 
 
 
@@ -415,7 +423,22 @@ Below, you'll see our final version of "Brisée," along with some examples of th
         <!-- ... -->
       {/if}
 
-
+<!-- Project 7 Details -->
+      {#if selectedProject === 'project7'}
+      <div class="titre-desc">
+        <h2>Concept Art - Portal</h2>
+        <p>In this project, I created a 3D concept art of a semi-futuristic teleportation portal set in a museum exhibit. The scene includes mysterious rocks with strange symbols surrounding the portal. Through 3D modeling, I brought this imaginative portal concept to life, blending ancient symbolism with futuristic technology in a modern museum setting.</p>
+        
+        <!-- Embed the final short movie and additional videos/gifs -->
+<div class="video-container">
+        <video width="1120" height="630" controls poster="../../images/portal-thumb.png">
+        <source src="../../images/portal.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        </div>
+        </div>
+        <!-- ... -->
+      {/if}
 
 
 
