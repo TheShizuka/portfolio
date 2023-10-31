@@ -33,6 +33,6 @@
 
 
 <div class="description-container">
-  <h2>My Photography Journey</h2>
+  <h2>My Design Odyssey</h2>
   <p>
-Over time, my passion for photography has not only remained a delightful pursuit of curiosity and joy, but has also seen a substantial honing of skills. Each captured moment reflects a blend of enthusiasm and a step forward in my photographic journey. As I reminisce through these frames, the eagerness to further refine my craft only intensifies. I am excited for the continuous journey of discovery and improvement that lies ahead, and I invite you to stroll through my evolving gallery of memories below.</p></div>
+As I embarked on my journey into the world of design, I quickly realized its complexities and the nuances that make a design stand out. While I consider myself to be at the early stages of this adventure, each logo or design piece I've created reflects my earnest efforts to learn and grow. These projects, primarily exercises and practice runs, represent my initial steps into this vast field. I'm eager to continue honing my skills, learning from every project, and gradually building my design repertoire. Here's a glimpse of my starting ventures in design.</p></div>
