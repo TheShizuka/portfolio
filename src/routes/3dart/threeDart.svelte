@@ -342,11 +342,11 @@ Below, you'll see our final version of "Brisée," along with some examples of th
         <div class="wagon">
           <div class="wagon-img">
           <h4>Viking Shield</h4>
-          <img src="../../images/shield.png" alt="before-wagon">
+          <img src="../../images/shield.webp" alt="before-wagon">
           </div>
           <div class="wagon-img">
           <h4>Floor Tiles</h4>
-          <img src="../../images/tiles.png" alt="after-wagon">
+          <img src="../../images/tiles.webp" alt="after-wagon">
           </div>
         
         </div>
