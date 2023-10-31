@@ -8,6 +8,7 @@
     export let selectDesign = () => {};
     export let nextDesign = () => {};
     export let prevDesign = () => {};
+    export let deselectDesign = () => {};
 </script>
 
 
@@ -96,6 +97,6 @@ button:nth-child(6) {  /* Close Button */
     <p>{design.description}</p>
     <button on:click={prevDesign}>&lt;</button>
     <button on:click={nextDesign}>&gt;</button>
-    <button on:click={() => { isSelected = false; selectedIndex = -1; }}>X</button>
+    <button on:click={() => { isSelected = false; deselectDesign(); }}>X</button>
 </div>
 {/if}
