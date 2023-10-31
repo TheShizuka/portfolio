@@ -44,7 +44,7 @@
         box-sizing: border-box; /* To ensure padding doesn't affect width */
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 776px) {
         .design-grid {
             grid-template-columns: repeat(auto-fill, minmax(125px, 1fr)); /* Modified value */
         }
