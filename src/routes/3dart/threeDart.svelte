@@ -306,7 +306,7 @@ Below, you'll see our final version of "Brisée," along with some examples of th
         
         <!-- Embed the final short movie and additional videos/gifs -->
 <div class="video-container">
-        <video width="1120" height="630" controls>
+        <video width="1120" height="630" controls poster="../../images/fond.png">
         <source src="../../images/ue-tori.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
