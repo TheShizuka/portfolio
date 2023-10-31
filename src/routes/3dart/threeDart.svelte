@@ -234,7 +234,15 @@
       </div>
       </div>
 
-
+<!-- Project 6 -->
+  <div class="project reverse project6" on:click={() => openModal('project6')}>
+    <img src="../../images/zbrush.png" alt="zbrush">
+    <div class="text">
+      <h3>Anatomy - ZBrush</h3>
+      <p>Engaging in anatomy studies using ZBrush, I delved into crafting a detailed head, a muscular torso, and a facial cube.</p>
+      <p style="padding-top: 2rem;"><b>Learn More...</b></p> 
+    </div>
+  </div>
 
 
 
@@ -382,7 +390,31 @@ Below, you'll see our final version of "Brisée," along with some examples of th
         </div>
         <!-- ... -->
       {/if}
-
+<!-- Project 6 Details -->
+      {#if selectedProject === 'project6'}
+      <div class="titre-desc">
+        <h2>Anatomy - ZBrush</h2>
+        <p>Engaging in anatomy studies using ZBrush, I delved into crafting a detailed head, a muscular torso, and a facial cube. The cube was particularly interesting as each of its sides featured a different facial part - eyes, nose, ear, and mouth. This unique approach allowed me to focus on the anatomy of each facial element separately, honing my skills in a targeted manner. Through recreating and studying these anatomical structures, I was able to deepen my understanding, refine my sculpting techniques, and further my proficiency in ZBrush, making each study an enriching learning experience.</p>
+        </div>
+        <!-- Embed the final short movie and additional videos/gifs -->
+        <div class="wagon-img">
+            <h4>Cube Face</h4>
+          <img src="../../images/face.gif " alt="face">
+          </div>
+        </div>
+        <div class="wagon">
+          <div class="wagon-img">
+          <h4>Head</h4>
+          <img src="../../images/head.gif" alt="head">
+          </div>
+          <div class="wagon-img">
+          <h4>Torso</h4>
+          <img src="../../images/torso.gif" alt="torso.gif">
+          </div>
+        
+        </div>
+        <!-- ... -->
+      {/if}
 
 
 
