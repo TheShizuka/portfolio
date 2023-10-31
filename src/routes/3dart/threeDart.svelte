@@ -401,7 +401,6 @@ Below, you'll see our final version of "Brisée," along with some examples of th
             <h4>Cube Face</h4>
           <img src="../../images/face.gif " alt="face">
           </div>
-        </div>
         <div class="wagon">
           <div class="wagon-img">
           <h4>Head</h4>
