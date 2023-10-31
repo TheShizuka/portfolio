@@ -101,8 +101,8 @@ button:nth-child(6) {  /* Close Button */
     <img src={design.imgSrc} alt={design.title} />
     <h2>{design.title}</h2>
     <p>{design.description}</p>
-    <button on:click={prevDesign}>&lt;</button>
-    <button on:click={nextDesign}>&gt;</button>
-    <button on:click={() => { isSelected = false; deselectDesign(); }}>X</button>
+    <button style="background-image: url('../../images/background.png'); background-repeat: repeat;" on:click={prevDesign}>&lt;</button>
+    <button style="background-image: url('../../images/background.png'); background-repeat: repeat;" on:click={nextDesign}>&gt;</button>
+    <button style="background-image: url('../../images/background.png'); background-repeat: repeat;" on:click={() => { isSelected = false; deselectDesign(); }}>X</button>
 </div>
 {/if}
