@@ -209,7 +209,7 @@
     <img src="../../images/inari.png" alt="inari">
     <div class="text">
       <h3>Fushimi Inari Taisha shrine - Unreal Engine</h3>
-      <p>Inspired by the peaceful nights at the Fushimi Inari Taisha shrine in Kyoto, I ventured into recreating the mystic ambiance of its iconic Torii gates using Unreal Engine and After Effects.  <b>Learn More...</b></p>  
+      <p>Inspired by the peaceful nights at the Fushimi Inari Taisha shrine in Kyoto, I ventured into recreating the mystic ambiance of its iconic Torii gates using Unreal Engine and After Effects. </p>  
         <p style="padding-top: 2rem;"><b>Learn More...</b></p> 
 </div>
   </div>
