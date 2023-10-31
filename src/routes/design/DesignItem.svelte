@@ -13,10 +13,10 @@
 
 <style>
 .logos {
-    max-width: 300px;
+    max-width: 250px; /* Modified value */
     cursor: pointer;
     display: block;
-    margin: 0 auto; /* Center the image in its container */
+    margin: 0 auto;
 }
 
 .overlay {
@@ -96,6 +96,6 @@ button:nth-child(6) {  /* Close Button */
     <p>{design.description}</p>
     <button on:click={prevDesign}>&lt;</button>
     <button on:click={nextDesign}>&gt;</button>
-    <button on:click={() => isSelected = false}>X</button>
+    <button on:click={() => { isSelected = false; selectedIndex = -1; }}>X</button>
 </div>
 {/if}
