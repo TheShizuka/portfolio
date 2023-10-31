@@ -224,6 +224,15 @@
     </div>
   </div>
 
+  <!-- Project 5 -->
+  <div class="project project5" on:click={() => openModal('project5')}>
+    <img src="../../images/bg+ref.webp" alt="bg">
+    <div class="text">
+      <h3>Hard Surface - Toko Biscuit</h3>
+      <p>Taking inspiration from a drawing, I worked on modeling a street food restaurant by a lake with a miniature city. This project was all about capturing the details from the drawing into the 3D model.</p>  
+        <p style="padding-top: 2rem;"><b>Learn More...</b></p> 
+      </div>
+      </div>
 
 
 
@@ -352,6 +361,36 @@ Below, you'll see our final version of "Brisée," along with some examples of th
         </div>
         <!-- ... -->
       {/if}
+
+<!-- Project 5 Details -->
+      {#if selectedProject === 'project5'}
+      <div class="titre-desc">
+        <h2>Hard Surface - Toko Biscuit</h2>
+        <p>Taking inspiration from a drawing, I worked on modeling a street food restaurant by a lake with a miniature city. This project was all about capturing the details from the drawing into the 3D model. Although I didn't venture into texturing, I added some basic lighting to enhance the scene. This task was a great practice in hard surface modeling, helping me focus on getting the structure and details right while also playing with light to create a pleasant scene.</p>
+        </div>
+        <!-- Embed the final short movie and additional videos/gifs -->
+        <div class="wagon">
+          <div class="wagon-img">
+          <h4>Viking Shield</h4>
+          <img src="../../images/shield.webp" alt="before-wagon">
+          </div>
+          <div class="wagon-img">
+          <h4>Floor Tiles</h4>
+          <img src="../../images/tiles.webp" alt="after-wagon">
+          </div>
+        
+        </div>
+        <!-- ... -->
+      {/if}
+
+
+
+
+
+
+
+
+
     </div>
   </div>
 {/if}
