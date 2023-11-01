@@ -84,7 +84,7 @@ text-align: center;
         <h4>3D Artistry</h4>
         <div class="skill-logos">
           <img src="../images/maya.png" alt="MAYA Autodesk Icon" />
-          <img src="../images/zbrush.png" alt="ZBrush Icon" />
+          <img src="../images/zbrush-logo.png" alt="ZBrush Icon" />
           <img src="../images/arnold.png" alt="Arnold 3D render" />
           <img src="../images/UE.png" alt="Unreal Engine" />
           <img src="../images/nuke.png" alt="Nuke" />
