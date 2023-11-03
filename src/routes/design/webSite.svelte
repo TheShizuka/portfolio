@@ -191,7 +191,7 @@
         <p>This website design was a project made for my University, they organised a video games tournment hosting League of Legends and Rocket League and this one my design proposition</p>
     </div>
   </div>
-
+</div>
 
 
 {#if showModal}
