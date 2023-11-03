@@ -26,8 +26,17 @@
     font-size: 0.7rem; /* Adjust font size as needed */
   }
 }
-.logos-container{
-  max-width: 1000px;
+  .logos-container{
+    width: 100%;
+    justify-content: center;
+    display: inline-grid;
+    text-align: center;
+  }
+.logos-container p{
+  color: white;
+}
+.logos-container h3{
+  color: white;
 }
 </style>
 
