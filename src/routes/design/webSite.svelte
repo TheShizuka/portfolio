@@ -179,11 +179,11 @@
 <div class="project-container">
   <!-- Project 1 -->
   <div class="project project1" on:click={() => openModal('project1')}>
-    <img src="../../images/bugdays.png" alt="bugdays">
-    <div class="text">
+<div class="text">
       <h3>Website Design - BUG Days</h3>
         <p>This website design was a project made for my University, they organised a video games tournment hosting League of Legends and Rocket League and this one my design proposition</p>
     </div>
+    <img src="../../images/bugdays.png" alt="bugdays">
   </div>
 </div>
 
