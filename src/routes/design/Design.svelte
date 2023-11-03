@@ -34,6 +34,7 @@
   }
 .logos-container p{
   color: white;
+  max-width: 800px;
 }
 .logos-container h3{
   color: white;
