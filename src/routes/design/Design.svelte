@@ -52,6 +52,7 @@ As I embarked on my journey into the world of design, I quickly realized its com
 
 <script>
     import DesignGrid from './DesignGrid.svelte';
+    import Website from './webSite.svelte';
 
     let designs = [
         {title: "", description: "", imgSrc: "../../images/logos/5.png"},
@@ -72,3 +73,4 @@ As I embarked on my journey into the world of design, I quickly realized its com
 <p>These logos were created as part of a training exercise to master Adobe Illustrator and Photoshop. Through this process, I have acquired foundational skills and an understanding of the principles necessary for crafting vector designs.</p>
 <DesignGrid designs={designs} />
 </div>
+<Website />
