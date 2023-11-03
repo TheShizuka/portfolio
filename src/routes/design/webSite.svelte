@@ -60,7 +60,7 @@
 
   .project {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 2rem;
     align-items: center;
     padding: 2rem;
