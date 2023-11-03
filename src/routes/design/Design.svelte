@@ -26,7 +26,9 @@
     font-size: 0.7rem; /* Adjust font size as needed */
   }
 }
-
+.logos-container{
+  max-width: 1000px;
+}
 </style>
 
 
@@ -55,5 +57,8 @@ As I embarked on my journey into the world of design, I quickly realized its com
         // ... other designs
     ];
 </script>
-
+<div class="logos-container">
+<h3>Logos</h3>
+<p>These logos were created as part of a training exercise to master Adobe Illustrator and Photoshop. Through this process, I have acquired foundational skills and an understanding of the principles necessary for crafting vector designs.</p>
 <DesignGrid designs={designs} />
+</div>
