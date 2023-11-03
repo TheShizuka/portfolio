@@ -82,8 +82,9 @@
   }
 
   .project .text {
-    max-width: 400px;
-    color: white;
+    max-width: 1000px;
+    color: #fff;
+    text-align: center;
   }
 
   @media (max-width: 768px) {
