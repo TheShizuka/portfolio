@@ -209,49 +209,10 @@
 
 <!-- Project 3 -->
   <div class="project project3" on:click={() => openModal('project3')}>
-    <img src="../../images/inari.png" alt="inari">
+    <img src="../../images/mmt.png" alt="mmt">
     <div class="text">
-      <h3>Fushimi Inari Taisha shrine - Unreal Engine</h3>
-      <p>Inspired by the peaceful nights at the Fushimi Inari Taisha shrine in Kyoto, I ventured into recreating the mystic ambiance of its iconic Torii gates using Unreal Engine and After Effects. </p>  
-        <p style="padding-top: 2rem;"><b>Learn More...</b></p> 
-      </div>
-      </div>
-
-   <!-- Project 4 -->
-  <div class="project reverse project4" on:click={() => openModal('project4')}>
-    <img src="../../images/sub.png" alt="substance">
-    <div class="text">
-      <h3>Substance Painter and Designer</h3>
-      <p>In a quest to broaden my material creation skills, I undertook a project focusing on two distinct materials.</p>
-      <p style="padding-top: 2rem;"><b>Learn More...</b></p> 
-    </div>
-  </div>
-
-  <!-- Project 5 -->
-  <div class="project project5" on:click={() => openModal('project5')}>
-    <img src="../../images/bg+ref.webp" alt="bg">
-    <div class="text">
-      <h3>Hard Surface - Toko Biscuit</h3>
-      <p>Taking inspiration from a drawing, I worked on modeling a street food restaurant by a lake with a miniature city. This project was all about capturing the details from the drawing into the 3D model.</p>  
-        <p style="padding-top: 2rem;"><b>Learn More...</b></p> 
-      </div>
-      </div>
-
-<!-- Project 6 -->
-  <div class="project reverse project6" on:click={() => openModal('project6')}>
-    <img src="../../images/zbrush.png" alt="zbrush">
-    <div class="text">
-      <h3>Anatomy - ZBrush</h3>
-      <p>Engaging in anatomy studies using ZBrush, I delved into crafting a detailed head, a muscular torso, and a facial cube.</p>
-      <p style="padding-top: 2rem;"><b>Learn More...</b></p> 
-    </div>
-  </div>
-<!-- Project 7 -->
-  <div class="project project7" on:click={() => openModal('project7')}>
-    <img src="../../images/portal.png" alt="bg">
-    <div class="text">
-      <h3>Concept Art - Portal</h3>
-      <p>In this project, I created a 3D concept art of a semi-futuristic teleportation portal set in a museum exhibit.</p>  
+      <h3>Meet My Tempo</h3>
+      <p>In a university project, our team created "Meet My Tempo" (MMT), a platform for musicians to share their tunes, much like an Instagram for music.</p>  
         <p style="padding-top: 2rem;"><b>Learn More...</b></p> 
       </div>
       </div>
@@ -314,99 +275,26 @@
       <!-- Project 3 Details -->
       {#if selectedProject === 'project3'}
       <div class="titre-desc">
-        <h2>Fushimi Inari Taisha shrine - Unreal Engine</h2>
-        <p>Inspired by the peaceful nights at the Fushimi Inari Taisha shrine in Kyoto, I ventured into recreating the mystic ambiance of its iconic Torii gates using Unreal Engine and After Effects. The resulting video portrays a tranquil night scene, enveloped in gentle rain and a soft haze of fog amidst the vermilion gates. This project was a passage into the realms of environmental design and visual storytelling, where each frame is a blend of 3D artistry and the spiritual essence of the ancient shrine, transporting the viewer through a visually soothing journey amidst the quiet rain in a sacred, timeless space.</p>
+        <h2>Meet My Tempo</h2>
+        <p>In a university project, our team created "Meet My Tempo" (MMT), a platform for musicians to share their tunes, much like an Instagram for music. While my teammates handled the marketing and business side, I took on the design and coding tasks using Vue.js, PHP, SQL, HTML, CSS, and JS. I developed a secure login system, search and music upload features, and designed various pages like the homepage, profile pages, and a private messaging section. Through MMT, I got a hands-on experience in front and back-end development while creating a fun space for musicians to connect.</p>
         
         <!-- Embed the final short movie and additional videos/gifs -->
-<div class="video-container">
-        <video width="1120" height="630" controls poster="../../images/fond.png">
-        <source src="../../images/ue-tori.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-        </div>
-        </div>
-        <!-- ... -->
-      {/if}
-
-<!-- Project 4 Details -->
-      {#if selectedProject === 'project4'}
-      <div class="titre-desc">
-        <h2>Viking Shielf & Floor Material</h2>
-        <p>In a quest to broaden my material creation skills, I undertook a project focusing on two distinct materials. The first, a meticulous depiction of a Viking shield for a video game, was crafted using Substance Painter, encapsulating a blend of historical authenticity and artistic aesthetic. The second venture involved devising a procedural material for floor tiles using Substance Designer, showcasing a blend of technical prowess and artistic vision. These endeavors not only honed my expertise in material design but also reflected the versatility and depth of knowledge I've acquired through various software tools.</p>
-        </div>
-        <!-- Embed the final short movie and additional videos/gifs -->
-        <div class="wagon">
-          <div class="wagon-img">
-          <h4>Viking Shield</h4>
-          <img src="../../images/shield.webp" alt="before-wagon">
+<div class="wagon-img">
+          <h4>You can check the project on Github <a href="https://github.com/TheShizuka/MeetMyTempo" target="_blank">here</a></h4>
           </div>
-          <div class="wagon-img">
-          <h4>Floor Tiles</h4>
-          <img src="../../images/tiles.webp" alt="after-wagon">
-          </div>
-        
-        </div>
-        <!-- ... -->
-      {/if}
-
-<!-- Project 5 Details -->
-      {#if selectedProject === 'project5'}
-      <div class="titre-desc">
-        <h2>Hard Surface - Toko Biscuit</h2>
-        <p>Taking inspiration from a drawing, I worked on modeling a street food restaurant by a lake with a miniature city. This project was all about capturing the details from the drawing into the 3D model. Although I didn't venture into texturing, I added some basic lighting to enhance the scene. This task was a great practice in hard surface modeling, helping me focus on getting the structure and details right while also playing with light to create a pleasant scene.</p>
-        </div>
-        <!-- Embed the final short movie and additional videos/gifs -->
-        <div class="wagon">
-          <div class="wagon-img">
-          <h4>Reference</h4>
-          <img src="../../images/bg-ref.webp" alt="before-wagon">
-          </div>
-          <div class="wagon-img">
-          <h4>Modelisation</h4>
-          <img src="../../images/bg.webp" alt="after-wagon">
-          </div>
-        
-        </div>
-        <!-- ... -->
-      {/if}
-<!-- Project 6 Details -->
-      {#if selectedProject === 'project6'}
-      <div class="titre-desc">
-        <h2>Anatomy - ZBrush</h2>
-        <p>Engaging in anatomy studies using ZBrush, I delved into crafting a detailed head, a muscular torso, and a facial cube. The cube was particularly interesting as each of its sides featured a different facial part - eyes, nose, ear, and mouth. This unique approach allowed me to focus on the anatomy of each facial element separately, honing my skills in a targeted manner. Through recreating and studying these anatomical structures, I was able to deepen my understanding, refine my sculpting techniques, and further my proficiency in ZBrush, making each study an enriching learning experience.</p>
-        </div>
-        <!-- Embed the final short movie and additional videos/gifs -->
-        <div class="wagon-img">
-            <h4>Cube Face</h4>
-          <img src="../../images/face.gif " alt="face">
+<div class="wagon-img">
+          <h4>Example</h4>
           </div>
         <div class="wagon">
           <div class="wagon-img">
-          <h4>Head</h4>
-          <img src="../../images/head.gif" alt="head">
+          <img src="../../images/mmt.png" alt="main-wagon">
           </div>
           <div class="wagon-img">
-          <h4>Torso</h4>
-          <img src="../../images/torso.gif" alt="torso.gif">
+          <img src="../../images/mmt1.png" alt="wagon">
           </div>
-        
-        </div>
-        <!-- ... -->
-      {/if}
-
-<!-- Project 7 Details -->
-      {#if selectedProject === 'project7'}
-      <div class="titre-desc">
-        <h2>Concept Art - Portal</h2>
-        <p>In this project, I created a 3D concept art of a semi-futuristic teleportation portal set in a museum exhibit. The scene includes mysterious rocks with strange symbols surrounding the portal. Through 3D modeling, I brought this imaginative portal concept to life, blending ancient symbolism with futuristic technology in a modern museum setting.</p>
-        
-        <!-- Embed the final short movie and additional videos/gifs -->
-<div class="video-container">
-        <video width="1120" height="630" controls poster="../../images/portal-thumb.png">
-        <source src="../../images/portal.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-        </div>
+          <div class="wagon-img">
+          <img src="../../images/mmt2.png" alt="wagon">
+          </div>
         </div>
         <!-- ... -->
       {/if}
