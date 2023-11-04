@@ -267,55 +267,29 @@
       <!-- Project 1 Details -->
       {#if selectedProject === 'project1'}
       <div class="titre-desc">
-        <h2>Brisée - An Animated Short</h2>
-        <p>During my time learning 3D graphics, I worked with three others on a short film called "Brisée" wich means shattered in French.  Our story happens in a trashcan, where a forgotten shattered porcelain doll named Elisabeth finds a friend among the garbage.
-
-In our group, we all had different jobs. I was in charge of rigging, making sure the main characters could move properly in our scenes. I also worked on rendering, which is important for putting everything together later on. Besides, I helped with some parts of compositing and video editing to keep the story flowing well on screen.
-
-I was the "go-to person" for solving problems in our group. I fixed issues in texturing and animation, how characters looked and moved, helping keep our project on track.
-
-Below, you'll see our final version of "Brisée," along with some examples of the work I did. Through "Brisée," we didn’t just tell a sad story, we also learned a lot about working together and dealing with common challenges in 3D animation.</p>
+        <h2>Twitch Custom Hype Train</h2>
+        <p>Embarking on a project to create a custom Twitch Hype Train for a friend's subathon, integrating Streamlabs and KOFI APIs to trigger the train on every donation, sub, resub, follow, and bits received on the stream.  I built the logic with JavaScript, added animation with CSS, and crafted Minecraft-inspired assets with photoshop. To display the train, the streamer simply adds a browser source link in OBS using the StreamLabs socket. This project sharpened my skills in handling GET and POST requests, and managing a socket.io server, all while navigating the Streamlabs API to bring the Hype Train to life in under a month. The train can be 100% customised, for now it's just a personal project but maybe in the future it will be released to the public.</p>
       
         <!-- Embed the final short movie and additional videos/gifs -->
         <h4>Final Result</h4>
         <div class="video-container">
-                    <video controls poster="../../images/brisee.webp">
-                        <source src="../../images/brisée.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
+                    <video autoplay muted loop>
+                    <source src="../../images/hype-train.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
                     </video>
                 </div>
         </div>
         <div class="wagon-img">
-          <h4>Characters</h4>
+          <h4>Assets</h4>
           </div>
         <div class="wagon">
           <div class="wagon-img">
-          <img src="../../images/elis.png" alt="before-wagon">
+          <img src="../../images/train.png" alt="main-wagon">
           </div>
           <div class="wagon-img">
-          <img src="../../images/charger.png" alt="after-wagon">
+          <img src="../../images/car5.png" alt="wagon">
           </div>
         </div>
-          <div class="wagon">
-            <div class="wagon-img">
-            <h4>Elisabeth Rig</h4>
-        <div class="video-container">
-            <video width="560" height="315" controls>
-            <source src="../../images/elis.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-            </div>
-            </div>
-            <div class="wagon-img">
-            <h4>Charger Rig</h4>
-        <div class="video-container">
-            <video width="560" height="315" controls>
-            <source src="../../images/charger.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-            </div>
-            </div>
-          </div>
         <!-- ... -->
       {/if}
 
