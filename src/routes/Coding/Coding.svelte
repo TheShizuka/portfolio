@@ -186,7 +186,7 @@
 <div class="project-container">
   <!-- Project 1 -->
   <div class="project project1" on:click={() => openModal('project1')}>
-    <video autoplay muted loop style="height: 300px;">
+    <video autoplay muted loop style="height: 250px;">
     <source src="../../images/hype-train.mp4" type="video/mp4">
     Your browser does not support the video tag.
     </video>
