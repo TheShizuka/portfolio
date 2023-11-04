@@ -116,9 +116,9 @@
     }
 </style>
 <div id="portfolio" style="background-image: url('../../images/background.png'); background-repeat: repeat;">
-<div class="titre-contact" style="text-align: center;, color: white;">
-        <h2>Contact Me</h2>
-        <p>For inquiries, project discussions, or further information regarding my portfolio, please feel free to reach out using the contact form below. Your communication is valued and will be responded to promptly. Thank you for your interest in my work.</p>
+<div class="titre-contact" >
+        <h2 style="text-align: center;, color: white;">Contact Me</h2>
+        <p style="text-align: center;, color: white;">For inquiries, project discussions, or further information regarding my portfolio, please feel free to reach out using the contact form below. Your communication is valued and will be responded to promptly. Thank you for your interest in my work.</p>
         </div>
 <div class="form-holder">
 <div class="form-container">
