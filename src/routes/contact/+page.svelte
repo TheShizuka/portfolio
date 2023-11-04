@@ -103,6 +103,24 @@
         background: #ccc;
         cursor: not-allowed;
     }
+    .titre-contact {
+      text-align: center;
+      padding: 3rem 1rem; /* Adjust padding as needed */
+      margin-bottom: 5rem; /* Adds some space between the description and the grid */
+    }
+
+    .titre-contact h2 {
+      font-size: 1.8rem; /* Adjust font size as needed */
+      margin-bottom: 1rem; /* Adds some space between the title and the description */
+      color: #ffffff;
+    }
+
+    .titre-contact p {
+      max-width: 800px;
+      margin: 0 auto; /* Centers the paragraph if it's narrower than its container */
+      font-size: 1rem; /* Adjust font size as needed */
+      color: #ffffff;
+    }
 
     /* Media query for small screens (e.g., phones) */
     @media (max-width: 768px) {
@@ -117,8 +135,8 @@
 </style>
 <div id="portfolio" style="background-image: url('../../images/background.png'); background-repeat: repeat;">
 <div class="titre-contact" >
-        <h2 style="text-align: center;, color: white;">Contact Me</h2>
-        <p style="text-align: center;, color: white;">For inquiries, project discussions, or further information regarding my portfolio, please feel free to reach out using the contact form below. Your communication is valued and will be responded to promptly. Thank you for your interest in my work.</p>
+        <h2>Contact Me</h2>
+        <p>For inquiries, project discussions, or further information regarding my portfolio, please feel free to reach out using the contact form below. Your communication is valued and will be responded to promptly. Thank you for your interest in my work.</p>
         </div>
 <div class="form-holder">
 <div class="form-container">
