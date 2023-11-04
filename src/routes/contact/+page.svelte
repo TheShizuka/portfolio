@@ -115,6 +115,7 @@
         }
     }
 </style>
+<div id="portfolio" style="background-image: url('../../images/background.png'); background-repeat: repeat;">
 <div class="form-holder">
 <div class="form-container">
     <h2>Contact Me</h2>
@@ -140,5 +141,6 @@
             <p>There was an error sending your message. Please try again.</p>
         {/if}
     {/if}
+</div>
 </div>
 </div>
