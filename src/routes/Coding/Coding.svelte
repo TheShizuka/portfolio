@@ -185,10 +185,13 @@
 <div class="project-container">
   <!-- Project 1 -->
   <div class="project project1" on:click={() => openModal('project1')}>
-    <img src="../../images/brisee.png" alt="brisée">
+    <video autoplay muted loop style="height: 300px;">
+    <source src="../../images/hype-train.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+    </video>
     <div class="text">
-      <h3>Brisée - An Animated Short</h3>
-      <p>During my time learning 3D graphics, I worked with three others on a short film called "Brisée" wich means shattered in French. Our story happens in a trashcan, where a forgotten shattered porcelain doll named Elisabeth finds a friend among the garbage. </p>
+      <h3>Twitch Custom Hype Train</h3>
+      <p>Embarking on a project to create a custom Twitch Hype Train for a friend's subathon, integrating Streamlabs and KOFI APIs to trigger the train on every donation, sub, resub, follow, and bits received on the stream.</p>
       <p style="padding-top: 2rem;"><b>Learn More...</b></p> 
     </div>
   </div>
