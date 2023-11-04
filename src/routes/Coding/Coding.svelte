@@ -297,7 +297,6 @@
           <div class="wagon-img">
           <img src="../../images/mmt2.png" alt="wagon">
           </div>
-        </div>
         <!-- ... -->
       {/if}
 
