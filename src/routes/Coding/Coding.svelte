@@ -178,8 +178,8 @@
 
 
 <div class="description-container">
-  <h2>My 3D Artistry Adventure</h2>
-  <p>Embarking on my journey through the Infographie 3D Bachelor program at Institut Artline, I delved into various 3D specialties using industry-standard software. My hard surface modeling and rendering skills were honed in Autodesk Maya with Arnold Render, while Cinema 4D paired with Octane Render elevated my visualization projects. Unreal Engine broadened my horizon in real-time rendering, whereas Substance Painter and Designer became my go-to for texturing and material creation. Nuke the Foundry enhanced my compositing prowess, and ZBrush was instrumental in my sculpting projects. Each software added a unique flavor to my projects, fueling my passion for digital artistry and preparing me for a continuous journey of learning and improvement in this captivating field.</p>
+  <h2>My Coding Odyssey</h2>
+  <p>Having self-taught coding, I’ve tackled various projects for fun, friends, and university. Each endeavor has honed my skills and fueled my passion for technology. This page showcases a range of projects reflecting my growing expertise and enthusiasm. Through each line of code, I've embraced learning and look forward to more exciting challenges ahead.</p>
 </div>
 <div class="page">
 <div class="project-container">
