@@ -217,6 +217,8 @@
       </div>
       </div>
 
+<h4>Lastly this website has been coded by me and you can also check it on Github <a href="https://github.com/TheShizuka/portfolio" target="_blank">here</a></h4>
+
 
 
 </div>
