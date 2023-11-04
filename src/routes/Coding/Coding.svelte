@@ -180,7 +180,7 @@
 <div class="description-container">
   <h2>My Coding Odyssey</h2>
   <p>Having self-taught coding, I’ve tackled various projects for fun, friends, and university. Each endeavor has honed my skills and fueled my passion for technology. This page showcases a range of projects reflecting my growing expertise and enthusiasm. Through each line of code, I've embraced learning and look forward to more exciting challenges ahead.</p>
-  <h4 style="color:white; padding-top:1rem;">Lastly this website has been coded by me and you can also check it on Github <a href="https://github.com/TheShizuka/portfolio" target="_blank">here</a></h4>
+  <h4 style="color:white; padding-top:1rem;">This portfolio website has been coded by me and you can also check it on Github <a href="https://github.com/TheShizuka/portfolio" target="_blank">here</a></h4>
 </div>
 <div class="page">
 <div class="project-container">
