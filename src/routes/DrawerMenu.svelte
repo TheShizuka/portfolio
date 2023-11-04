@@ -46,7 +46,6 @@ onMount(() => {
     <li><a href="/3dart">3D Art</a></li>
     <li><a href="/design">Design</a></li>
     <li><a href="/Coding">Coding Projects</a></li>
-    <li><a href="/video">Videography</a></li>
     <li><a href="/contact">Contact</a></li>
   </ul>
 <!-- New drawer menu for mobile -->
@@ -59,7 +58,6 @@ onMount(() => {
             <li on:click={closeMenu}><a href="/3dart">3D Art</a></li>
             <li on:click={closeMenu}><a href="/design">Design</a></li>
             <li on:click={closeMenu}><a href="/Coding">Coding Projects</a></li>
-            <li on:click={closeMenu}><a href="/video">Videography</a></li>
             <li on:click={closeMenu}><a href="/contact">Contact</a></li>
         </ul>
     </div>
