@@ -10,36 +10,27 @@ import AboutMe from './AboutMe.svelte'; /* Import the AboutMe component */
       alt: 'Photography'
     },
     {
+      title: '3D Art',
+      description: '',
+      link: '/3dart',
+      imgSrc: '../images/3dart.png',
+      alt: '3dart'
+    },];
+let imageCards2 = [
+{
       title: 'Design',
       description: '',
       link: '/design',
       imgSrc: '../images/design.png',
       alt: 'Design'
-    },];
-let imageCards2 = [
-    {
-      title: 'Videography',
-      description: '',
-      link: '/video',
-      imgSrc: '../images/video.png',
-      alt: 'Videography'
     },
 {
-      title: '3D Art',
-      description: '',
-      link: '/3dart',
-      imgSrc: '../images/3dart.png',
-      alt: '3D Art'
-    },];
-let imageCards3 = [
-    {
-      title: 'Web Devlopement',
+      title: 'Coding',
       description: '',
       link: '/coding',
       imgSrc: '../images/coding.png',
       alt: 'Web Devlopement'
     },];
-
 
   function navigateTo(link) {
     window.location.href = link;
