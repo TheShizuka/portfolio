@@ -53,7 +53,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100vh; /* Full viewport height */
+        height: 45vh; /* Full viewport height */
         width: 100%;
         padding: 15px; /* Prevents the form from touching the viewport edges */
         box-sizing: border-box;
