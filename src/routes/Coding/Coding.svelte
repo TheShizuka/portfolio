@@ -198,10 +198,10 @@
 
   <!-- Project 2 -->
   <div class="project reverse project2" on:click={() => openModal('project2')}>
-    <img src="../../images/wagon+ref.png" alt="wagon">
+    <img src="../../images/discord-bot.png" alt="discord-bot">
     <div class="text">
-      <h3>Tokyo Wagon</h3>
-      <p>In this project, I took on the challenge of creating a 3D model of a train wagon based on a drawing reference.</p>
+      <h3>Discord Bot</h3>
+      <p>Embarking on a Node.js learning venture led me to create a Discord bot, blending humor and utility.</p>
       <p style="padding-top: 2rem;"><b>Learn More...</b></p> 
     </div>
   </div>
@@ -296,25 +296,19 @@
       <!-- Project 2 Details -->
       {#if selectedProject === 'project2'}
       <div class="titre-desc">
-        <h2>Tokyo Wagon</h2>
-        <p>As part of my venture into the realms of 3D modeling, I embarked on a project to bring a train wagon from a drawing reference to life. The journey commenced with intricately modeling the wagon, ensuring every curve and edge resonated with the essence of the reference. Following the sculpting phase, I delved into the realms of shading, texturing, and lighting which truly breathed life into the model. The transition from a monochrome model to a textured masterpiece showcased the remarkable difference texturing makes. Below, you'll find the before and after texturing images along with the initial drawing reference that was the genesis of this creation. Through this project, not only did I refine my skills, but also appreciated the magic that lies in the details, making the inanimate, animate.</p>
+        <h2>Discord Bot</h2>
+        <p>Embarking on a Node.js learning venture led me to create a Discord bot, blending humor and utility. The bot started with amusing interactions, responding to "!hello" and sharing random cat images on "!cat" thanks to a cat API. The quest for complexity drove me to integrate the Riot Games API, enabling my bot to fetch and display League of Legends player data with "!Stats player name", and offer champion history and matchup tips on "!champion champion name". This project was not only a technical exploration but also a fun dive into enhancing gaming interactions.</p>
         </div>
         <!-- Embed the final short movie and additional videos/gifs -->
         <div class="wagon-img">
-          <h4>Reference</h4>
-          <img src="../../images/ref.png" alt="ref">
+          <h4>hl!Hello</h4>
+          <img src="../../images/hello.png" alt="hello">
           </div>
-        <div class="wagon">
-          <div class="wagon-img">
-          <h4>Shading & Lighting</h4>
-          <img src="../../images/before-wagon.png" alt="before-wagon">
+        <div class="wagon-img">
+          <h4>hl!Stats</h4>
+          <img src="../../images/stats.png" alt="stats">
           </div>
-          <div class="wagon-img">
-          <h4>Texturing</h4>
-          <img src="../../images/after-wagon.png" alt="after-wagon">
-          </div>
-        
-        </div>
+      
         <!-- ... -->
       {/if}
       <!-- Project 3 Details -->
