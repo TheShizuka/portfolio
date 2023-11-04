@@ -27,7 +27,7 @@ let imageCards2 = [
 {
       title: 'Coding',
       description: '',
-      link: '/coding',
+      link: '/Coding',
       imgSrc: '../images/coding.png',
       alt: 'Web Devlopement'
     },];
@@ -61,7 +61,7 @@ let imageCards2 = [
       </div>
     {/each}
   </div>
-<div class="image-row">
+<div class="image-row" style="padding-bottom:3rem;">
     {#each imageCards2 as { title, description, link, imgSrc, alt } (title)}
       <div class="image-card" on:click={() => navigateTo(link)}>
         <img src={imgSrc} alt={alt}>
