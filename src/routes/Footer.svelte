@@ -106,7 +106,7 @@
             <li><a href="/photography">Photography</a></li>
             <li><a href="/3dart">3D Art</a></li>
             <li><a href="/design">Design</a></li>
-            <li><a href="/coding">Coding Projects</a></li>
+            <li><a href="/Coding">Coding Projects</a></li>
             <li><a href="/video">Videography</a></li>
             <li><a href="/contact">Contact</a></li>
         </ul>
