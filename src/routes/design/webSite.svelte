@@ -196,7 +196,7 @@
       <!-- Project 1 Details -->
       {#if selectedProject === 'project1'}
       <div class="titre-desc">
-          <img src="../../images/website.png" alt="website">
+          <img src="../../images/website.png" alt="website" style="width: 100%;">
           </div>
         <!-- ... -->
       {/if}
