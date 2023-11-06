@@ -141,7 +141,7 @@
 <div class="form-holder">
 <div class="form-container">
     {#if formState === 'success'}
-        <p>Thank you! Your message has been sent.</p>
+        <p>Thank you for reaching out! I appreciate you taking the time to write and will get back to you shortly</p>
     {:else}
         <form on:submit|preventDefault={handleSubmit}>
             <label>
