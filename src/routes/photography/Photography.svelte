@@ -157,8 +157,8 @@
 </style>
 <div class="description-container">
   <h2>My Photography Journey</h2>
-  <p>
-Over time, my passion for photography has not only remained a delightful pursuit of curiosity and joy, but has also seen a substantial honing of skills. Each captured moment reflects a blend of enthusiasm and a step forward in my photographic journey. As I reminisce through these frames, the eagerness to further refine my craft only intensifies. I am excited for the continuous journey of discovery and improvement that lies ahead, and I invite you to stroll through my evolving gallery of memories below.</div>
+  <p>Over time, my passion for photography has evolved into a delightful pursuit that continuously fuels my curiosity and joy. This journey has significantly been shaped by my travels, with numerous visits to the historic and serene Kyoto, and the modern vibrance of Singapore. The tranquil temples, Zen gardens, and seasonal beauty of Kyoto, juxtaposed with Singapore's urban tapestry, have been the main stages for most of my photographs. Each image not only embodies a fusion of enthusiasm and a leap in my photographic expertise but also conveys the unique tranquility and rhythm of these locations. Reflecting on these frames only magnifies my desire to further polish my artistry. I am eager for the endless path of exploration and enhancement that awaits, and I cordially invite you to peruse my gallery of memories, each a chapter of my evolving narrative.</p>
+</div>
 <div class="grid-container">
 <div class="grid">
   {#each images as image (image)}
