@@ -1,14 +1,17 @@
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2RLJZ35B3Y">
+<script>
   import { onMount } from 'svelte';
   import '../Styles/styles.css';
   import DrawerMenu from './DrawerMenu.svelte';
   import Footer from './Footer.svelte';
-  import Analytics from './analytics.svelte'
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+onMount(() => {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-2RLJZ35B3Y', { 'send_page_view': false });
 
-  gtag('config', 'G-2RLJZ35B3Y');
+    // Optional: send a page_view event if you want to track the initial page load
+    gtag('event', 'page_view');
+  });
 </script>
 
 <header>
