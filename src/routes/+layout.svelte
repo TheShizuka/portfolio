@@ -5,6 +5,15 @@
   import Footer from './Footer.svelte';
   import Analytics from './analytics.svelte'
 </script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2RLJZ35B3Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2RLJZ35B3Y');
+</script>
 
 <header>
   <meta charset="UTF-8">
@@ -20,7 +29,6 @@
 </header>
 
 <main>
-  <Analytics />
   <slot />
 
 <Footer />
