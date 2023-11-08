@@ -3,6 +3,7 @@
   import '../Styles/styles.css';
   import DrawerMenu from './DrawerMenu.svelte';
   import Footer from './Footer.svelte';
+  import Analytics from '$lib/analytics.svelte'
 </script>
 
 <header>
@@ -19,6 +20,7 @@
 </header>
 
 <main>
+  <Analytics />
   <slot />
 
 <Footer />
