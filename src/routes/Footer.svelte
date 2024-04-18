@@ -97,7 +97,7 @@
 <footer class="footer" style="background-image: url('../../images/background.png'); background-repeat: repeat;">
     <div class="footer-logo">
         <img src="../images/logo.png" alt="logo" />
-        <p class="text-footer">Hicham Ayat</p>
+        <p class="text-footer">Shizuka</p>
     </div>
 
     <div class="footer-menu">
@@ -114,10 +114,8 @@
 
     <div class="social-media">
         <ul class="social-logo-footer">
-            <li><a href="https://www.linkedin.com/in/hicham-ayat-gimenez-329a90248" target="_blank"><img src="../images/linkedin.png" alt="LinkedIn" class="social-icon"></a></li>
             <li><a href="https://www.instagram.com/shizuka.desu/" target="_blank"><img src="../images/instagram.png" alt="instagram" class="social-icon"></a></li>
             <li><a href="https://github.com/TheShizuka" target="_blank"><img src="../images/github.png" alt="github" class="social-icon"></a></li>
         </ul>
-        <p class="text-footer">Email - ayatgimenez@hotmail.com</p>
     </div>
 </footer>
